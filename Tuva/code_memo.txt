@@ -1,0 +1,19 @@
+    public static class InnerA implements Serializable
+    {
+        private static final Long serialVersionUID = 1L;
+        String name;
+        Integer index;
+    }
+    inner class 객체 직렬화는 클래스가 static일 때만 된다. 위 클래스 선언에서 static을 빼면 직렬화 에러가 난다.
+    
+    
+    generic은 compile time에만 식별이 유효하다고 한다. 
+    instanceof로는 collection의 generic유형을 식별할 수 없다.
+    
+    한개의 item변수로 instance를 만들어서 list에 넣어도, list에 들어갈 때는 value가 복사되는 것이기 때문에, 
+    
+    
+지정자가 없는 함수, 클래스의 기본값은 무엇인가
+final의 효과는 정확하게 무엇인가
+4가지 유형의 inner class 특징 정리
+static class는 무조건 권장되는가
