@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<?xml-stylesheet href="malware_analysis.xsl" type="text/xsl"?>
+<analyses_with_cncs filter_col="id" filter_text="247" dumped_at="2015/05/27 10:33:04">
+  <analyses>
+    <analysis id="247" analysis_type="Live" url="file://svchost.exe.mal2" analysis_timeout="500" priority="Normal" profile_name="win7-sp1" state="Done" status_code="Duplicate">
+      <event id="332" event_type="Checksum Match" signature_name="Trojan.Generic" malware_analysis_id="247" src_ip="0.0.0.0" dst_ip="0.0.0.0" analysis_type="3" occurred="2015-03-26 00:58:15 UTC">
+      </event>
+    </analysis>
+  </analyses>
+  <cnc_services>
+  </cnc_services>
+</analyses_with_cncs>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>그냥 재미로</title>
+<script>
+
+function fun(echo) { 
+	console.log(echo);
+};
+
+fun("안녕!");
+
+function boo(aFunction) {
+	aFunction("메롱!");
+}
+
+boo(fun);
+
+console.log(fun);
+
+fun(boo);
+
+var moreFun = fun;
+
+moreFun("또 안녕!");
+
+function echoMaker() {
+	return fun;
+}
+
+var bigFun = echoMaker();
+bigFun("메아리가 울릴까?");
+
+
+</script> 
+</head> 
+<body>
+</body>
+</html>
+

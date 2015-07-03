@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>type check</title>
+<script>
+//자바스크립트의 다양한 상황별 타입을 체크한다.
+function tellType(subject) {
+	var probe = typeof subject;
+	console.log(subject + " = " + probe);
+}
+var ttt;
+
+tellType("abcd");      //string
+tellType(1234);        //number
+tellType(true);        //boolean
+tellType({});          //object
+tellType([]);          //object
+tellType(ttt);         //undefined
+tellType(undefined);   //undefined
+tellType({"abc": 123});//object 
+tellType(["abc", 123]);//object
+tellType(null);        //object
+tellType(function zzz() {return "aaa"}); //function
+tellType(0/0);         //number, NaN은 숫자이다....
+tellType(100/0);       //infinity
+
+//NaN 체크 방법. NaN은 누구와도 일치하지 않기 때문에 == 비교를 할 수 없다. 
+//NaN==NaN --> false. 자기와도 일치하지 않는다.
+var n = 0/0;
+if(isNaN(n))
+{
+	console.log("0/0 = NaN");
+}
+
+//숫자와 문자의 혼합비교
+if(99=="99")
+{
+	console.log("숫자와 문자가 같다.")
+	if(99==="99")
+	{
+		console.log("숫자와 문자가 완전히 같다.")	
+	}
+	else
+	{
+		console.log("정확하게는, 숫자와 문자가 완전히 같지는 않다.")	
+	}
+}
+else
+{
+	console.log("숫자와 문자가 다르다.")
+}
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

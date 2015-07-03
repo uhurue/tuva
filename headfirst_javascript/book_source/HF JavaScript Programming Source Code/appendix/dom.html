@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>DOM으로 할 수 있는 더 많은 일</title>
+  <script>
+window.onload = function() {
+
+	//
+	//  "song" 클래스를 가진 첫번째 li 요소에 매칭
+	//
+	var li = document.querySelector("#playlist .song");
+
+	console.log("매칭된 노래 : " + li.innerHTML);
+
+
+	// 
+	// 요소를 새로 만들어 페이지에 추가합니다.
+	//
+	var newItem = document.createElement("li");
+	newItem.innerText = "무작위 선택곡";
+	var ul = document.getElementById("playlist");
+	ul.appendChild(newItem);
+}
+  </script>
+</head>
+<body>
+<ul id="playlist">
+<li class="song">블루 수에드 문자열</li>
+<li class="song">그레이트 오브젝트 언 파이어</li>
+<li class="song">나는 코딩한다</li>
+<li class="song">그건 바로 데이터</li>
+</ul>
+</body>
+</html>

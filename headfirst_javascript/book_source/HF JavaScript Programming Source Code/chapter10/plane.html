@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>일등석 함수</title>
+<script>
+
+var passengers = [  { name: "김함수", paid: true, ticket: "일반석" },
+					{ name: "닥터 이블", paid: true, ticket: "일등석" },
+					{ name: "박루프", paid: false, ticket: "일등석" },
+					{ name: "최호출", paid: true, ticket: "우등석" } ];
+
+function processPassengers(passengers, test) {
+	for (var i = 0; i < passengers.length; i++) {
+		if (test(passengers[i])) {
+			return false;
+		}
+	}
+	return true;
+}
+
+function checkNoFlyList(passenger) {
+	return (passenger.name === "닥터 이블");
+}
+
+function checkNotPaid(passenger) {
+	return (!passenger.paid);
+}
+
+function printPassenger(passenger) {
+	var message = passenger.name;
+	if (passenger.paid === true) {
+		message = message + "는 요금을 지불했습니다.";
+	} else {
+		message = message + "는 요금을 지불하지 않았습니다.";
+	}
+	console.log(message);
+	return false;
+}
+
+//
+// 모든 승객이 출국 금지 명단에 있지 않아야 비행기가 이륙할 수 있습니다.
+//
+var allCanFly = processPassengers(passengers, checkNoFlyList);
+if (!allCanFly) {
+	console.log("비행기가 이륙할 수 없습니다. 승객 중 출국 금지자가 있습니다.");
+}
+
+//
+// 모든 승객이 요금을 지불해야 비행기가 이륙할 수 있습니다.
+//
+var allPaid = processPassengers(passengers, checkNotPaid);
+if (!allPaid) {
+	console.log("비행기가 이륙할 수 없습니다. 요금을 지불하지 않은 승객이 있습니다.");
+}
+
+//
+// 여기에서는 검사 결과에 신경 쓰지 않습니다. 단지 승객 명단을 출력하기 위해
+// processPassengers()함수를 이용할 뿐입니다.
+//
+processPassengers(passengers, printPassenger);
+
+function createDrinkOrder(passenger) {
+	var orderFunction;
+	if (passenger.ticket === "일등석") {
+		orderFunction = function() {
+			alert("칵테일이나 와인을 드시겠습니까?");
+		};
+	} else if (passenger.ticket === "우등석") {
+		orderFunction = function() {
+			alert("와인, 콜라나 물을 드시겠습니까?");
+		};
+	} else {
+		orderFunction = function() {
+			alert("물이나 콜라를 드시겠습니까?");
+		};
+	}
+	return orderFunction;
+}
+
+
+function createDinnerOrder(passenger) {
+	var orderFunction;
+	if (passenger.ticket === "일등석") {
+		orderFunction = function() {
+			alert("닭이나 파스타를 드시겠습니까?");
+		};
+	} else if (passenger.ticket === "우등석") {
+		orderFunction = function() {
+			alert("간단한 과자나 치즈를 드시겠습니까?");
+		};
+	} else {
+		orderFunction = function() {
+			alert("땅콩이나 프레첼을 드시겠습니까?");
+		};
+	}
+	return orderFunction;
+}
+
+function pickupTrash() {
+	alert("쓰레기를 치워드릴까요?");
+}
+
+function serveCustomer(passenger) {
+	var getDrinkOrderFunction = createDrinkOrder(passenger);
+	var getDinnerOrderFunction = createDinnerOrder(passenger);
+
+	getDrinkOrderFunction();
+
+	// 식사 주문 받기
+  
+	getDinnerOrderFunction();
+
+	getDrinkOrderFunction();
+	getDrinkOrderFunction();
+
+	// 영화 상영
+
+	getDrinkOrderFunction();
+
+	// 쓰레기 비우기
+	pickupTrash();
+}
+
+function servePassengers(passengers) {
+	for (var i = 0; i < passengers.length; i++) {
+		serveCustomer(passengers[i]);
+	}
+}
+
+servePassengers(passengers);
+
+</script>
+</head>
+<body>
+</body>
+</html>
+

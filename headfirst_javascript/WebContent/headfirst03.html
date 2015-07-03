@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>headfirst03</title>
+</head>
+<body>
+<h1>headfirst03</h1>
+<script>
+function makePhrases() {
+	var word1 = ["24/7", "다계층", "관리자 관점", "B2B", "Win-Win"];
+	var word2 = ["강화", "부가가치형", "지향", "중심", "제휴"];
+	var word3 = ["프로세스", "솔루션", "전환점", "전략", "비전"];
+	
+	var rand1 = Math.floor(Math.random()*word1.length);
+	var rand2 = Math.floor(Math.random()*word2.length);
+	var rand3 = Math.floor(Math.random()*word3.length);
+	
+	var phrase = word1[rand1] + " " + word2[rand2] + " " + word3[rand3];
+	alert(phrase);
+}
+var i=10;
+while(i--) {
+	makePhrases();	
+}
+</script>
+</body>
+</html>

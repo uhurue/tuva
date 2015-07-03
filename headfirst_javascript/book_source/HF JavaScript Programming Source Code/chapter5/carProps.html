@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>자동차 속성</title>
+<script>
+
+var fiat = { 
+    make: "피아트",
+    model: "500",
+    year: 1957, 
+    color: "암청색",
+    passengers: 2,
+    convertible: false,
+    mileage: 88000,
+    started: false,
+
+    start: function() {
+		this.started = true;
+    },
+
+    stop: function() {
+		this.started = false;
+	},
+
+    drive: function() {
+		if (this.started) {
+			alert(this.make + " " +
+					this.model + "이 붕붕하고 갑니다!");
+		} else {
+			alert("먼저 시동을 거세요.");
+		}
+	}
+};
+
+fiat.start();
+fiat.drive();
+
+for (prop in fiat) {
+	console.log(prop + ": " + fiat[prop]);
+}
+
+</script>
+</head>
+<body>
+</body>
+</html>
+

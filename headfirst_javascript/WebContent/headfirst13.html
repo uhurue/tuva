@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>일급함수</title>
+<script>
+var passengers = [
+	{ name: "김선진", paid: true },
+	{ name: "김기하", paid: true },
+	{ name: "김진희", paid: true },
+	{ name: "ykkim", paid: true }
+];
+
+function testInvalid(passenger) {
+	return (passenger.name==="ykkim"); //ykkim은 invalid 
+}
+
+function testNotPaid(passenger) {
+	return !passenger.paid;
+}
+
+function print(passenger) {
+	console.log("name: " + passenger.name + ", paid: " + passenger.paid);
+}
+
+function checkPassengers(passengers, testFunction) {
+	for(var i=0; i<passengers.length; i++) {
+		if(testFunction(passengers[i])) {
+			return false;
+		}
+	}
+	return true;
+}
+
+var resultCanFly = checkPassengers(passengers, testInvalid);
+if(!resultCanFly) {
+	console.log("Some passengers can't fly.");
+}
+
+resultCanFly = checkPassengers(passengers, testNotPaid);
+if(!resultCanFly) {
+	console.log("Some passengers isn't paid.");
+}
+
+checkPassengers(passengers, print);
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

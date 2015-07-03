@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> JSON </title>
+  <script>
+
+var fidoString = '{ "name": "피도", "breed": "잡종", "weight": 38 }';
+var fido = JSON.parse(fidoString);
+console.log("문자열을 개 객체로 만들었어요! " + fido.name);
+
+
+var fido2 = {
+	name: "피도",
+	breed: "잡종",
+	weight: 38
+};
+var fidoString = JSON.stringify(fido2);
+console.log("개 객체를 문자열로 만들었어요! " + fidoString);
+
+  </script>
+</head>
+<body>
+</body>
+</html>

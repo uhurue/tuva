@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>버블자러스 실험실</title>
+<script>
+var scores = [60, 50, 60, 58, 54, 54,
+              58, 50, 52, 54, 48, 69,
+              34, 55, 51, 52, 44, 51,
+              69, 64, 66, 55, 52, 61,
+              46, 31, 57, 52, 44, 18,
+              41, 53, 55, 61, 51, 44];
+
+//
+// while 루프로 구현한 코드
+//
+alert("용액 #2는 60개의 비눗방울을 만들었습니다.");
+var i = 0;
+var highScore = 0;
+while (i < scores.length) {
+	console.log("비눗방울 용액 #" + i + " 점수 : " + scores[i]);
+	if (scores[i] > highScore) {
+		highScore = scores[i];
+	}
+	i = i + 1;
+}
+console.log("비눗방울 실험 횟수 : " + scores.length);
+console.log("최고 비눗방울 점수 : " + highScore);
+
+//
+// for 루프로 구현한 코드
+//
+for (var i = 0; i < scores.length; i++) {
+	console.log("비눗방울 용액 #" + i + " 점수 : " + scores[i]);
+	if (scores[i] > highScore) {
+		highScore = scores[i];
+	}
+}
+console.log("비눗방울 실험 횟수 : " + scores.length);
+console.log("최고 비눗방울 점수 : " + highScore);
+
+//
+// 가장 좋은 용액을 찾아내기
+//
+var bestSolutions = [];
+for (var i = 0; i < scores.length; i++) {
+	if (scores[i] == highScore) {
+		bestSolutions.push(i);
+	}
+}
+console.log("최고 점수 용액 번호 : " + bestSolutions);
+</script>
+</head>
+<body>
+</body>
+</html>
+

@@ -1,0 +1,93 @@
+<ioctermlist xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.mandiant.com/2010/ioc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" last-modified="2011-10-25T11:33:01Z">
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="DriverItem/DeviceItem/AttachedToDriverName" title="Driver AttachedToDriverName" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="DriverItem/DeviceItem/DeviceName" title="Driver DeviceName" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="int" text="EventLogItem/EID" title="EventLog ID" data-type="xs:int" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="date" text="EventLogItem/genTime" title="EventLog GenTime" data-type="xs:dateTime" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="EventLogItem/log" title="EventLog log" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="EventLogItem/message" title="EventLog Message" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="EventLogItem/user" title="EventLog user" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/FileName" title="File Name" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/FullPath" title="File Full Path" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="md5" text="FileItem/Md5sum" title="File MD5" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/PEInfo/ImportedModules/Module/ImportedFunctions/string" title="File Import Function" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="date" text="FileItem/PEInfo/PETimeStamp" title="File Compile Time" data-type="xs:dateTime" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="int" text="FileItem/SizeInBytes" title="File Size" data-type="xs:int" />
+  <iocterm term-source="application/vnd.mandiant.NTAP" display-type="string" text="Network/DNS" title="Network DNS" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ProcessItem/HandleList/Handle/Name" title="Process Handle Name" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="RegistryItem/Path" title="Registry Path" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="RegistryItem/Text" title="Registry Text" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ServiceItem/name" title="Service Name" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="date" text="FileItem/Created" title="File Created Time" data-type="xs:dateTime" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/FileAttributes" title="File Attribute" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/FileExtension" title="File Extension" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/FilePath" title="File Path" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="date" text="FileItem/Modified" title="File Modified Time" data-type="xs:dateTime" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="int" text="FileItem/PEInfo/BaseAddress" title="File Base Address" data-type="xs:int" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/PEInfo/DetectedAnomalies/string" title="File Detected Anomalies" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/PEInfo/DetectedEntryPointSignature/Name" title="File EntryPoint Sig Name" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/PEInfo/DetectedEntryPointSignature/Type" title="File EntryPoint Sig Type" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/PEInfo/DigitalSignature/CertificateSubject" title="File CertificateSubject" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/PEInfo/DigitalSignature/SignatureExists" title="File Digital Signature Exists" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/PEInfo/DigitalSignature/SignatureVerified" title="File Digital Signature Verified" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/PEInfo/Exports/ExportedFunctions/string" title="File Export Function" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="int" text="FileItem/PEInfo/Exports/NumberOfFunctions" title="File Export Count" data-type="xs:int" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/PEInfo/ImportedModules/Module/Name" title="File Import Name" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="int" text="FileItem/PEInfo/PEChecksum/PEFileAPI" title="File PE Checksum API" data-type="xs:int" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/PEInfo/ResourceInfoList/ResourceInfoItem/Language" title="File PEInfo ResourceInfoList ResourceInfo Language" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/PEInfo/ResourceInfoList/ResourceInfoItem/Name" title="File PEInfo ResourceInfoList ResourceInfo Name" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/PEInfo/ResourceInfoList/ResourceInfoItem/Type" title="File PEInfo ResourceInfoList ResourceInfo Type" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/PEInfo/Sections/Section/DetectedSignatureKeys/string" title="File Detected Signatures" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/PEInfo/Sections/Section/Name" title="File Section Name" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/PEInfo/Sections/Section/SizeInBytes" title="File PE Section SizeInBytes" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/PEInfo/Subsystem" title="File PE Subsystem" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/PEInfo/Type" title="File PE Type" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/PEInfo/VersionInfoList/VersionInfoItem/Language" title="File PEInfo VersionInfoList VersionInfo Language" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/PEInfo/VersionInfoList/VersionInfoItem/ProductName" title="File PEInfo VersionInfoList VersionInfo ProductName" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="int" text="FileItem/PeakCodeEntropy" title="File PeakCodeEntropy" data-type="xs:int" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/PeakEntropy" title="File PeakEntropy" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="md5" text="FileItem/StreamList/Stream/Md5sum" title="File ADS Md5sum" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/StreamList/Stream/Name" title="File ADS Name" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="int" text="FileItem/StreamList/Stream/SizeInBytes" title="File ADS SizeInBytes" data-type="xs:int" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/StringList/string" title="File Strings" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="FileItem/Username" title="File Owner" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="HookItem/HookedFunction" title="Hook Function" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="HookItem/HookedModule" title="Hook Hooked Module" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="HookItem/HookingModule" title="Hook Hooking Module" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.NTAP" display-type="string" text="Network/String" title="Network String General" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.NTAP" display-type="string" text="Network/URI" title="Network String URI" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="PortItem/localPort" title="Port localPort" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="PortItem/process" title="Port process" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="IP" text="PortItem/remoteIP" title="Port Remote IP" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="PortItem/remotePort" title="Port remotePort" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ProcessItem/HandleList/Handle/Type" title="Process Type" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ProcessItem/PortList/PortItem/remoteIP" title="Process remoteIP" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ProcessItem/PortList/PortItem/remotePort" title="Process remotePort" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ProcessItem/SectionList/MemorySection/Name" title="Process Section Name" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ProcessItem/SectionList/MemorySection/PEInfo/ImportedModules/Module/Name" title="Process SectionImportedModule" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ProcessItem/StringList/string" title="Process StringList" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ProcessItem/Username" title="Process Username" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ProcessItem/arguments" title="Process arguments" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ProcessItem/name" title="Process Name" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ProcessItem/parentpid" title="Process parentpid" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ProcessItem/path" title="Process path" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="date" text="RegistryItem/Modified" title="Registry Key ModDate" data-type="xs:dateTime" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="RegistryItem/Type" title="Registry Type" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="RegistryItem/Value" title="Registry Value" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="RegistryItem/ValueName" title="Registry ValueName" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ServiceItem/arguments" title="Service arguments" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ServiceItem/description" title="Service Description" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ServiceItem/descriptiveName" title="Service Descriptive Name" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ServiceItem/mode" title="Service mode" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ServiceItem/path" title="Service Path" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ServiceItem/pathmd5sum" title="Service pathmd5sum" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ServiceItem/serviceDLL" title="Service DLL" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ServiceItem/serviceDLLSignatureExists" title="Service serviceDLLSignatureExists" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ServiceItem/serviceDLLSignatureVerified" title="Service serviceDLLSignatureVerified" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ServiceItem/serviceDLLmd5sum" title="Service serviceDLLmd5sum" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="ServiceItem/status" title="Service status" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="SystemInfoItem/hostname" title="SystemInfo hostname" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="TaskItem/Name" title="Task Name" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="UrlHistoryItem/URL" title="UrlHistory URL" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="UserItem/Username" title="User Name" data-type="xs:string" />
+  <iocterm term-source="application/vnd.mandiant.mir" display-type="string" text="PrefetchItem/ApplicationFileName" title="File Executed" data-type="xs:string" />
+</ioctermlist>

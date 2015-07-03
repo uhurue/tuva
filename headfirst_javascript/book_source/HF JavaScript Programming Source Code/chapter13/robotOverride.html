@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>내장 메서드 오버라이드</title>
+<script>
+
+function Robot(name, year, owner) {
+	this.name = name;
+	this.year = year;
+	this.owner = owner;
+}
+
+var toy = new Robot("장난감", 2013, "현우"); 
+console.log(toy.toString());
+
+Robot.prototype.toString = function() {
+	return this.name + " 로봇은 " + this.owner + "겁니다.";
+};
+var toy = new Robot("장난감", 2013, "현우"); console.log(toy.toString());
+
+</script>
+</head>
+<body>
+</body>
+</html>
+

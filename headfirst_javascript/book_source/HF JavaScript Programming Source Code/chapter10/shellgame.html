@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>뒤섞기 게임</title>
+<script>
+
+var winner = function() { alert("승!") };
+var loser = function() { alert("패!") };
+// 시험 삼아 실행해봅니다.
+winner();
+// 뒤섞기 위해 다른 변수에 할당합니다.
+var a = winner;
+var b = loser;
+var c = loser;
+a();
+b();
+// 이제 뒤섞기 게임에서 여러분의 운을 시험해볼까요?
+c = a;
+a = b;
+b = c;
+c = a;
+a = c;
+a = b;
+b = c;
+a();
+
+</script> 
+</head> 
+<body> </body>
+</html>
+

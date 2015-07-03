@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>알로하</title>
+<script>
+
+function sayIt(translator) {
+	var phrase = translator("안녕");
+	alert(phrase);
+}
+
+function hawaiianTranslator(word) {
+	if (word == "안녕") return "알로하";
+	if (word == "잘가") return "알로하";
+}
+
+sayIt(hawaiianTranslator);
+
+</script> 
+</head> 
+<body> </body>
+</html>
+

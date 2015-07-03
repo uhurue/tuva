@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>자동차와 개 생성자</title>
+<script>
+
+function Car(params) {
+	this.make = params.make;
+	this.model = params.model;
+	this.year = params.year;
+	this.color = params.color;
+	this.passengers = params.passengers;
+	this.convertible = params.convertible;
+	this.mileage = params.mileage;
+	this.started = false;
+
+	this.start = function() {
+		this.started = true;
+	};
+
+	this.stop = function() {
+		this.started = false;
+	};
+
+	this.drive = function() {
+		if (this.started) {
+			console.log(this.make + " " + this.model + "가 붕붕 달립니다!");
+		} else {
+			console.log("먼저 시동을 거세요.");
+		}
+	};
+
+}
+
+var cadiParams = {make: "GM", 
+                  model: "캐딜락", 
+                  year: 1955, 
+                  color: "갈색", 
+                  passengers: 5, 
+                  convertible: false, 
+                  miles: 12892};
+var cadi = new Car(cadiParams);
+
+var chevyParams = {make: "쉐보레", 
+                   model: "벨 에어", 
+                   year: 1957, 
+                   color: "빨간색", 
+                   passengers: 2, 
+                   convertible: false, 
+                   miles: 1021};
+var chevy = new Car(chevyParams);
+
+var taxiParams= {make: "웹타운 모터스", 
+                 model: "택시", 
+                 year: 1955, 
+                 color: "노란색", 
+                 passengers: 4, 
+                 convertible: false, 
+                 miles: 281341};
+var taxi = new Car(taxiParams);
+
+var fiatParams= {make: "피아트", 
+                 model: "500", 
+                 year: 1957, 
+                 color: "암청색", 
+                 passengers: 2, 
+                 convertible: false, 
+                 miles: 88000};
+var fiat = new Car("피아트", "500", 1957, "암청색", 2, false, 88000);
+
+var testParams= {make: "웹타운 모터스", 
+                 model: "테스트 카", 
+                 year: 2014, 
+                 color: "바다색", 
+                 passengers: 2, 
+                 convertible: true, 
+                 miles: 21};
+var testCar = new Car("웹타운 모터스", "테스트 카", 2014, "바다색", 2, true, 21);
+
+var cars = [chevy, cadi, taxi, fiat, testCar];
+
+/*
+ * 콘솔에 너무 많은 로그가 남지 않도록 이 코드를 주석처리했습니다.
+ *
+for(var i = 0; i < cars.length; i++) {
+    cars[i].start();
+    cars[i].drive();
+    cars[i].drive();
+    cars[i].stop();
+}
+*/
+
+function Dog(name, breed, weight) {
+    this.name = name;
+    this.breed = breed;
+    this.weight = weight;
+    this.bark = function() {
+        if (this.weight > 25) {
+			alert(this.name + "는 월월 짖어요!");
+		} else {
+			alert(this.name + "는 깽깽 짖어요!");
+		}
+    };
+}
+
+var limoParams = {make: "웹타운 모터스",
+                  model: "리무진", 
+                  year: 1983, 
+                  color: "검정색", 
+                  passengers: 12, 
+                  convertible: true, 
+                  mileage: 21120};
+
+var limo = new Car(limoParams);
+var limoDog = new Dog("우울한 랩소디", "푸들", 40);
+
+console.log(limo.make + " " + limo.model + "의 형은 " + typeof limo + "입니다.");
+console.log(limoDog.name + "의 형은 " + typeof limoDog + "입니다.");
+
+</script>
+</head>
+<body>
+</body>
+</html>
+

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+
+function addN(n) {
+	var adder = function(x) {
+		return n + x;
+	}
+	return adder;
+}
+//인자 x를 받아서 거기에 항상 N만큼 더하는 함수가 반환된다.
+var add100 = addN(100);
+
+console.log(add100(3600)); //결과는 3700
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

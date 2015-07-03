@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>String 프로토타입을 확장해 메서드 새로 추가히기</title>
+<script>
+
+String.prototype.cliche= function() {
+	var cliche = ["아무도 몰래","몰래 만나", "폭로하려"];
+
+	for (var i = 0; i < cliche.length; i++) {
+		var index = this.indexOf(cliche[i]);
+		if (index >= 0) {
+			return true;
+		}
+	}
+	return false;
+};
+
+var sentences = ["타고 올 수 있도록 내 차를 보내줄게.",
+                 "아침에 몰래 만나서 여기가 어딘지 알아보자.", 
+                 "폭로하려는 건 아니고 그저 사실을 알려주려는 거야."];
+
+for (var i = 0; i < sentences.length; i++) {
+	var phrase = sentences[i];
+	if (phrase.cliche()) {
+		console.log("문구 알림 : " + phrase);
+	}
+}
+
+
+</script>
+</head>
+<body>
+</body>
+</html>
+

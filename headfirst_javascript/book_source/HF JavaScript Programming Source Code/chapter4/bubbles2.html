@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>버블자러스 실험실</title>
+<script>
+var scores = [60, 50, 60, 58, 54, 54,     
+              58, 50, 52, 54, 48, 69,
+              34, 55, 51, 52, 44, 51,
+              69, 64, 66, 55, 52, 61,
+              46, 31, 57, 52, 44, 18,
+              41, 53, 55, 61, 51, 44];
+var costs = [.25, .27, .25, .25, .25, .25, .33, .31, 
+             .25, .29, .27, .22, .31, .25, .25, .33, 
+             .21, .25, .25, .25, .28, .25, .24, .22,
+             .20, .25, .30, .25, .24, .25, .25, .25, 
+             .27, .25, .26, .29];
+
+var highScore, bestSolutions;
+
+//
+// 최고 점수를 찾아내고 결과를 출력한다.
+//
+highScore = printAndGetHighScore(scores);
+console.log("비눗방울 실험 횟수 : " + scores.length);
+console.log("최고 비눗방울 점수 : " + highScore);
+
+//
+// 최고 점수를 올린 용액들의 번호를 찾아내고 출력한다.
+//
+bestSolutions = getBestResults(scores, highScore);
+console.log("최고 점수 용액 번호 : " + bestSolutions);
+
+//
+// 최고 점수를 올린 용액 중에서 비용 효율이 가장 좋은 용액을 찾아낸다.
+//
+mostCostEffective = getMostCostEffectiveSolution(scores, costs, highScore);
+console.log("비눗방울 용액 #" + mostCostEffective + "이 비용 효율이 가장 좋습니다.");
+
+function printAndGetHighScore(scores) {
+	var highScore = 0;
+	var output;
+	for (var i = 0; i < scores.length; i++) {
+		output = "Bubble solution #" + i + " score: " + scores[i];
+		console.log(output);
+		if (scores[i] > highScore) {
+			highScore = scores[i];
+		}
+	}
+	return highScore;
+}
+
+function getBestResults(scores, highScore) {
+	var bestSolutions = [];
+	for (var i = 0; i < scores.length; i++) {
+		if (scores[i] == highScore) {
+			bestSolutions.push(i);
+		}
+	}
+	return bestSolutions;
+}
+
+
+function getMostCostEffectiveSolution(scores, costs, highscore) {
+	var cost = 100.00; // 실제 비용보다 훨씬 큰 값입니다.
+	var index;
+
+	for (var i = 0; i < scores.length; i++) {
+		if (scores[i] == highscore) {
+			if (cost > costs[i]) {
+				index = i;
+				cost = costs[i];
+			}
+		}
+	}
+	return index;
+}
+
+//
+// 아니면, bestSolutions 배열을 이용해 코드를 작성할 수도 있습니다.
+// bestSolutions에는 점수가 가장 높은 용액들의 색인 번호들만 들어 있으므로,
+// 이 코드가 훨씬 더 빠르지만, 코드가 약간 더 어렵습니다!
+// 
+
+function getMostCostEffectiveSolution2(bestSolutions, costs, highscore) {
+	var cost = 100.0;
+	var solutionIndex;
+	var lowCostIndex;
+
+	for (var i = 0; i < bestSolutions.length; i++) {
+		solutionIndex = bestSolutions[i];
+		if (cost > costs[solutionIndex]) {
+			lowCostIndex = solutionIndex;
+			cost = costs[i];
+		}
+	}
+	return lowCostIndex;
+}
+
+
+</script>
+</head>
+<body> </body>
+</html>
+

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>팰린드롬</title>
+<script>
+
+String.prototype.palindrome = function() {
+	var len = this.length-1;
+	for (var i = 0; i <= len; i++) {
+		if (this.charAt(i) !== this.charAt(len-i)) {
+			return false;
+		}
+		if (i === (len-i)) {
+			return true;
+		}
+	}
+	return true;
+};
+
+// 
+// 최고급 정답
+//
+String.prototype.palindromeAdv = function() {
+	var r = this.split("").reverse().join("");
+	return (r === this.valueOf());
+}
+
+var phrases = ["eve",
+               "kayak",
+               "mom",
+               "wow",
+               "팰린드롬"];
+
+for (var i = 0; i < phrases.length; i++) {
+	var phrase = phrases[i];
+	if (phrase.palindrome()) {
+		console.log("'" + phrase + "'은 팰린드롬입니다.");
+	} else {
+		console.log("'" + phrase + "'은 팰린드롬이 아닙니다.");
+	}
+}
+
+
+</script>
+</head>
+<body>
+</body>
+</html>
+

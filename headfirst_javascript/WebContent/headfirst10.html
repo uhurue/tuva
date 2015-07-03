@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>그림 맞추기</title>
+<style>
+	body { margin: 20px; }
+	img { margin: 20px; }
+</style>
+<script>
+window.onload = init;
+function init() {
+	//var image = document.getElementById("zero");
+	//image.onclick = showAnswer;
+	var images = document.getElementsByTagName("img");
+	for(var i=0; i<images.length; i++) {
+		//images[i].onclick = showAnswer; //마우스를 클릭하면 그림을 보여준다
+		images[i].onmouseover = showAnswer; //마우스를 올리기만 하면 그림을 보여준다.
+	}
+};
+
+function showAnswer(event) {
+	//var image = document.getElementById("zero");
+	var image = event.target; //이벤트를 일으킨 DOM 객체
+	var name = "img/" + image.id + ".jpg";
+	image.src = name;
+	
+	setTimeout(reblur, 2000, image);
+}
+
+function reblur(image) {
+	image.src = "img/" + image.id + "blur.jpg";
+}
+</script>
+
+</head>
+<body>
+
+<img id="zero"  src="img/zeroblur.jpg">
+<img id="one"   src="img/oneblur.jpg">
+<img id="two"   src="img/twoblur.jpg">
+<img id="three" src="img/threeblur.jpg">
+<img id="four"  src="img/fourblur.jpg">
+<img id="five"  src="img/fiveblur.jpg">
+</body>
+</html>

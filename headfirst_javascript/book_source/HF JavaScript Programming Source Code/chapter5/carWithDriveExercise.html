@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>모든 자동차 주행</title>
+<script>
+
+var fiat = { 
+	make: "피아트",
+	model: "500",
+	year: 1957, 
+	color: "암청색",
+	passengers: 2,
+	convertible: false,
+	mileage: 88000,
+	started: false,
+	start: function() {
+		this.started = true;
+	},
+	stop: function() {
+		this.started = false;
+	},
+	drive: function() {
+		if (this.started) {
+			alert(this.make + " " + 
+			      this.model + "가 붕붕하고 갑니다!");
+		} else {
+			alert("먼저 시동을 거세요.");
+		}
+	}
+};
+
+var cadi = {
+	make: "GM",
+	model: "캐딜락",
+	year: 1955, 
+	color: "갈색",
+	passengers: 5,
+	convertible: false,
+	mileage: 12892,
+	started: false,
+	start: function() {
+		this.started = true;
+	},
+	stop: function() {
+		this.started = false;
+	},
+	drive: function() {
+		if (this.started) {
+			alert(this.make + " " + 
+			      this.model + "가 붕붕하고 갑니다!");
+		} else {
+			alert("먼저 시동을 거세요.");
+		}
+	}
+};
+
+
+var chevy = { 
+	make: "쉐보레",
+	model: "벨 에어",
+	year: 1957, 
+	color: "빨간색",
+	passengers: 2,
+	convertible: false,
+	mileage: 1021,
+	started: false,
+	start: function() {
+		this.started = true;
+	},
+	stop: function() {
+		this.started = false;
+	},
+	drive: function() {
+		if (this.started) {
+			alert(this.make + " " + 
+			      this.model + "가 붕붕하고 갑니다!");
+		} else {
+			alert("먼저 시동을 거세요.");
+		}
+	}
+};
+
+
+
+var taxi = { 
+    make: "웹 타운 모터스",
+    model: "택시",
+    year: 1955,
+    color: "노란색",
+    passengers: 4,
+    convertible: false,
+    mileage: 281341,
+	started: false,
+	start: function() {
+		this.started = true;
+	},
+	stop: function() {
+		this.started = false;
+	},
+	drive: function() {
+		if (this.started) {
+			alert(this.make + " " + 
+			      this.model + "가 붕붕하고 갑니다!");
+		} else {
+			alert("먼저 시동을 거세요.");
+		}
+	}
+};
+
+fiat.start();
+fiat.drive();
+fiat.stop();
+
+cadi.start();
+cadi.drive();
+cadi.stop();
+
+chevy.start();
+chevy.drive();
+chevy.stop();
+
+taxi.start();
+taxi.drive();
+taxi.stop();
+
+</script>
+</head>
+<body>
+</body>
+</html>
+

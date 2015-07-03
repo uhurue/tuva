@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>과자 굽기 (return 문)</title>
+  </head>
+  <body>
+  </body>
+  <script>
+function bake(degrees) {
+    var message;
+
+    if (degrees > 500) {
+        message = "저는 원자로가 아닙니다!";
+    } else if (degrees < 100) {
+        message = "저는 냉장고가 아닙니다!";
+    } else {
+        message = "저에게 딱 맞는 온도네요.";
+        setMode("굽기");
+        setTemp(degrees);
+    }
+    return message;
+}
+
+var status = bake(350);
+
+// Here so the code will run!
+function setMode(mode) { };
+function setTemp(degrees) { };
+
+  </script>
+</body>
+</html>

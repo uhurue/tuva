@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+function timerHandler() {
+	alert("Hey! Are you just looking at the screen?");
+	setTimeout(timerHandler, 5000); //예제에 이 라인은 없었다. 원래는 한번만 5초 경과후 alert이 나오는데, 이부분을 추가하면 계속 5초마다 나온다.
+}
+
+setTimeout(timerHandler, 5000);
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

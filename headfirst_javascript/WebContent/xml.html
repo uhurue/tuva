@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>check / open XML</title>
+<script>
+var text="<person>";
+text += "<name>ykkim</name>";
+text += "<address>10.10.10.100</address>";
+text += "<phone>000-9999</phone>";
+text += "</person>";
+
+if(window.DOMParser) // not Internet Explorer
+{
+	parser = new DOMParser();
+	xmlDoc = parser.parseFromString(text, "text/xml");
+}
+else // Internet Explorer
+{
+	xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+	xmlDoc.async = false;
+	xmlDoc.loadXML(text);
+}
+
+// documentElement는 루트 노드이다.
+var root = xmlDoc.documentElement;
+var i=0;
+for(i=0; i<root.childNodes.length; i++)
+{
+	console.log(root.childNodes[i].nodeName + ": " + root.childNodes[i].childNodes[0].nodeValue);
+}
+
+window.onload
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

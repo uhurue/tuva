@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>headfirst05</title>
+</head>
+<body>
+<h1>headfirst05</h1>
+<script>
+//객체를 구성한다.
+//객체의 속성인 함수를 만들고 호출한다.
+//객체의 속성을 참조할 때는 같은 객체이더라도 this로 명시해야 한다. 이것은 지역변수,파라미터,전역변수에 속하지 않기 때문이다.
+//겍체의 내용을 출력하려면 for...in 구문을 이용한다.
+
+var ykkim = {
+		name: "ykkim",
+		age: 33,
+		gender: "female",
+		job: "SW engineer",
+		hieght: 162,
+		weight: 46,
+		introduce: function() {
+			alert('my name is ' + this.name);
+		},
+		sleep: function() {
+			alert('ZZZZZZZZZZ.....');
+		},
+		role: "worker",
+		showMe: function() {
+			for(var item in this)
+			{   //객체의 속성은 대괄호로 접근한다.
+				console.log(item + ": " + this[item]);
+				
+				//다음과 같이 써도 된다.
+				console.log(item + ": " + ykkim[item]);
+			}
+		},
+		
+		gainWeight: function(amount) {
+			this.weight += amount;
+		}, 
+		
+		tellWeight: function() {
+			alert('my weight is ' + this.weight); 
+		} 
+	}
+ykkim.introduce();
+ykkim.sleep();
+ykkim.showMe();
+ykkim.looseWeight(3);
+ykkim.tellWeight();
+
+</script>
+</body>
+</html>

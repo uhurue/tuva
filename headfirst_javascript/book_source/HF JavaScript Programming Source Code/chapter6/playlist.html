@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>나의 재생 목록</title>
+  <script>
+    function addSongs() {
+		var song1 = document.getElementById("song1");
+		var song2 = document.getElementById("song2");
+		var song3 = document.getElementById("song3");
+		
+		song1.innerHTML = "거꾸로 문자열을 거슬러 오르는, 강들에";
+		song2.innerHTML = "잘못된 객체, 이건모";
+		song3.innerHTML = "자바스크립트는 우릴 보고 웃지, 김완순";
+	}
+	window.onload = addSongs;
+  </script>
+</head>
+<body>
+  <h1>내가 들을 멋진 노래들</h1>
+  <ul id="playlist">
+    <li id="song1"></li>
+    <li id="song2"></li>
+    <li id="song3"></li>
+  </ul>
+</body>
+</html>

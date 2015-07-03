@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>자유 변수 연습문제</title>
+<script>
+
+// 이 코드는 작동하지 않습니다. justSaying()이 자신의 자유 변수를 닫기 위한
+// 환경이 없기 때문입니다.
+function justSayin(phrase) {
+	var ending = "";
+	if (beingFunny) {
+		ending = " -- 그냥 그렇다구요!";
+	} else if (notSoMuch) {
+		ending = " -- 그럭저럭이요.";
+	}
+	alert(phrase + ending);
+}
+
+justSayin("어이, 안녕!");
+
+</script>
+</head>
+<body> </body>
+</html>
+

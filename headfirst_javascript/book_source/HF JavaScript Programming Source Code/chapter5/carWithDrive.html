@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>자동차 주행</title>
+<script>
+
+var fiat = { 
+    make: "피아트",
+    model: "500",
+    year: 1957, 
+    color: "암청색",
+    passengers: 2,
+    convertible: false,
+    mileage: 88000,
+    started: false,
+
+    start: function() {
+		this.started = true;
+	},
+
+    stop: function() {
+		this.started = false;
+	},
+
+    drive: function() {
+		//
+		// this.started 대신 started를 사용하면, 
+		// 이 코드는 제대로 작동하지 않습니다!
+		//
+		if (this.started) {
+			alert("붕붕!");
+		} else {
+			alert("먼저 시동을 거세요.");
+		}
+	}
+};
+
+fiat.drive();
+fiat.start();
+fiat.drive();
+fiat.stop();
+
+</script>
+</head>
+<body>
+</body>
+</html>
+

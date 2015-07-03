@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<?xml-stylesheet href="malware_analysis.xsl" type="text/xsl"?>
+<analyses_with_cncs filter_col="id" filter_text="27" dumped_at="2015/05/27 10:02:49">
+  <analyses>
+    <analysis id="27" analysis_type="Sandbox" url="file://103.251.37.56_81.zip" analysis_timeout="500" priority="Normal" profile_name="win7-sp1" state="Done" status_code="Success">
+      <event id="43" event_type="Checksum Match" signature_name="Malware.archive" malware_analysis_id="27" src_ip="0.0.0.0" dst_ip="0.0.0.0" analysis_type="3" occurred="2015-02-06 02:15:03 UTC">
+      </event>
+    </analysis>
+  </analyses>
+  <cnc_services>
+  </cnc_services>
+</analyses_with_cncs>

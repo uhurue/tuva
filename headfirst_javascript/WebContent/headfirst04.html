@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>headfirst05</title>
+</head>
+<body>
+<h1>headfirst05</h1>
+<script>
+//primitive와 object의 pass by value 영향을 확인한다.
+//둘다 func1(), func2() 함수 안에서는 값이 바뀌는 것 같지만, 함수 실행후 돌아와보면 object만 22로 바뀐다.
+
+var primitive = 33;
+var object = {
+		name: "ykkim",
+		age: 33,
+		gender: "female"
+}
+
+console.log("before call func1(): primitive = " + primitive);
+console.log("before call func2(): object.age = " + object.age);
+
+func1(primitive);
+func2(object);
+
+console.log("after call func1(): primitive = " + primitive);
+console.log("after call func2(): object.age = " + object.age);
+
+function func1(primitive)
+{
+	primitive = 22;
+	console.log("func(): primitive = " + primitive);
+}
+function func2(object)
+{
+	object.age = 22;
+	console.log("func(): object.age = " + object.age);
+}
+</script>
+</body>
+</html>

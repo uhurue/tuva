@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Space Robots</title>
+<script>
+
+function Robot(name, year, owner) {
+	this.name = name;
+	this.year = year;
+	this.owner = owner;
+}
+
+Robot.prototype.maker = "오브젝트자러스";
+
+Robot.prototype.speak = function() {
+	alert("경고 경고!!");
+};
+
+Robot.prototype.makeCoffee = function() {
+	alert("커피 만들기");
+};
+
+Robot.prototype.blinkLights = function() {
+	alert("깜빡 깜빡!");
+};
+
+var robby = new Robot("로비", 1956, "닥터 뫼비우스");
+var rosie = new Robot("로지", 1962, "조지 제트슨");
+
+robby.onOffSwitch = true;
+robby.makeCoffee = function() {
+	alert("스타벅스에서 커피를 사옵니다.");
+};
+
+rosie.cleanHouse = function() {
+	alert("청소중! 잠시 후 깔끔해집니다...");
+};
+
+console.log(robby.name + "는 " + robby.maker + 
+            "에 의해 " + robby.year + "년에 생산되었고, " + robby.owner
+            + "가 소유하고 있습니다.");
+//robby.makeCoffee();
+//robby.blinkLights();
+
+console.log(rosie.name + "는 " + rosie.maker + 
+            "에 의해 " + rosie.year + "년에 생산되었고, " + rosie.owner
+            + "가 소유하고 있습니다.");
+//rosie.cleanHouse();
+
+    
+function SpaceRobot(name, year, owner, homePlanet) {
+	this.name = name;
+	this.year = year;
+	this.owner = owner;
+	this.homePlanet = homePlanet;
+}
+
+SpaceRobot.prototype = new Robot();
+
+SpaceRobot.prototype.speak = function() {
+	alert(this.name + " : 제가 의견을 말해도 된다면...");
+};
+
+SpaceRobot.prototype.pilot = function() {
+	alert(this.name + " : 추진체요? 그게 중요한가요?");
+};
+
+var c3po = new SpaceRobot("C3PO", 1977, "루크 스카이워커", "타투인");
+c3po.speak();
+c3po.pilot();
+console.log(c3po.name + "는 " + c3po.maker + "가 만들었습니다.");
+
+var simon = new SpaceRobot("사이몬", 2009, "칼라 다이아나", "지구");
+simon.makeCoffee();
+simon.blinkLights();
+simon.speak();
+
+
+</script>
+</head>
+<body>
+</body>
+</html>
+

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>틱톡</title>
+  <meta charset="utf-8">
+  <script>
+
+	function display(text) { 
+		var messagePara = document.getElementById("message"); 
+		messagePara.innerHTML = messagePara.innerHTML + text;
+	}
+
+	var tick = true;
+
+	function ticker() {
+		if (tick) {
+			display("틱");
+			tick = false;
+		} else {
+			display("톡");
+			tick = true;
+		}
+	}
+
+	window.onload = function() {
+		setInterval(ticker, 1000);
+	}
+
+  </script>
+</head>
+<body>
+<p id="message"></p>
+</body>
+</html>

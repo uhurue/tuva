@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>자바스크립트 무한 도전</title>
+<script>
+
+var justAVar = "아, 걱정하지 마세요. 저는 전역 변수입니다.";
+
+function whereAreYou() {
+	var justAVar = "그저 일반적인 지역 변수입니다.";
+
+	function inner() {
+		return justAVar;
+	}
+
+	return inner;
+}
+
+var innerFunction = whereAreYou();
+var result = innerFunction();
+console.log(result);
+
+</script>
+</head>
+<body> </body>
+</html>
+

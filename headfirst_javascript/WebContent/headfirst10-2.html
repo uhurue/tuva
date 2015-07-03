@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>windows 창 크기 변경에 반응하기</title>
+<script>
+//브라우저를 잡아서 계속 늘리면 바꾸지 말라니까가 반복으로 찍힌다. 
+function resize() {
+	var element = document.getElementById("message1");
+	var message = element.innerHTML;
+	element.innerHTML = message + "  바꾸지 말라니까!! ";
+	//element.innerHTML = element.innerHTML + " 바꾸지 말라니까!! "; //이렇게 쓰면 element.innerHTML이 undefined로 나온다
+}
+
+</script>
+</head>
+
+<body>
+
+<p id="message1">
+창 크기를 바꾸지 마세요.
+</p>
+
+<script>
+window.onresize = resize;
+</script>
+
+</body>
+</html>

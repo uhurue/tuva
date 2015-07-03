@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>자바스크립트 무한 도전</title>
+<script>
+//
+// 각 표본을 테스트하려면 사용하지 않는 표본을 주석으로 만들어주세요.
+//
+
+//
+// 표본 #1
+//
+/*
+var secret = "007";
+
+function getSecret() {
+	var secret = "008";
+
+	function getValue() {
+		return secret;
+	}
+
+	return getValue();
+}
+
+var result = getSecret();
+console.log(result);
+*/
+
+//
+// 표본 #2
+//
+var secret = "007";
+
+function getSecret() {
+	var secret = "008";
+
+	function getValue() {
+		return secret;
+	}
+
+	return getValue;
+}
+
+var getValueFun = getSecret();
+var result = getValueFun();
+console.log(result);
+
+</script>
+</head>
+<body> </body>
+</html>
+

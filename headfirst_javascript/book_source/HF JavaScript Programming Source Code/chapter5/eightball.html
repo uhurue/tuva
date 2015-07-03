@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>마법의 8번 공</title>
+<script>
+
+var eightBall = { 
+	index: 0,  
+	advice: ["네", "아니오", "아마도", "절대 아니에요"],
+	shake: function() { 
+		this.index = this.index + 1;
+		if (this.index  >= this.advice.length) {
+			this.index = 0;
+		}
+	},
+	look: function() {
+		return this.advice[this.index];
+	}
+};   
+	
+eightBall.shake();	
+console.log(eightBall.look());
+
+eightBall.shake();	
+console.log(eightBall.look());
+
+eightBall.shake();	
+console.log(eightBall.look());
+
+</script>
+</head>
+<body>
+</body>
+</html>
+
