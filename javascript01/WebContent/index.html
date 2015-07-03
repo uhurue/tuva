@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<!-- 
+javascript를 html에 직접 넣는 방법 
+closure를 이용해 timer 함수를 호출
+50만개의 .을 찍는 시간을 쟀다. 
+ -->
+<script>
+function makeTimer()
+{
+	var startTime;
+	var curTime;;
+	return function()
+	{
+		curTime = new Date();
+		if(startTime) //이미 start time이 정의돼 있다.
+		{
+			alert('end time:'+curTime.getTime());
+			return (curTime.getTime()-startTime); //milisec since 1970
+		}
+		else
+		{
+			startTime = curTime.getTime(); //milisec since 1970
+			alert('begin time:'+startTime);
+			return null;
+		}
+	}
+}
+
+alert('test start');
+var timer = makeTimer();
+timer();
+for(var i=0; i<500000; i++)
+{
+	document.write(".");
+	if(i>0 && i%20000==0)
+	{
+		document.write("<br>");	
+	}
+}
+var laptime = timer();
+document.write("<br>laptime = " + laptime/1000.000 + " sec");
+
+</script>
+</head>
+<title>Insert title here</title>
+<body>
+<br> Here, html body~~ 
+</body>
+</html>

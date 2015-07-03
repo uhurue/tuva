@@ -1,0 +1,1921 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>국민건강보험공단</title>
+<link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+
+
+
+
+<!-- #####  PC방화벽/백신 시작 -->
+<script type="text/javascript" src="http://ahnlabdownload.nefficient.co.kr/aos/plugin/aosmgr_common.js"></script>
+<script type="text/javascript">	
+	aos_set_authinfo("aosmgr_next_nhic_or_kr.html");             //인증파일명 SET
+	aos_set_option( "uimode", true );                            //UI 표시
+	aos_set_option( "asyncmode", true );                         //비동기모드 설정
+	aos_write_object();                                          //AOS CAB 파일 다운로드 및 설치
+	//aos_start( 'e5|e2' );                                      // 실행 (FW + AV)
+	aos_start( 'e5' );
+</script>
+<!-- #####  PC방화벽/백신 끝 -->
+
+
+<link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+<script type="text/javascript" src="/static/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/static/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/static/js/jquery_roll.js"></script>
+<script type="text/javascript" src="/static/js/touch_slider.js"></script>
+<script type="text/javascript" src="/static/js/ui.js"></script>
+<script type="text/javascript" src="/static/js/common/nhic_common.js"></script>
+<script type="text/javascript" src="/static/js/common/nhic_form.js"></script>
+<script type="text/javascript">
+
+	document.domain = "nhis.or.kr";
+
+	function gfn_showMessage() {
+        var msg = "";
+        
+        if (msg != "") alert(msg);
+    }
+
+    $(document).ready(function() {
+        gfn_showMessage();
+        
+        // nhic_form.js에 정의된 CIPHER_ENABLED 설정
+        G_COMMON.CIPHER_ENABLED = true;
+        // 파일 업로드 정책
+        G_COMMON.UPLOAD_POLICY = "allow";
+        G_COMMON.UPLOAD_ALLOW_EXT = "doc,ppt,xls,docx,pptx,xlsx,hwp,pdf,txt,gif,png,jpg,bmp";
+        G_COMMON.UPLOAD_DENY_EXT = "class,java,jsp,js,asp,cgi,inc,php,php3,pl";
+    });
+	
+    // 개인 인증서 시작
+    p_accept_cert="signGATE CA:1.2.410.200004.5.2.1.2:1.2.410.200004.5.2.1.7.1:1.2.410.200004.5.2.1.5.141:1.2.410.200004.5.2.1.7.2"; //한국정보인증
+    p_accept_cert+=",signGATE CA2:1.2.410.200004.5.2.1.2:1.2.410.200004.5.2.1.7.1:1.2.410.200004.5.2.1.5.141:1.2.410.200004.5.2.1.7.2"; //한국정보인증
+    p_accept_cert+=",SignKorea CA:1.2.410.200004.5.1.1.5:1.2.410.200004.5.1.1.1:1.2.410.200004.5.1.1.9:1.2.410.200004.5.1.1.9.2"; //한국증권전산
+    p_accept_cert+=",yessignCA:1.2.410.200005.1.1.1:1.2.410.200005.1.1.4"; //금융결제원
+    p_accept_cert+=",CrossCertCA:1.2.410.200004.5.4.1.1:1.2.410.200004.5.4.1.101:1.2.410.200004.5.4.1.102"; //한국전자인증
+    p_accept_cert+=",CrossCert Certificate Authority:1.2.410.200004.5.4.1.1:1.2.410.200004.5.4.1.101:1.2.410.200004.5.4.1.102"; //한국전자인증
+    p_accept_cert+=",TradeSignCA:1.2.410.200012.1.1.1:1.2.410.200012.1.1.101:1.2.410.200012.1.1.103"; //한국무역정보통신
+    	
+    //EPKI, GPKI 고도화추가 및 변경 - 2011.12.30
+    //p_accept_cert+=",CA134040001,CA131000001,CA131000002,CA131000031,CA131000032,CA131100001";
+    //p_accept_cert+=",CA131000001,CA131000002,CA131000031,CA131000032,CA131100001";
+    //p_accept_cert+=",CA131100002"; // test용
+
+    // 고도화 추가 2011.11.17
+    p_accept_cert+=",signGATE CA4:1.2.410.200004.5.2.1.2:1.2.410.200004.5.2.1.7.1:1.2.410.200004.5.2.1.5.141:1.2.410.200004.5.2.1.7.2"; //한국정보인증
+    p_accept_cert+=",SignKorea CA2:1.2.410.200004.5.1.1.5:1.2.410.200004.5.1.1.1:1.2.410.200004.5.1.1.9:1.2.410.200004.5.1.1.9.2"; //한국증권전산
+    p_accept_cert+=",yessignCA Class 1:1.2.410.200005.1.1.1:1.2.410.200005.1.1.4"; //금융결제원
+    p_accept_cert+=",CrossCertCA2:1.2.410.200004.5.4.1.1:1.2.410.200004.5.4.1.101:1.2.410.200004.5.4.1.102"; //한국전자인증
+    p_accept_cert+=",TradeSignCA2:1.2.410.200012.1.1.1:1.2.410.200012.1.1.101:1.2.410.200012.1.1.103"; //한국무역정보통신
+    // 개인 인증서 끝
+    
+    // 사업장 인증서 시작
+    b_accept_cert  = "yessignCA:1.2.410.200005.1.1.5:1.2.410.200005.1.1.2"; //금융결제원
+	b_accept_cert += ",signGATE CA2:1.2.410.200004.5.2.1.1:1.2.410.200004.5.2.1.6.141"; //한국정보인증
+	b_accept_cert += ",SignKorea CA:1.2.410.200004.5.1.1.7:1.2.410.200004.5.1.1.3"; //한국증권전산
+	b_accept_cert += ",CrossCertCA:1.2.410.200004.5.4.1.2"; //한국전자인증
+	b_accept_cert += ",CrossCert Certificate Authority:1.2.410.200004.5.4.1.2"; //한국전자인증
+	b_accept_cert += ",TradeSignCA:1.2.410.200012.1.1.3"; //한국무역정보통신
+	
+	// 고도화 추가 2011.11.17
+	b_accept_cert += ",yessignCA Class 1:1.2.410.200005.1.1.5:1.2.410.200005.1.1.2"; //금융결제원
+	b_accept_cert += ",signGATE CA4:1.2.410.200004.5.2.1.1:1.2.410.200004.5.2.1.6.141"; //한국정보인증
+	b_accept_cert += ",SignKorea CA2:1.2.410.200004.5.1.1.7:1.2.410.200004.5.1.1.3"; //한국증권전산
+	b_accept_cert += ",CrossCertCA2:1.2.410.200004.5.4.1.2"; //한국전자인증
+	b_accept_cert += ",TradeSignCA2:1.2.410.200012.1.1.3"; //한국무역정보통신
+	// 사업장 인증서 끝
+</script>
+
+<script type="text/javaScript" language="javascript" defer="defer">
+//<![CDATA[	
+	function clickMenu(menuId) {
+		
+		var frm = $("#menuForm");
+
+		$("#menuId").val(menuId);
+		
+		//글씨크기 조절상태 유지를 위한 parameter
+		$("#zoomSize").val(Zoom.size);
+		
+		//frm.attr("action", "/menu/retriveMenuSet.xx");
+		frm.attr("action", "/menu/retriveMenuSet.xx?menuId=" + menuId + "");
+		//frm.encrypt(); 
+		frm.submit();
+	}
+
+	var survey = false;
+
+	// 만족도조사 관련 
+	function fn_insertSurveyResult(){
+		if (survey) {
+			alert("해당 페이지에 대한 만족도 조사에 이미 참여하셨습니다.");
+			return false;
+		}	
+
+		if ( !$("input[name='surveyPoint']:checked").val() ) {
+			alert('만족도를 선택해 주세요.');
+			document.satisfy.surveyPoint[0].checked = true;
+			document.satisfy.surveyPoint[0].focus();
+			return false;
+		} 
+
+	var surveyPoint = $("#satisfy input[name='surveyPoint']:checked").val();
+		gfn_ajaxSubmit(
+				"/survey/insertSurvey.do",
+				{"surveySite":$("#surveySite").val(),
+					"surveyCategory":$("#surveyCategory").val(),
+					"surveyUri":$("#surveyUri").val(),
+					//"surveyPoint":$("#surveyPoint").val(),
+					"surveyPoint":surveyPoint,
+					"surveyComment":$("#surveyComment").val()},
+					fn_insertSurveyResultCallback,
+					false
+			);
+	}
+
+	function fn_insertSurveyResultCallback(xml){
+		if($(xml).find("result").text() == 'success'){
+			alert("참여해주셔서 감사합니다.");
+			survey = true;
+		}
+	}
+
+
+	// 즐겨찾기
+	function fn_insertFavorite(){
+		gfn_ajaxSubmit(
+				"/favorite/insertFavorite.do",
+				{
+					"site":$("#site").val(),
+					"userid":$("#userid").val(),
+					"usergubun":$("#usergubun").val(),
+					"title":$("#title").val(),
+					"category":$("#category").val(),
+					"bookmarkurl":$("#bookmarkurl").val(),
+					"html":$("#html").val(),
+					"etc1":$("#etc1").val()},
+					fn_insertFavoriteCallback,
+					false
+			);
+	}
+
+	function fn_insertFavoriteCallback(xml){
+		if($(xml).find("result").text() == 'success'){
+			alert("즐겨찾기에 등록되었습니다.");
+		}else if ($(xml).find("result").text() == 'errCountOver'){
+			alert("즐겨찾기 등록에 실패하였습니다. \\n\\n즐겨찾기 등록은 40개까지만 가능합니다.\\n마이포털의 즐겨찾기 리스트 화면에서 \\n불필요한 즐겨찾기를 삭제하신 후 사용해주세요.");
+		} else{
+			alert("즐겨찾기 등록이 실패하였습니다.");
+		}
+	}
+//]]>
+</script>
+</head>
+
+<body id="global_body">
+<!--  암복호화 커스텀 태그 -->
+<script type="text/javascript"  charset="utf-8" src="/static/activex/XecureWeb/xecureweb.js"></script>
+<script type="text/javascript">PrintObjectTag();</script>
+<form name="xecure" method="post" action=""><input type="hidden" name="p" /></form> 
+
+ 
+<form name="menuForm" id="menuForm" method="post" action="">
+	<input type="hidden" name="menuId"		id="menuId"		value="M1000" />
+	<input type="hidden" name="spstMenuId"	id="spstMenuId" value="M0000" />
+	<input type="hidden" name="realMenuId"	id="realMenuId" value="M1000" />
+	<input type="hidden" name="zoomSize"	id="zoomSize" />
+</form>
+
+<ul id ="skipnavi">
+	<li><a href="#lnb">주메뉴로 바로가기</a></li>
+	<li><a href="#contents">본문으로 바로가기</a></li>
+	<li><a href="#footer_wrap">하단정보로 바로가기</a></li>
+</ul>
+<div id="wrap" class="wrap">
+	<!-- 헤더 -->
+	
+
+
+
+
+
+
+
+<!-- header -->
+
+<script type="text/javascript" src="/static/js/zoom_2014.js"></script>
+
+<script type="text/javascript" charset="utf-8" src= "/static/js/webgen.js"></script>
+
+<script type="text/javascript" src="/static/js/search/jquery.rolling.js"></script><!-- 통합검색 js -->
+<script type="text/javascript" src="/static/js/search/beta.fix.js"></script><!-- 통합검색 js -->
+<script type="text/javascript" src="/static/js/search/ark_main.js"></script><!-- 통합검색 js -->
+<script type="text/javascript" src="/static/js/search/search_main.js"></script><!-- 통합검색 js -->
+
+<script type="text/javaScript" language="javascript" defer="defer">
+//<![CDATA[
+
+
+	$(document).ready(function(){
+
+		var size = '1.0';
+
+		if(size != null && size != "" && size != "1.0"){
+
+			Zoom.size = Number(size);
+
+			Zoom.load();
+
+		}
+		
+		
+	});
+
+	
+
+	function goSite(){
+
+		var frm = $("#siteFrm");
+
+		frm.submit();
+
+	}
+	
+	function getCookie(name) {
+	    var nameEQ = name + "=";
+	    var ca = document.cookie.split(';');
+	    for(var i=0;i < ca.length;i++) {
+	        var c = ca[i];
+	        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+	        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+	    }
+	    return null;
+	}
+
+	var extendLoginYn = true;
+	var extendTimerPrd = 1000 * 60 * 25;  
+	var extendTimer = {};
+
+	function extendLoginCheck(){
+		if(extendLoginYn){
+			if(confirm("5분 후에 로그인이 만료됩니다. 로그인을 연장하시겠습니까?")){
+				doExtendLogin();
+			} else {
+				extendLoginYn = false;
+			}
+		}
+	}
+	function doExtendLogin(){
+		$.ajax({
+			type: "POST",
+		    url: "/wbd/login/newSessExtend.do",
+		    dataType: 'text',
+			error: function(data) {
+				initLoginExtend();
+				location.replace("/wbd/login/logout.do");
+			},
+			success: function(data) {
+				if(data == "extend") { 
+					initLoginExtend();
+					alert("연장되었습니다.");
+				} else if(data == "invalid"){
+					alert("이미 로그인이 만료되었습니다. 다시 로그인하시기 바랍니다.");
+					location.replace("/wbd/login/logout.do");
+				}
+			}
+		});
+	}
+	function initLoginExtend(){
+		clearTimeout(extendTimer);
+		extendTimer = setTimeout(extendLoginCheck, extendTimerPrd); 
+	}
+	if(getCookie("ssotoken") != "" && getCookie("ssotoken") != null) {
+		initLoginExtend();
+	}
+	
+	var checkIframe = function(ifr) {
+		var key = (new Date()).getTime() + "" + Math.random();
+		try {
+			var global = ifr.contentWindow;
+			global[key] = "asd";
+			return global[key] === "asd";
+		} catch(e) {
+			return false;
+		}
+	};
+	$("iframe[id^=cntnt]").load(function(){
+		var $this = $(this);
+		if(checkIframe($this[0])) {
+			if(getCookie("ssotoken") != "" && getCookie("ssotoken") != null) {
+				parent.initLoginExtend();
+			}
+		}
+	});
+//]]>
+</script>
+
+<div id="header_wrap" class="header_wrap">
+
+	<!-- smart include -->
+
+	
+
+<!-- smart 서비스 길잡이 -->
+<div class="smart_wrap_box">
+	<!-- smart -->
+	<div class="smart_wrap">
+		<p class="smart_go"><a href="#smartService" title="열기" id="smartService"><img src="/static/images/common/layout/smart/btn_smart_on.png"  alt="분야별 업무사이트 보기"  /></a></p>
+		<script type="text/javascript">
+		$(function(){
+			touch_slider_norepeat('smartWord_list',1);
+			touch_slider_norepeat('smartBnr_list',3);
+		})
+		</script>
+		<div class="smart_area">
+			<div class="smart_top">
+				<h1 class="logo"><img src="/static/images/common/layout/smart/logo_s.png"  alt="h-well 국민건강보험" /></h1>
+				<h2 class="tit"><img src="/static/images/common/layout/smart/tit_smart.png"  alt="Smart Navigation 분야별 업무사이트 바로가기" /></h2>
+			</div>
+			<!-- 0915 컨텐츠 삭제 및 추가 -->
+			<!-- 스마트 배너 -->
+			<div class="smart_bnr2">
+				<ul>
+					<li><a href="http://minwon.nhis.or.kr/" title="사이버민원센터 새창열림" target="_blank"><img src="/static/images/main/quick01.jpg" alt="사이버민원 센터" /></a></li>
+					<li><a href="http://si4n.nhis.or.kr/" title="사회보험 징수포털 새창열림" target="_blank"><img src="/static/images/main/quick02.jpg" alt="사회보험 징수포털" /></a></li>
+					<li><a href="http://www.longtermcare.or.kr/" title="노인장기 요양보험 새창열림" target="_blank"><img src="/static/images/main/quick03.jpg" alt="노인장기 요양보험" /></a></li>
+					<li><a href="http://medi.nhis.or.kr/index.jsp" title="요양기관 정보마당 새창열림" target="_blank"><img src="/static/images/main/quick04.jpg" alt="요양기관 정보마당" /></a></li>
+					<li><a href="http://edi.nhis.or.kr/" title="EDI서비스 새창열림" target="_blank"><img src="/static/images/main/quick05.jpg" alt="EDI서비스" /></a></li>
+					<li><a href="http://sis.nhis.or.kr/site/sis/" title="건강검진 기관포털 새창열림" target="_blank"><img src="/static/images/main/quick06.jpg" alt="건강검진 기관포털" /></a></li>
+					<li><a href="http://hi.nhis.or.kr/main.do" title="건강정보 건강iN 새창열림" target="_blank"><img src="/static/images/main/quick07.jpg" alt="건강정보 건강iN" /></a></li>
+					<li><a href="http://jr.nhis.or.kr/" title="주니어 건강iN 새창열림" target="_blank"><img src="/static/images/main/quick08.jpg" alt="주니어 건강iN" /></a></li>
+					<li class="last"><a href="http://nhiss.nhis.or.kr/" title="건강보험자료 공유서비스 새창열림" target="_blank"><img src="/static/images/main/quick09.jpg" alt="건강보험자료 공유서비스" /></a></li>
+				</ul>
+			</div>
+			<!-- //스마트 배너 -->
+			<!--// 0915 컨텐츠 삭제 및 추가 -->
+			<!-- 고객센터 -->
+			<div class="smart_customer">
+				<div class="smart_con">
+					<h3><img src="/static/images/common/layout/smart/stit_smart03.gif" alt="고객센터" /></h3>
+					<p class="txt"><img src="/static/images/common/layout/smart/txt_customer.gif"  alt="상담시간 AM8~PM7 / 이용안내 1577-1000 / 금연상담 02-390-2090 / 수화상담 02-2289-0404 / 외국어상담 02-390-2000" /></p>
+					<span class="btn"><a href="http://minwon.nhis.or.kr/static/html/wbmg/c/wbmgc0101.html" class="del" onclick="window.open(this.href, '_blank', 'width=900,height=580'); return false;" target="_blank" title="고객센터 서비스 자세히 보기(새창)"><img src="/static/images/common/layout/smart/btn_customer.gif"  alt="고객센터" /></a></span>
+				</div>
+			</div>
+			<!-- //고객센터 -->
+		</div>
+		<p class="smart_go on"><a href="#close" id="close" title="닫기"><img src="/static/images/common/layout/smart/btn_smart_off.png"  alt="분야별 업무사이트 보기" /></a></p>
+	</div>
+	<!-- //smart -->
+</div>
+<!-- //smart 서비스 길잡이 -->
+
+	<!-- smart include -->
+
+	
+
+	<!-- header 유틸 -->
+
+	<div class="header_util">
+
+		<div class="header_con" id="top">
+
+			<h1><a href="/index.jsp"><img src="/static/images/common/layout/header/h_logo.jpg" alt="h-well 국민건강보험" /></a></h1>
+
+			<!-- 언어선택 -->
+
+			<form id="siteFrm" action="/jsp/common/goSite.jsp" target="_blank" onsubmit="">
+
+			<div class="lang_sel">
+
+				<select id="langSel" title="홈페이지 언어선택" name="url">
+
+					<option value="/static/html/wbd/g/a/wbdga0101.html">ENGLISH</option>
+
+					<option value="/static/html/wbd/g/b/wbdgb0101.html">JAPANESE</option>
+
+					<option value="/static/html/wbd/g/c/wbdgc0101.html">CHINESE</option>
+
+					<option value="/static/html/wbd/g/d/wbdgd0101.html">VIETNAMESE</option>
+
+				</select>
+
+				<a href="#goSite" onclick="goSite(); return false;" id="goSite" title="새창열기"><img src="/static/images/common/layout/header/btn_sel.gif" alt="선택"/></a>
+
+			</div>
+
+			</form>
+
+			<!-- //언어선택 -->
+
+			<!-- 글자 선택 -->
+
+			<span class="control_box">
+
+				<em>글자</em>
+
+				<a href="#textPlus" onclick="Zoom.exec(1); return false;" title="글자 확대" id="textPlus"><img alt="글자 확대" src="/static/images/common/layout/header/btn_plus.gif" /></a>
+
+				<a href="#textMinus" onclick="Zoom.exec(-1); return false;" title="글자 축소" id="textMinus"><img alt="글자 축소" src="/static/images/common/layout/header/btn_minus.gif" /></a>
+
+			</span>
+
+			<!-- 글자 선택 -->
+
+			<!-- 소리 선택 -->
+
+			<span class="control_box">
+
+				<em>소리</em>
+
+				<a href="#soundPlus" onclick="f_setVoiceVolume('up');return false;" title="소리 확대" id="soundPlus"><img alt="소리 확대" src="/static/images/common/layout/header/btn_plus.gif" /></a>
+
+				<a href="#soundMinus" onclick="f_setVoiceVolume('down');return false;" title="소리 축소" id="soundMinus"><img alt="소리 축소" src="/static/images/common/layout/header/btn_minus.gif" /></a>
+
+			</span>
+
+			<span class="voice">
+
+				<a href="#soundStart" onclick="f_voiceStart('start');return false;" title="음성켜기" id="soundStart"><img src="/static/images/common/layout/header/btn_voice.gif" alt="음성켜기" id="voice_start"/></a>
+
+				<a href="#soundStop" onclick="f_voiceStart('stop');return false;" title="음성끄기" id="soundStop"><img src="/static/images/common/layout/header/btn_voice_off.gif" alt="음성끄기" id="voice_stop" style="display: none;"/></a>
+
+			</span><!-- 추가 0829 -->
+
+			<!-- //소리 선택 -->
+
+			<!-- 유틸 -->
+
+			<ul class="list">
+
+				<li><a href="/index.jsp">처음으로</a></li>
+
+				
+
+					
+
+					
+
+						<li><a href="#" onclick="clickMenu('M1000'); return false;">로그인</a></li>
+
+						<li><a href="#" onclick="clickMenu('M2000'); return false;">회원가입</a></li>
+
+					
+
+				
+
+				<li><a href="#" onclick="clickMenu('H2500'); return false;">공인인증서안내</a></li>
+
+				<li class="last"><a href="#" onclick="clickMenu('H1000'); return false;">사이트맵</a></li>
+
+			</ul>
+
+			<!-- //유틸 -->
+
+		</div>
+
+	</div>
+
+	<!-- //header 유틸 -->
+
+	<div class="header_con02">
+
+		<!-- gnb 영역 -->
+
+		<div class="gnb_area">
+
+			<div class="gnb_con">
+
+				<span class="hwell"><a href="/index.jsp"><img src="/static/images/common/layout/header/gnb_hwell.jpg" alt="h&middot;well 국민의 평생건강을 지키는 세계 최고의 건강보장기관" /></a></span><!-- 0905 수정 -->
+
+				<!-- gnb -->
+
+				<ul>
+
+					<li class="lm m1">
+
+						<a href="#" class="mn"><img src="/static/images/common/layout/header/gnb_mn01.gif" alt="제도소개" /></a>
+
+						<!-- 제도소개 -->
+
+						<div class="gnb_sbox">
+
+							<ul class="gnb">
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2" onclick="clickMenu('B1000'); return false;">한국의 사회보장</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('B1100'); return false;">사회보장의 정의</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('B1200'); return false;">사회보장의 체계</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('B1300'); return false;">사회보험</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('B1400'); return false;">공공부조</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('B1500'); return false;">사회서비스</a></dd>
+
+									</dl>
+
+								</li>
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2" onclick="clickMenu('B2000'); return false;">국민건강보험</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('B2100'); return false;">건강보험제도 개요</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('B2200'); return false;">건강보험의 이해</a></dd>
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMA" title="건강보험 안내 새창열림" target="_blank">건강보험의 안내</a></dd>
+
+									</dl>
+
+								</li>
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2" onclick="clickMenu('B3000'); return false;">노인장기요양보험</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('B3100'); return false;">연혁</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('B3200'); return false;">인정신청</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('B3300'); return false;">등급판정</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('B3400'); return false;">급여의 종류</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('B3500'); return false;">재원조달 및 급여비용</a></dd>
+
+									</dl>
+
+								</li>
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2" onclick="clickMenu('B4000'); return false;">사회보험 징수통합</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('B4100'); return false;">징수통합제도 안내</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('B4200'); return false;">사회보험료납부방법</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('B4300'); return false;">징수통합의 업무범위</a></dd>
+
+									</dl>
+
+								</li>
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2" onclick="clickMenu('B7000'); return false;">임신/출산/양육</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('B7100'); return false;">임신출산양육지원</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('B7200'); return false;">저출산대책 의견방</a></dd>
+
+									</dl>
+
+									<p class="dep2_txt"><a href="#" class="dep2" onclick="clickMenu('B5000'); return false;">외국의 건강보험제도</a></p>
+
+									<dl>
+
+										<dt><a href="#" class="dep2" onclick="clickMenu('B6000'); return false;">건강보험과 민간보험</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('B6110'); return false;">건강보험과 민간의료보험의 차이</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('B6210'); return false;">민간의료보험관련 일반자료</a></dd>
+
+									</dl>
+
+								</li>
+
+							</ul>
+
+						</div>
+
+						<!-- //제도소개 -->
+
+					</li>
+
+					<li class="lm m2">
+
+						<a href="#" class="mn"><img src="/static/images/common/layout/header/gnb_mn02.gif" alt="민원신청" /></a>
+
+						<!-- 민원신청 -->
+
+						<div class="gnb_sbox">
+
+							<ul class="gnb">
+
+								<li>
+
+									<dl>
+
+										<!-- <dt><a href="#" class="dep2" onclick="clickMenu('C1000')">개인민원</a></dt> -->
+
+										<dt><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMCA01" class="dep2" target="_blank">개인민원</a></dt>
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMCA02" target="_blank">나의민원보기</a></dd>
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMCA03" target="_blank">자격</a></dd>
+
+										<dd><a href="http://hi.nhis.or.kr/ggpb001m01_v01.do?mn_idx=MN00000012" target="_blank">건강검진</a></dd>
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMAB05" target="_blank">보험료납부</a></dd>
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMCA05" target="_blank">미지급 환급금 통합조회 및 신청</a></dd>
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMCA06" target="_blank">조회/발급</a></dd>
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMCA07" target="_blank">보험급여내역 및 진료받은내용</a></dd>
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMCA09" target="_blank">사업장자료제공동의</a></dd>
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMAF" target="_blank">보장구대여</a></dd>
+
+									</dl>
+
+								</li>
+
+								<li>
+
+									<dl>
+
+										<!-- <dt><a href="" class="dep2" onclick="clickMenu('C5000')">사업장민원</a></dt> -->
+
+										<dt><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMCB" class="dep2" target="_blank">사업장민원</a></dt>
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMCB03" target="_blank">보험료납부</a></dd>
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMCB05" target="_blank">조회/발급</a></dd>
+
+										<!-- <dd><a href="http://hi.nhis.or.kr/goXecureReturnPage.do?returnPageUrl=/p/c/ggpc010m01&amp;returnUrlPath=/secu/ggpa002_r01.do" target="_blank">건강검진</a></dd>
+ -->
+										<dd><a href="http://edi.nhis.or.kr/enview" target="_blank">EDI서비스</a></dd>
+
+									</dl>
+
+									<p class="dep2_txt"><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMEB01" target="_blank" class="dep2">자주묻는질문</a></p>
+
+								</li>
+
+
+								<li>
+
+									<dl>
+
+										<!-- <dt><a href="#" class="dep2" onclick="clickMenu('')">상담문의</a></dt> -->
+
+										<dt><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMB" class="dep2" target="_blank">상담문의</a></dt>
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMCA02" target="_blank">나의민원보기</a></dd>
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMBB" target="_blank">민원상담</a></dd>
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMBC" target="_blank">친절사례접수</a></dd>
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMBD" target="_blank">불친절사례접수</a></dd>
+
+										<dd><a href="http://hi.nhis.or.kr/ggpb010m01_l01.do?mn_idx=MN00000189" target="_blank">건강상담</a></dd>
+
+									</dl>
+
+								</li>
+
+								<li>
+
+									<dl>
+
+										<!-- <dt><a href="#" class="dep2">신고센터</a></dt> -->
+
+										<dt><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMDA" class="dep2" target="_blank">신고센터</a></dt>
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMDA" target="_blank">부당청구요양기관신고포상</a></dd>
+
+										<dd><a href="https://www.whistleblower.co.kr/report/" target="_blank">익명신고(스마트휘슬)</a></dd> <!-- 14.10.02 url 변경함 -->
+
+										<dd><a href="#" onclick="clickMenu('G7700'); return false;" target="_blank">예산낭비신고</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G7600'); return false;" target="_blank">부패신고(사이버감사실)</a></dd>
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMDE02" target="_blank">거짓청구요양기관명단공표</a></dd>
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMDF" target="_blank">의료이용고충상담신고</a></dd>
+
+									</dl>
+
+								</li>
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" onclick="clickMenu('C4000'); return false;" class="dep2">서식자료실</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('C4100'); return false;">전체서식</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('C4200'); return false;">자격</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('C4300'); return false;">사업장</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('C4400'); return false;">보험료부과</a></dd>
+
+										<dd><a href="http://si4n.nhis.or.kr/jpza/external_link.jp?targetKind=PP&amp;targetUrl=/jpcf/Jpcf100_r1Cmd_ori.jp" target="_blank">보험료징수</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('C4600'); return false;">보험급여</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('C4700'); return false;">건강검진</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('C4800'); return false;">의료급여</a></dd>
+
+									</dl>
+
+								</li>
+
+
+							</ul>
+
+						</div>
+
+						<!-- //민원신청 -->
+
+					</li>
+
+					<li class="lm m3">
+
+						<a href="#" class="mn"><img src="/static/images/common/layout/header/gnb_mn03.gif" alt="뉴스&middot;소식" /></a>
+
+						<!-- 뉴스&middot;소식 -->
+
+						<div class="gnb_sbox">
+
+							<ul class="gnb">
+
+								<li><a href="#" class="dep2" onclick="clickMenu('D1000'); return false;">담배소송</a></li>
+
+								<li><a href="#" class="dep2" onclick="clickMenu('D2000'); return false;">새소식</a></li>
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2">행사안내</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('D3100'); return false;">행사안내</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('D3200'); return false;">포토뉴스</a></dd>
+
+									</dl>
+
+								</li>
+
+								<li><a href="#" class="dep2" onclick="clickMenu('D4000'); return false;">보도자료</a></li>
+
+								<li><a href="#" class="dep2" onclick="clickMenu('D5000'); return false;">웹진</a></li>
+
+								<li><a href="#" class="dep2" onclick="clickMenu('D6000'); return false;">공고/입찰</a></li>
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2">채용</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('D7100'); return false;">인재상</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('D7200'); return false;">채용</a></dd>
+
+										<dd><a href="http://job.alio.go.kr/">JOB-ALIO</a></dd>
+
+									</dl>
+
+								</li>
+
+							</ul>
+
+						</div>
+
+						<!-- //뉴스&middot;소식 -->
+
+					</li>
+
+					<li class="lm m4">
+
+						<a href="#" class="mn"><img src="/static/images/common/layout/header/gnb_mn04.gif" alt="국민참여" /></a>
+
+						<!-- 국민참여 -->
+
+						<div class="gnb_sbox">
+
+							<ul class="gnb">
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2" onclick="clickMenu('E1000'); return false;">국민토론방</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('E1100'); return false;">토론방 안내</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('E1200'); return false;">토론방</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('E1300'); return false;">지난토론보기</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('E1400'); return false;">토론 주제 등록</a></dd>
+
+									</dl>
+
+									<p class="dep2_txt"><a href="#" class="dep2" onclick="clickMenu('E2000'); return false;">자유게시판</a></p>
+
+									<p class="dep2_txt"><a href="#" class="dep2" onclick="clickMenu('E3000'); return false;">이사장과의 대화</a></p>
+
+								</li>
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2" onclick="clickMenu('E4000'); return false;">고객제안</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('E4100'); return false;">고객제안 안내</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('E4200'); return false;">고객제안 등록</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('E4300'); return false;">나의 제안 확인</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('E4400'); return false;">제안사례</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('E4500'); return false;">우수고객제안</a></dd>
+
+									</dl>
+
+								</li>
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2" onclick="clickMenu('E5000'); return false;">IT 기술제안</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('E5100'); return false;">안내</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('E5200'); return false;">IT제품 제안신청서 등록</a></dd>
+
+									</dl>
+
+									<p class="dep2_txt"><a href="#" class="dep2" onclick="clickMenu('E6000'); return false;">홈페이지 개선의견</a></p>
+
+								</li>
+
+								
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2" onclick="clickMenu('E7000'); return false;">모니터단 커뮤니티</a></dt><!-- 0915 수정 -->
+										
+
+										<dd><a href="#" onclick="clickMenu('E7100'); return false;">모니터단 소개</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('E7200'); return false;">알려드립니다</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('E7300'); return false;">자유토론광장</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('E7400'); return false;">개선과제제출</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('E7500'); return false;">모니터단활동내역</a></dd>
+
+									</dl>
+
+									<p class="dep2_txt"><a href="#" class="dep2" onclick="clickMenu('E8000'); return false;">건강사랑방</a></p>
+
+								</li>
+
+							</ul>
+
+						</div>
+
+						<!-- //국민참여 -->
+
+					</li>
+
+					<li class="lm m5">
+
+						<a href="#" class="mn"><img src="/static/images/common/layout/header/gnb_mn05.gif" alt="정부3.0 정보공개" /></a>
+
+						<!-- 정부3.0 정부공개 -->
+
+						<div class="gnb_sbox">
+
+							<ul class="gnb">
+
+								<li>
+
+									<p class="dep2_txt"><a href="#" class="dep2" onclick="clickMenu('F1000'); return false;">정보공개제도 안내</a></p>
+
+									<p class="dep2_txt"><a href="#" class="dep2" onclick="clickMenu('F2000'); return false;">정보목록</a></p>
+
+									<!-- <p class="dep2_txt"><a href="#" class="dep2" onclick="clickMenu('F3000'); return false;">사전정보공개</a></p> -->
+									<!-- 1001 수정 및 추가 -->
+										<!-- <p class="dep2_txt"><a href="#" class="dep2">사전정보공개</a></p> -->
+										<dl>
+											<dt><a href="#" class="dep2" onclick="clickMenu('F3000'); return false;">사전정보공개</a></dt>
+											<dd><a href="#" onclick="clickMenu('F3100'); return false;">국민생활관련정보</a></dd>
+											<dd><a href="#" onclick="clickMenu('F3200'); return false;">법령 및 업무기준 관련 정보</a></dd>
+											<dd><a href="#" onclick="clickMenu('F3300'); return false;">통계관련 정보</a></dd>
+											<dd><a href="#" onclick="clickMenu('F3400'); return false;">기타 사무관련 정보</a></dd>
+										</dl>
+										<!--// 1001 추가 -->
+									<p class="dep2_txt"><a href="#" class="dep2" onclick="clickMenu('F7000'); return false;">통합공시</a></p>
+
+								</li>
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2" onclick="clickMenu('F4000'); return false;">경영공시</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('F4100'); return false;">공시개요</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('F4200'); return false;">일반현황</a></dd>
+										
+										<dd><a href="#" onclick="clickMenu('F4B00'); return false;">기관운영</a></dd>
+										
+										<dd><a href="#" onclick="clickMenu('F4300'); return false;">비전 및 전략</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('F4500'); return false;">경영혁신(개선)</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('F4600'); return false;">사업계획 및 사업실적</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('F4700'); return false;">재정현황</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('F4800'); return false;">내외부평가</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('F4A00'); return false;">기타정보 및 참여마당</a></dd>
+
+									</dl>
+
+								</li>
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2" onclick="clickMenu('F5000'); return false;">정보공개청구</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('F5100'); return false;">정보공개서식</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('F5200'); return false;">정보공개신청</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('F5300'); return false;">정보공개진행상황확인</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('F5400'); return false;">정보공개 공표목록</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('F5500'); return false;">사전공표대상정보</a></dd>
+
+									</dl>
+
+								</li>
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2" onclick="clickMenu('F6000'); return false;">공공데이터 개방</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('F6100'); return false;">공공데이터 개방 정책</a></dd>
+
+										<dd><a href="https://www.data.go.kr/#/L21haW4=" target="_blank">공공데이터 포털</a></dd>
+										
+										<dd><a href="http://www.nhis.or.kr/images/kim2/F6300_1.pdf" target="_blank">공공데이터 활용 사례집</a></dd>
+										
+									</dl>
+
+									<dl>
+										<dt><a href="#" class="dep2" onclick="clickMenu('F3210'); return false;">법령 및 업무기준<br/> 관련 정보</a></dt>
+										<dd><a href="#" onclick="clickMenu('F3210'); return false;">법령자료실</a></dd>
+										<dd><a href="#" onclick="clickMenu('F3220'); return false;">내부규정자료실</a></dd>
+										<dd><a href="#" onclick="clickMenu('F3230'); return false;">규정 제&middot;개정 예고</a></dd>
+										<dd><a href="#" onclick="clickMenu('F3240'); return false;">소송/법률고문 현황</a></dd>
+										<dd><a href="#" onclick="clickMenu('F3250'); return false;">요양급여기준</a></dd>
+										<dd><a href="http://www.longtermcare.or.kr/portal/site/nydev/B0018/" target="_blank" title="새창열기">장기요양급여기준</a></dd>
+									</dl>
+									
+								</li>
+
+							</ul>
+
+						</div>
+
+						<!-- //정부3.0 정부공개 -->
+
+					</li>
+
+					<li class="lm m6">
+
+						<a href="#" class="mn"><img src="/static/images/common/layout/header/gnb_mn06.gif" alt="공단소개" /></a>
+
+						<!-- 공단소개 -->
+
+						<div class="gnb_sbox">
+
+							<ul class="gnb">
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2" onclick="clickMenu('G1000'); return false;">공단소개</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('G1100'); return false;">이사장</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G1200'); return false;">비전 및 핵심가치</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G1300'); return false;">이사회</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G1400'); return false;">공단견학</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G1500'); return false;">QR코드 및 CI소개</a></dd>
+
+									</dl>
+
+									<dl>
+
+										<dt><a href="#" class="dep2" onclick="clickMenu('G2000'); return false;">조직도</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('G2100'); return false;">조직도</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G2200'); return false;">직원찾기</a></dd>
+
+									</dl>
+
+									<p class="dep2_txt"><a href="#" class="dep2" onclick="clickMenu('G3000'); return false;">지역본부</a></p>
+
+								</li>
+
+								<li>
+
+									<p class="dep2_txt"><a href="#" class="dep2" onclick="clickMenu('G4000'); return false;">찾아오시는 길</a></p>
+
+									<dl>
+
+										<dt><a href="#" class="dep2" onclick="clickMenu('G5000'); return false;">사이버 홍보관</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('G5100'); return false;">민원해결사</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G5200'); return false;">포스터/리플릿</a></dd>
+										<dd><a href="#" onclick="clickMenu('G5300'); return false;">건강보험화보집</a></dd>
+										<dd><a href="#" onclick="clickMenu('G5400'); return false;">홍보브로슈어</a></dd>
+
+									</dl>
+
+									<dl>
+
+										<dt><a href="#" class="dep2" onclick="clickMenu('G6000'); return false;">사회공헌</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('G6100'); return false;">봉사단소개</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G6210'); return false;">사랑나누기</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G6300'); return false;">나눔이야기</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G6410'); return false;">나눔매거진</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G6510'); return false;">알림마당</a></dd>
+
+									</dl>
+
+								</li>
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2" onclick="clickMenu('G7000'); return false;">윤리경영</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('G7100'); return false;">이사장윤리경영실천의지</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G7200'); return false;">윤리경영의소개</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G7300'); return false;">윤리행동기준</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G7400'); return false;">윤리적의사결정기준</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G7500'); return false;">윤리경영 활동소식</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G7600'); return false;">사이버신고/상담센터</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G7700'); return false;">예산낭비신고센터</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G7800'); return false;">자료실</a></dd>
+
+									</dl>
+
+								</li>
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2" onclick="clickMenu('G8000'); return false;">고객만족경영</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('G8100'); return false;">고객만족경영체계</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G8200'); return false;">고객헌장</a></dd>
+
+									</dl>
+
+									<dl>
+
+										<dt><a href="#" class="dep2" onclick="clickMenu('G9000'); return false;">건강보험정책연구원</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('G9100'); return false;">연구원소개</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G9200'); return false;">연구자료실</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G9310'); return false;">한국의 사회보장</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G9400'); return false;">외국의 건강보험제도</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G9500'); return false;">관련사이트</a></dd>
+
+									</dl>
+
+								</li>
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2" onclick="clickMenu('GA000'); return false;">이의신청위원회</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('GA100'); return false;">이의신청위원회란?</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('GA200'); return false;">이의신청제도안내</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('GA300'); return false;">이의신청 관련 법령</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('GA400'); return false;">이의신청 관련 용어설명</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('GA500'); return false;">이의신청제도 소개(FAQ)</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('GA600'); return false;">이의신청 서식</a></dd>
+
+										<dd><a href="http://minwon.nhis.or.kr/wbm/ja/retrieveObjtnAplyIndexView.xx" target="_blank">이의신청바로가기</a></dd>
+										
+									</dl>
+
+									<p class="dep2_txt"><a href="http://idcwww.nhis.or.kr/viewer30_new/cooperative/index.htm" class="dep2" target="_blank" title="새창열기">의료사회적협동조합<br/>인가 신청 바로알기</a></p>
+									
+								</li>
+								
+
+							</ul>
+
+						</div>
+
+						<!-- //공단소개-->
+
+					</li>
+
+					<li class="lm m7">
+
+						<a href="#" class="mn"><img src="/static/images/common/layout/header/gnb_mn07.gif" alt="전체보기" /></a>
+
+						<!-- 전체보기 -->
+
+						<div class="gnb_sbox">
+
+							<ul class="gnb">
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2">제도소개</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('B1000'); return false;">한국의 사회보장</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('B2000'); return false;">국민건강보험</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('B3000'); return false;">노인장기요양보험</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('B4000'); return false;">사회보험 징수통합</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('B7000'); return false;">임신/출산/양육</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('B5000'); return false;">외국의 건강보험제도</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('B6000'); return false;">건강보험과 민간보험</a></dd>
+
+									</dl>
+
+								</li>
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2">민원신청</a></dt>
+
+										<!-- <dd><a href="#" onclick="clickMenu('')">민원신청</a></dd> -->
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMCA01" target="_blank">개인민원</a></dd>
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMCB" target="_blank">사업장민원</a></dd>
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMB"  target="_blank">상담문의</a></dd>
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMDA" target="_blank">신고센터</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('C4000'); return false;">서식자료실</a></dd>
+
+										<dd><a href="http://minwon.nhis.or.kr/menu/retriveMenuSet.xx?menuId=MENU_WBMEB01" target="_blank">자주묻는질문</a></dd>
+
+									</dl>
+
+								</li>
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2">뉴스&middot;소식</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('D1000'); return false;">담배소송</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('D2000'); return false;">새소식</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('D3000'); return false;">행사안내</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('D4000'); return false;">보도자료</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('D5000'); return false;">웹진</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('D6000'); return false;">공고/입찰</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('D7000'); return false;">채용</a></dd>
+
+									</dl>
+
+								</li>
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2">국민참여</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('E1000'); return false;">국민 토론방</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('E2000'); return false;">자유게시판</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('E3000'); return false;">이사장과의 대화</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('E4000'); return false;">고객제안</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('E5000'); return false;">IT 기술제안</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('E6000'); return false;">홈페이지 개선의견</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('E7000'); return false;">모니터단 커뮤니티</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('E8000'); return false;">건강사랑방</a></dd>
+									</dl>
+
+								</li>
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2">정보공개</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('F1000'); return false;">정보공개제도 안내</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('F2000'); return false;">정보목록</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('F3000'); return false;">사전정보공개</a></dd>
+										
+										<dd><a href="#" onclick="clickMenu('F7000'); return false;">통합공시</a></dd><!-- 추가 1210 -->
+
+										<dd><a href="#" onclick="clickMenu('F4000'); return false;">경영공시</a></dd><!-- 추가 0822 -->
+
+										<dd><a href="#" onclick="clickMenu('F5000'); return false;">정보공개청구</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('F6000'); return false;">공공데이터 개방</a></dd>
+
+									</dl>
+
+								</li>
+
+								<li>
+
+									<dl>
+
+										<dt><a href="#" class="dep2">공단소개</a></dt>
+
+										<dd><a href="#" onclick="clickMenu('G1000'); return false;">공단소개</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G2000'); return false;">조직도</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G3000'); return false;">지역본부</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G4000'); return false;">찾아오시는길</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G5000'); return false;">사이버 홍보관</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G6000'); return false;">사회공헌</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G7000'); return false;">윤리경영</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G8000'); return false;">고객만족경영</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('G9000'); return false;">건강보험정책연구원</a></dd>
+
+										<dd><a href="#" onclick="clickMenu('GA000'); return false;">이의신청위원회</a></dd>
+										<dd><a href="http://idcwww.nhis.or.kr/viewer30_new/cooperative/index.htm" target="_blank" title="새창열기">의료사회적협동조합<br/>인가 신청 바로알기</a></dd>
+
+									</dl>
+
+								</li>
+
+							</ul>
+							<span class="close"><a href="#"><img src="/static/images/common/layout/header/btn_close.gif" alt="닫기" /></a></span><!-- 0917 버튼 위치 변경 -->
+						</div>
+
+						<!-- //전체보기-->
+
+					</li>
+
+				</ul>
+
+				<!-- //gnb -->
+<!-- 				<span class="close"><a href="#"><img src="/static/images/common/layout/header/btn_close.gif" alt="닫기" /></a></span> --><!-- 0917 버튼 위치 변경 -->
+			</div>
+
+		</div>
+
+		<!-- //gnb 영역 -->
+		
+		
+		<!-- 통합검색 -->
+		<!-- 랭킹N자동검색어 -->
+		<div class="header_box">
+
+			<!-- 랭킹 -->
+			<!-- <div class="ranking_area">
+
+				<div class="ranking_con">
+					<div id="realPopkeywordRolling"></div>
+					
+					<a href="#" class="ct" id="rolling_button"><img src="/static/images/common/layout/header/btn_stop.gif" alt="자동검색어 순위 정지" /></a>
+
+	
+	
+					<a href="#"  class="que" onclick="window.open('/static/html/wbdy/pop_wbdy.html','_blank','width=800,height=600,history=no,resizable=no,status=no,scrollbars=yes,menubar=no,left=100,top=100');" title="새창">
+						<img src="/static/images/common/layout/header/btn_que.gif" alt="통합검색 도움말" />
+					</a>
+					
+				</div>
+
+				랭킹 box
+				<div class="ranking_box" id="pop_pop"></div>
+				랭킹 box
+
+			</div> -->
+			<!-- //랭킹 -->
+
+			<div class="wordSearch_area">
+
+				<div class="search_bar">
+
+					<input type="text" title="검색어 입력" id="query" class="intxt" name="query" onkeypress="if (event.keyCode==13) { go_search(); return false; }" value="통합검색"/>
+
+					<label for="query"><a href="#" class="btn" onclick="go_search();" title="새창열기"><img src="/static/images/common/layout/header/btn_search.gif" alt="검색" /></a></label>
+
+				</div>
+
+				<!-- 자동 검색어 box-->
+				<div id="ark"></div>
+				<!-- //자동 검색어 box-->
+
+			</div>
+
+		</div>
+		<!-- //랭킹N자동검색어 -->
+		<!-- 통합검색 -->
+	</div>
+
+	<hr />
+
+</div>
+
+<!-- //header -->
+
+
+	<!-- 헤더 -->
+
+	<div id="container" class="container">
+		<!-- 레프트 -->
+		
+		
+		
+
+<!-- left 회원서비스 -->
+<div class="left_wrap" id="lnb">
+	<h2 class="ltit"><img src="/static/images/wbdz/ltit_member.gif" alt="회원서비스" /></h2><!-- 0917 alt수정 -->
+	<!-- lnb -->
+	<div class="lnb_area">
+		<ul>
+			<li id="M1000"><a href="#" onclick="clickMenu('M1000')">로그인</a></li>
+			<li id="M2000"><a href="#" onclick="clickMenu('M2000')">회원가입</a></li>
+			<li id="M3000"><a href="#" onclick="clickMenu('M3000')">아이디/비밀번호찾기</a></li>
+		</ul>
+	</div>
+	<!-- //lnb -->
+	
+	<!-- bnr -->
+	<div class="left_bnr">
+		<ul>
+			<li><a href="#" onclick="clickMenu('A1000')"><img src="/static/images/common/layout/left/bnr_mypage.gif" alt="마이페이지" /></a></li>
+			<li><a href="#" onclick="clickMenu('C0000')"><img src="/static/images/common/layout/left/bnr_minwon.gif" alt="민원신청" /></a></li>
+			<li><a href="#" onclick="clickMenu('C4000')"><img src="/static/images/common/layout/left/bnr_reference.gif" alt="서식자료실" /></a></li>
+			<li><a href="#" onclick="clickMenu('G4000')"><img src="/static/images/common/layout/left/bnr_map.gif" alt="오시는길" /></a></li>
+			<li>
+			<a href="http://www.nhis.or.kr/helpcom_new/hc_user_main.jsp" target="_blank" title="팝업 열림" onclick="window.open(this.href,'_blank','width=740,height=600,scrollbars=yes,status=1,left=0,top=0'); return false;" onkeypress="if(event.keyCode == 13){ this.onclick(); }">
+			<img src="/static/images/common/layout/left/bnr_help.gif" alt="온라인 도우미" /></a></li>
+			<li><a href="http://si4n.nhis.or.kr/jpae/Jpae300_r1_ori.jp" target="_blank"><img src="/static/images/common/layout/left/bnr_fax.gif" alt="팩스수신조회" /></a></li>
+		</ul>
+	</div>
+	<!-- //bnr -->
+	<hr />
+</div>
+<!-- //left -->
+		<!-- 레프트 --> 
+
+		<!-- 구분 : 일반 -->
+		<div id="contents" class="contents wbdz_wrap">
+			<!-- location -->
+			
+
+
+
+
+
+
+<!-- location -->
+<div id="location_wrap" class="location_wrap">
+	<div class="location_area">
+		<a href="/index.jsp" class="home" title="홈으로 이동">홈</a>&nbsp;&gt;&nbsp;
+		
+	</div>
+</div>
+<script type="text/javaScript" language="javascript">
+//<![CDATA[
+var pageLocation = []; //location 정보목록
+var $locationArea = $(".location_area"); //location 정보 표출 위치
+var removeLocation = function(selectedText) { //location 정보 푸쉬
+	if(selectedText == "" || selectedText == "undefined") {
+		return;
+	}
+	var menuText = ("" + selectedText).replace(/[^(가-힣ㄱ-ㅎㅏ-ㅣa-zA-z0-9)]|\s/gi, "");
+	var len = pageLocation.length;
+	for(var i = 0; i < len; i++) {
+		var t = String(pageLocation[i]); 
+		t = ""+t.replace(/[^(가-힣ㄱ-ㅎㅏ-ㅣa-zA-z0-9)]|\s/gi, "");
+		if(t == menuText) {
+			pageLocation.splice(i, 1);
+			break;
+		}
+	}
+};
+var pushLocation = function(selectedText) { //location 정보 푸쉬
+	if(selectedText == "" || selectedText == "undefined") {
+		return;
+	}
+	if(selectedText.indexOf("_") > -1) {
+		pushLocation(selectedText.split("_")[0]);
+		pushLocation(selectedText.split("_")[1]);
+	} else if(selectedText.indexOf("(개인)") > -1) {
+		pushLocation(selectedText.replace("(개인)", ""));
+	} else {
+		removeLocation(selectedText);
+		pageLocation.push(selectedText);
+	}
+};
+var makeLocationArea = function(pageLocationArray) { //location정보 표출
+	$locationArea.html("<a href=\"/index.jsp\" class=\"home\" title=\"홈으로 이동\">홈</a>&nbsp;&gt;&nbsp;<span>" + pageLocationArray.join("</span>&nbsp;&gt;&nbsp;<span>") + "</span>");
+	$locationArea.find("span:last-child").addClass("on");
+	
+	$("#surveyCategory").val("국민건강보험공단 > " + pageLocation.join(" > "));
+};
+//전체 처리
+var procMakeLocationArea = function() {
+	try {
+		var $iframeContent = $($("#contents #cntnt1Frame")[0].contentWindow.document);
+		$("#contents iframe").attr("allowTransparency", "true");
+		$iframeContent.find("body").css("background", "transparent");
+		
+		pushLocation(""+$("div.lnb_area li.dep3.on li.on>a").text()); //왼쪽메뉴  3depth
+		pushLocation(""+$("#contents h3>img").attr("alt")); //헤더 타이틀
+		pushLocation(""+$iframeContent.find("h3>img").attr("alt")); //iframe안의 헤더 타이틀
+		
+		var $selectedMenus = $iframeContent.find("ul.tab_con>li.on a, ul.tab_con>li.on>ul.stab_con>li.on a").parent("li.on").find(">a"); //iframe안의 탭메뉴들
+		$selectedMenus.each(function() {
+			pushLocation($(this).text());
+		});
+
+		//depth 제한
+		var $stabMenus = $iframeContent.find(".stab_area02 ul.stab_con>li.on a").parent("li.on").find(">a");
+		$stabMenus.each(function() {
+			removeLocation($(this).text());
+		});
+		var $stitMenus = $iframeContent.find("h6.stit");
+		$stitMenus.each(function() {
+			removeLocation($(this).text());
+		});
+		makeLocationArea(pageLocation);
+	} catch(e) {
+	} finally { }
+};
+//iframe안에서 이동시 처리
+var procIframeMakeLocationArea = function(id) {
+	try {
+		var $iframeContent = $($("#contents #" + id)[0].contentWindow.document);
+		var $selectedMenu = $iframeContent.find("ul.tab_con>li.on a, ul.tab_con>li.on>ul.stab_con>li.on a").parent("li.on").find(">a"); //선택된 탭메뉴들
+		if($selectedMenu.length > 0) {
+			pageLocation = pageLocation.slice(0, 3);
+			
+			$selectedMenu.each(function() {
+				removeLocation($(this).text()); //depth만큼 제거
+			});
+			$selectedMenu.each(function() {
+				pageLocation.push($(this).text()); //depth만큼 추가
+			});
+		}
+		
+		//로그인 관련 정보
+		if(typeof $iframeContent.find(".tab_area02>ul>li.on>a>img")[0] != "undefined") {
+			var type = $iframeContent.find(".tab_area02>ul>li.on>a>img").attr("alt");
+			for(var i in pageLocation) {
+				var title = pageLocation[i];
+				if(title.indexOf("로그인") > -1) {
+					removeLocation("로그인");
+					pageLocation[i] = "로그인("+ type +")";
+					break;
+				}
+			}
+		}
+		var $a = $iframeContent.find("div.agree_tit:eq(0) h4, h6.stit:eq(0), table.tbl_list caption:eq(0), table.tbl_view caption:eq(0), table.tbl_wrt caption:eq(0), div.step_area~h4.blind");
+		makeLocationArea(pageLocation);
+		document.title = "국민건강보험공단 > " + pageLocation.join(" > ");
+		
+		//타이틀 추가 항목들
+		var titleArray = pageLocation.slice(0);
+		$a.each(function() {
+				var title = $(this).text();
+				
+				var lastTitle = titleArray.pop();
+				if(title != "" && title.replace(/[space]/gi, "") != lastTitle.replace(/[space]/gi, "")) {
+					titleArray.push(lastTitle);
+				}
+				titleArray.push(title);
+			});
+		if(pageLocation.length < titleArray.length) {
+			for(var i in titleArray) {
+				var title = titleArray[i];
+				if(title.indexOf("목록") > -1 && titleArray[i-1] == title.split(" ")[0]) {
+					titleArray.splice(i-1, 1);
+					break;
+				}
+			}
+			document.title = "국민건강보험공단 > " + titleArray.join(" > ");
+		}
+	} catch(e) {
+	} finally { }
+};
+
+
+	pushLocation("회원서비스(개인)");
+
+	pushLocation("로그인(개인)");
+
+
+//main
+setTimeout(function() {
+	(function(count) {
+		if(count < 3) {
+			procMakeLocationArea();
+
+			makeLocationArea(pageLocation.slice(0, 3));
+			$("#contents iframe").load(function() { //iframe안에서 html 링크 탭 이동시
+				var id = $(this).attr("id");
+				(function(count) {
+					if(count < 5) {
+						procIframeMakeLocationArea(id);
+						
+						var caller = arguments.callee;
+						window.setTimeout(function() {
+							caller(count + 1);
+						}, 200);
+					}
+				})(0);
+			});
+			$("#contents iframe[id^=cntnt]").each(function() {
+				var id = $(this).attr("id");
+				procIframeMakeLocationArea(id);
+			});
+			
+			var caller = arguments.callee;
+			window.setTimeout(function() {
+				caller(count + 1);
+			}, 200);
+		}
+	})(0);
+}, 300);
+//]]>
+</script>
+			<!-- location -->
+
+			<!-- contents -->
+			<!-- 콘텐츠 영역 추가 DB에서 유동적으로 처리할 수 있도록 개발하여야 함. -->
+			<div id="c_area">
+				
+				
+				
+					<iframe id="cntnt1Frame" name="cntnt1Frame" marginheight="0" marginwidth="0" align="left" width="100%" frameborder="0" scrolling="no" title="로그인(개인)" src="/wbd/login/personalLoginPage.xx"></iframe>
+				
+
+				
+
+				
+			</div>
+			<!-- 콘텐츠 영역 추가 DB에서 유동적으로 처리할 수 있도록 개발하여야 함. -->
+			<!-- contents -->
+			
+			
+			<!-- bottom -->
+				<div class="com_box">
+				<!-- 담당자... include 영역 -->
+				
+
+
+<script type="text/javascript" language="javascript">
+	
+	//즐겨찾기 등록
+	function insertMyFavorite(){
+		gfn_ajaxSubmit(
+			"/wbd/hb/insertMyFavorite.do",
+			{
+				"bookmarkurl":$("#menuId").val()
+			},
+			insertMyFavoriteCallback,
+			false
+		);
+	}
+
+	function insertMyFavoriteCallback(xml){
+		if($(xml).find("result").text() == 'success'){
+			alert("즐겨찾기에 등록되었습니다.");
+		}else if ($(xml).find("result").text() == 'errCountOver'){
+			alert("즐겨찾기 등록에 실패하였습니다. \\n\\n즐겨찾기 등록은 40개까지만 가능합니다.\\n마이포털의 즐겨찾기 리스트 화면에서 \\n불필요한 즐겨찾기를 삭제하신 후 사용해주세요.");
+		} else{
+			alert("즐겨찾기 등록이 실패하였습니다.");
+		}
+	}
+	
+	//인쇄하기
+	function printWindowOpen()
+	{
+		var frm = $("#printFrm");
+		$("#iframeUrl1").val($("#cntnt1Frame").attr("src"));
+		$("#iframeUrl2").val($("#cntnt2Frame").attr("src"));
+		$("#iframeUrl3").val($("#cntnt3Frame").attr("src"));
+		$("#iframeMenuId").val($("#menuId").val());
+		var win = window.open("", "printPop", "width=820,height=600,scrollbars=yes");
+		frm.attr("action", "/wbd/hb/printOpenPop.xx");
+		frm.attr("target", "printPop");
+		frm.submit();
+		win.focus();
+	}
+	
+</script>
+<!-- 공통 하단박스 -->
+<form id="printFrm" method="post" action="">
+	<input type="hidden" name="iframeUrl1" id="iframeUrl1"/>
+	<input type="hidden" name="iframeUrl2" id="iframeUrl2"/>
+	<input type="hidden" name="iframeUrl3" id="iframeUrl3"/>
+	<input type="hidden" name="iframeMenuId" id="iframeMenuId"/>
+</form>
+<input type="hidden" name="bookmarkurl" id="bookmarkurl"/>
+<div class="com_box">
+	<!-- 뷰어 다운로드 -->
+	<div class="combtn_area">
+		<dl class="viewdown">
+			<dt><img src="/static/images/common/txt/txt_viewDown01.gif" alt="뷰어 다운로드" /></dt>
+			<dd>
+				<a href="http://www.hancom.co.kr/downLoad.downPU.do?mcd=002" target="_blank" title="한글 다운로드"><img src="/static/images/common/btn/btn_hwp01.gif" alt="한글" /></a>
+				<a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=1cd6acf9-ce06-4e1c-8dcf-f33f669dbc3a&amp;DisplayLang=ko" target="_blank" title="엑셀 다운로드"><img src="/static/images/common/btn/btn_xls01.gif" alt="엑셀" /></a>
+				<a href="http://www.adobe.com/kr/products/acrobat/readstep2.htm" target="_blank" title="아크로벳 다운로드"><img src="/static/images/common/btn/btn_pdf01.gif" alt="아크로벳" /></a>
+			</dd>
+		</dl>
+		<!-- 버튼 영역 -->
+		<div class="btn_area">
+			<div class="btn_r">
+				<a href="#" onclick="javascript:printWindowOpen(); return false;" title="새창"><img src="/static/images/common/btn/btn_print01.gif" alt="인쇄하기" /></a><!-- 0918 a태그 title 수정 -->
+				
+				<a href="#" title="맨위로 이동"><img src="/static/images/common/btn/btn_top01.gif" alt="맨 위로" /></a>
+			</div>
+		</div>
+		<!-- //버튼 영역 -->
+	</div>
+	<!-- //뷰어 다운로드 -->
+	<!-- 만족도 -->
+	<form action="" id="satisfy" method="post">
+		<div class="poll_area">
+			<div class="poll_box">
+				<fieldset>
+					<legend>열람정보 만족도 조사</legend>
+					<h4>페이지의 내용이나 사용 편의성에 대해 만족하십니까?</h4>
+					<ul>
+						<li><input type="radio" class="ra" id="verygood"	value="5" name="surveyPoint" checked="checked" title="매우만족 선택"/><label for="verygood">매우만족</label></li>
+						<li><input type="radio" class="ra" id="good"		value="4" name="surveyPoint" title="만족 선택"/><label for="good">만족</label></li>
+						<li><input type="radio" class="ra" id="normal"		value="3" name="surveyPoint" title="보통 선택" /><label for="normal">보통</label></li>
+						<li><input type="radio" class="ra" id="bad"			value="2" name="surveyPoint" title="불만족 선택" /><label for="bad">불만족</label></li>
+						<li><input type="radio" class="ra" id="bad_more"	value="1" name="surveyPoint" title="매우 불만족 선택" /><label for="bad_more">매우 불만족</label></li>
+					</ul>
+					<p class="txt">
+						<input type="text" class="intxt" id="surveyComment" title="만족도 입력" maxlength="1000" /><a href="#" class="btn" onclick="fn_insertSurveyResult();">
+						<img src="/static/images/common/btn/btn_confirm01.gif" alt="확인" /></a>
+					</p>
+				</fieldset>
+			</div>
+			<input type="hidden" id="surveySite"		name="surveySite"		value="main" />
+			<input type="hidden" id="surveyCategory"	name="surveyCategory"	value="제도소개 &gt; 한국의 사회보장 &gt; 사회보장의 정의" />
+		</div>
+	</form>
+	<!-- //만족도 -->
+</div>
+<!-- //공통 하단박스 -->
+				</div>
+				<!-- bottom -->
+			</div>
+		</div>
+		
+
+
+<script type="text/javascript" language="javascript">
+function fn_checkVal(type) {
+	if(type == "1") {
+		if($("#url1").val() == "") {
+			alert("관련사이트를 선택해 주세요.");
+			document.urlForm1.url1.focus();
+			return false;
+		}
+
+		var frm = $("#urlForm1");
+		frm.attr("action", "/jsp/common/goSite.jsp");
+		frm.attr("target", "_blank");
+		frm.submit();
+	} else {
+		if($("#url2").val() == "") {
+			alert("공단내부 관련사이트를 선택해 주세요.");
+			document.urlForm2.url2.focus();
+			return false;
+		}
+
+		var frm = $("#urlForm2");
+		frm.attr("action", "/jsp/common/goSite.jsp");
+		frm.attr("target", "_blank");
+		frm.submit();
+	}
+}
+
+</script>
+
+<!-- footer -->
+<div class="footer_wrap" id="footer_wrap">
+	<hr />
+	<div class="footer_util">
+		<div class="footer_con">
+			<ul class="list">
+				<li class="fst"><a href="#" onclick="clickMenu('H2200'); return false;"><img src="/static/images/common/layout/footer/f_util01.gif" alt="이용약관" /></a></li>
+				<li><a href="#" onclick="clickMenu('E6000'); return false;"><img src="/static/images/common/layout/footer/f_util02.gif" alt="홈페이지 개선의견" /></a></li>
+				<li><a href="#" onclick="clickMenu('G2200'); return false;"><img src="/static/images/common/layout/footer/f_util03.gif" alt="직원검색" /></a></li>
+				<li><a href="#" onclick="clickMenu('H2800'); return false;"><img src="/static/images/common/layout/footer/f_util04.gif" alt="뷰어다운로드" /></a></li>
+				<li><a href="#" onclick="clickMenu('H6000'); return false;"><img src="/static/images/common/layout/footer/f_util05.gif" alt="보안프로그램 장애해결" /></a></li>
+				<li><a href="#" onclick="clickMenu('H2600'); return false;"><img src="/static/images/common/layout/footer/f_util06.gif" alt="개인정보 처리방침" /></a></li><!-- 140911 대체텍스트 수정 -->
+			</ul>
+			<p class="telmap">
+				<a title="고객센터 서비스 자세히 보기(새창)" target="blank" href="http://minwon.nhis.or.kr/static/html/wbmg/c/wbmgc0101.html" onclick="window.open(this.href, '_blank', 'width=900,height=580'); return false;"><img src="/static/images/common/layout/footer/f_tel01.gif" alt="1577-1000" /></a>
+				<a href="#" onclick="javascript:clickMenu('G4000'); return false;"><img src="/static/images/common/layout/footer/f_map.gif" alt="찾아오시는 길" /></a>
+				<a href="http://www.nhis.or.kr/helpcom_new/hc_user_main.jsp" target="_blank" title="새창" onclick="window.open(this.href,'_blank','width=740,height=600,scrollbars=yes,status=1,left=0,top=0'); return false;" onkeypress="if(event.keyCode == 13){ this.onclick(); }"><img src="/static/images/common/layout/footer/f_online.gif" alt="온라인도우미" /></a>
+			</p>
+			<ul class="fsns">
+				<li><a href="http://www.facebook.com/nhis.korea" target="_blank" title="페이스북 새창"><img src="/static/images/common/layout/footer/f_fb.gif" alt="국민건강보험 페이스북" /></a></li>
+				<li><a href="http://www.twitter.com/nhis_kr" target="_blank " title="트위터 새창"><img src="/static/images/common/layout/footer/f_tw.gif" alt="국민건강보험 트위터" /></a></li>
+				<li><a href="http://blog.daum.net/nhicblog" target="_blank" title="국민건강보험 블로그 새창"><img src="/static/images/common/layout/footer/f_blog.gif" alt="국민건강보험 블로그" /></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer_con">
+		<p class="flogo"><a href="#" onclick="clickMenu('G8100'); return false;"><img src="/static/images/common/layout/footer/f_logo.jpg" alt="평생건강 With You" /></a></p>
+		<div class="addcopy">
+			<address><img src="/static/images/common/layout/footer/f_add.gif" alt="본 홈페이지에 게시된 이메일주소가 수집되는 것을 거부하며, 이를 위반시 정보통신망법에 의해 처벌됨을 유념하시기 바랍니다. 121-749 서울특별시 마포구 독막로 311(염리동) 국민건강보험공단   지사방문 : 09시~18시 (월~금)" /></address><!--// 1014 alt수정 -->
+			<p class="copy"><img src="/static/images/common/layout/footer/f_copy.gif" alt="COPYRIGHT© 2011 BY NATIONAL HEALTH INSURANCE ALL RIGHTS RESERVED.  " /></p>
+		</div>
+		<div class="mark">
+			<a href="http://www.nhis.or.kr/popup/mark_popup_isafe.html" target="_blank" title="팝업 열림" onclick="window.open(this.href,'_blank','width=747,height=750,scrollbars=yes,status=1,left=10,top=10'); return false;" onkeypress="if(event.keyCode == 13){ this.onclick(); }">
+				<img src="/static/images/common/layout/footer/f_isafe.jpg" alt="인터넷 사이트 안전마크" />
+			</a>
+			<a href="http://www.nhis.or.kr/popup/mark_popup_web.html" target="_blank" title="팝업 열림" onclick="window.open(this.href,'_blank','width=747,height=750,scrollbars=yes,status=1,left=10,top=10'); return false;" onkeypress="if(event.keyCode == 13){ this.onclick(); }">
+				<img src="/static/images/common/layout/footer/f_webmark.jpg" alt="웹접근성 품질마크 획득" />
+			</a>
+		</div>
+		<div class="familySite">
+			<div class="sel">
+				<form name="urlForm1" id="urlForm1" action="http://www.nhis.or.kr/jsp/common/goSite.jsp">
+				<select title="관련사이트 선택" name="url" id="url1">
+					<option value="" selected="selected">관련사이트</option>
+					<option value="http://xn--2i4bo5fgwadewe.kr">서울요양원</option>
+					<option value="http://www.nhimc.or.kr/">일산병원</option>
+					<option value="http://www.pisc.go.kr">행정정보공동이용센터</option>
+					<option value="http://www.nps.or.kr/">국민연금</option>
+					<option value="http://www.kcomwel.or.kr/main.jsp">근로복지공단</option>
+					<option value="http://www.mw.go.kr/">보건복지부</option>
+					<option value="http://www.acrc.go.kr/acrc/index.do">국민권익위원회</option>
+					<option value="http://www.giro.or.kr/">인터넷 지로납부</option>
+					<option value="http://www.hira.or.kr/">건강보험심사평가원</option>
+					<option value="http://www.clean.or.kr/">클린코리아</option>
+					<option value="http://www.egov.go.kr/">민원24</option>
+					<option value="http://www.129.go.kr/index.jsp?m=10&amp;s=20">보건복지부 인터넷채팅상담</option>
+					<option value="http://stat.mw.go.kr">보건복지부 통계포털</option>
+					<option value="http://www.khwis.or.kr">한국보건복지정보개발원</option>
+					<option value="http://www.korea.go.kr">대한민국전자정부</option>
+					<option value="http://www.ei.go.kr/index.jsp">고용보험 인터넷서비스</option>
+					<option value="http://total.kcomwel.or.kr/wx/kcw.w.wx.Main.do">고용 &middot; 산재보험 토탈서비스</option>
+					<option value="http://www.neca.re.kr">한국보건의료연구원</option>
+					<option value="http://www.k-medi.or.kr">한국의료분쟁조정중재원</option>
+					<option value="http://www.hikorea.go.kr">하이코리아</option>
+					<option value="http://www.obnhic.co.kr">국민건강보험 동우회</option>
+					<option value="http://www.4insure.or.kr">4대사회보험 정보연계센터</option>
+				</select>
+				<a href="#" onclick="javascript:fn_checkVal('1'); return false;" title="새창열기"><img alt="선택" src="/static/images/common/layout/footer/f_btn_sel.gif" /></a>
+				</form>
+			</div>
+			<div class="sel">
+				<form name="urlForm2" id="urlForm2" action="http://www.nhis.or.kr/jsp/common/goSite.jsp">
+				<select title="공단내부 관련사이트" name="url" id="url2">
+					<option value="" selected="selected">공단내부 관련사이트</option>
+					<option value="/static/html/wbd/i/a/wbdia0101.html">서울지역 본부사이트</option>
+					<option value="/static/html/wbd/i/b/wbdib0101.html">부산지역 본부사이트</option>
+					<option value="/static/html/wbd/i/c/wbdic0101.html">대구지역 본부사이트</option>
+					<option value="/static/html/wbd/i/d/wbdid0101.html">광주지역 본부사이트</option>
+					<option value="/static/html/wbd/i/e/wbdie0101.html">대전지역 본부사이트</option>
+					<option value="/static/html/wbd/i/f/wbdif0101.html">경인지역 본부사이트</option>
+					<option value="http://www.longtermcare.or.kr/">노인장기요양보험</option>
+					<option value="http://medi.nhis.or.kr/index.jsp">요양기관정보마당 사이트</option>
+					<option value="http://hi.nhis.or.kr/">건강iN 사이트</option>
+					<option value="http://jr.nhis.or.kr">주니어건강iN 사이트</option>
+					<option value="/jsp/wbk/wbkmain.jsp">어린이 사이트</option>
+					<option value="http://si4n.nhis.or.kr/">사회보험징수포털</option>
+					<option value="http://life.nhis.or.kr">국가건강검진교육연수원</option>
+					<option value="http://nhiss.nhis.or.kr">국민건강보험자료 공유서비스</option>
+					<option value="http://hrd.nhis.or.kr">건강보험공단 인재개발원</option>
+				</select>
+				<a href="#" onclick="javascript:fn_checkVal('2'); return false;" title="새창열기"><img alt="선택" src="/static/images/common/layout/footer/f_btn_sel.gif" /></a>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //footer -->
+
+</div>
+
+</body>
+</html>

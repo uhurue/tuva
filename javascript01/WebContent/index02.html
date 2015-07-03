@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<!-- 
+index.html과 같은 기능
+- closure를 이용해 timer 함수를 호출
+- 50만개의 .을 찍는 시간을 쟀다. 
+변경:
+timer 함수 부분 javascript를 html에서 단독 js로 분리 
+
+
+ -->
+<script type="text/javascript" src="timer.js"></script>
+
+<script>
+alert('test start');
+var timer = makeTimer();
+timer();
+for(var i=0; i<500000; i++)
+{
+	document.write(".");
+	if(i>0 && i%20000==0)
+	{
+		document.write("<br>");	
+	}
+}
+var laptime = timer();
+document.write("<br>laptime = " + laptime/1000.000 + " sec");
+
+</script>
+</head>
+<title>Insert title here</title>
+<body>
+<br> Here, html body~~ 
+</body>
+</html>

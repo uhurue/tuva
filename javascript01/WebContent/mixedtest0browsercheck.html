@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<!-- http로 요청하면 security는 표시되고, google도 나와야 하는데 구글쪽에서 iframe을 못쓰게 한듯 안 나온다.게시자에 의한 금지 -->
+<!-- https 요청하면 security는 mixed content로 차단되고, google은 http와 똑같이 게시자에 의한 금지 -->
+<body>
+<table>
+<tr>
+http site - securityfocus
+<br><iframe width="500" height="200" src="http://www.securityfocus.com"
+name="test1" id="test1" frameborder="1" scrolling="yes" align="left">
+frame not supported</iframe>
+</tr>
+<br>
+<tr>
+https site - google
+<br><iframe width="500" height="200" src="https://www.google.com"
+name="test2" id="test2" frameborder="1" scrolling="yes" align="left">
+frame not supported</iframe>
+</tr>
+</table>
+</body>
+</html>
