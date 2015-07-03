@@ -1,0 +1,599 @@
+﻿iocterm,ArpEntryItem,-,CacheType,ARP Cache Type
+iocterm,ArpEntryItem,-,IPv4Address,ARP IPv4 Address
+iocterm,ArpEntryItem,-,Interface,ARP Interface
+iocterm,ArpEntryItem,-,PhysicalAddress,ARP Physical Address
+iocterm,CookieHistoryItem,-,BrowserName,CookieHistory Browser Name
+iocterm,CookieHistoryItem,-,BrowserVersion,CookieHistory Browser Version
+iocterm,CookieHistoryItem,-,CookieFlags,CookieHistory Cookie Flags
+iocterm,CookieHistoryItem,-,CookieName,CookieHistory Cookie Name
+iocterm,CookieHistoryItem,-,CookiePath,CookieHistory Cookie Path
+iocterm,CookieHistoryItem,-,CookieValue,CookieHistory Cookie Value
+iocterm,CookieHistoryItem,-,CreationDate,CookieHistory Creation Date
+iocterm,CookieHistoryItem,-,ExpirationDate,CookieHistory Expiration Date
+iocterm,CookieHistoryItem,-,FileName,CookieHistory File Name
+iocterm,CookieHistoryItem,-,FilePath,CookieHistory File Path
+iocterm,CookieHistoryItem,-,HostName,CookieHistory Host Name
+iocterm,CookieHistoryItem,-,IsHttpOnly,CookieHistory IsHttpOnly
+iocterm,CookieHistoryItem,-,IsSecure,CookieHistory IsSecure
+iocterm,CookieHistoryItem,-,LastAccessedDate,CookieHistory Last Accessed Date
+iocterm,CookieHistoryItem,-,LastModifiedDate,CookieHistory Last Modified Date
+iocterm,CookieHistoryItem,-,Profile,CookieHistory Profile
+iocterm,CookieHistoryItem,-,Username,CookieHistory Username
+iocterm,DiskItem,-,DiskName,Disk Name
+iocterm,DiskItem,-,DiskSize,Disk Size
+iocterm,DiskItem,PartitionList,Partition,Disk Partition Length
+iocterm,DiskItem,PartitionList,Partition,Disk Partition Number
+iocterm,DiskItem,PartitionList,Partition,Disk Partition Offset
+iocterm,DiskItem,PartitionList,Partition,Disk Partition Type
+iocterm,DnsEntryItem,-,DataLength,DNS Data Length
+iocterm,DnsEntryItem,-,Flags,DNS Flags
+iocterm,DnsEntryItem,-,Host,DNS Host
+iocterm,DnsEntryItem,RecordData,Host,DNS Record Data Host
+iocterm,DnsEntryItem,RecordData,IPv4Address,DNS Record Data IPv4 Address
+iocterm,DnsEntryItem,-,RecordName,DNS Record Name
+iocterm,DnsEntryItem,-,RecordType,DNS Record Type
+iocterm,DnsEntryItem,-,TimeToLive,DNS Time To Live
+iocterm,DriverItem,-,CertificateIssuer,Driver Certificate Issuer
+iocterm,DriverItem,-,CertificateSubject,Driver Certificate Subject
+iocterm,DriverItem,DeviceItem,AttachedDeviceName,Driver Attached Device Name
+iocterm,DriverItem,DeviceItem,AttachedDeviceObject,Driver Attached Device Object
+iocterm,DriverItem,DeviceItem,AttachedDriverName,Driver Attached Driver Name
+iocterm,DriverItem,DeviceItem,AttachedDriverObject,Driver Attached Driver Object
+iocterm,DriverItem,DeviceItem,AttachedToDeviceName,Driver Attached To Device Name
+iocterm,DriverItem,DeviceItem,AttachedToDeviceObject,Driver Attached To Device Object
+iocterm,DriverItem,DeviceItem,AttachedToDriverName,Driver Attached To Driver Name
+iocterm,DriverItem,DeviceItem,AttachedToDriverObject,Driver Attached To Driver Object
+iocterm,DriverItem,DeviceItem,DeviceName,Driver Device Name
+iocterm,DriverItem,DeviceItem,DeviceObject,Driver Device Object
+iocterm,DriverItem,DeviceItem,DriverName,Driver Device Driver Name
+iocterm,DriverItem,-,DriverInit,Driver Init
+iocterm,DriverItem,-,DriverName,Driver Name
+iocterm,DriverItem,-,DriverObjectAddress,Driver Object Address
+iocterm,DriverItem,-,DriverStartIo,Driver StartIo
+iocterm,DriverItem,-,DriverUnload,Driver Unload
+iocterm,DriverItem,-,ImageBase,Driver Image Base
+iocterm,DriverItem,-,ImageSize,Driver Image Size
+iocterm,DriverItem,-,Md5sum,Driver Md5sum
+iocterm,DriverItem,PEInfo,BaseAddress,Driver PEInfo Base Address
+iocterm,DriverItem,PEInfo,DetectedAnomalies,Driver PEInfo Detected Anomalies
+iocterm,DriverItem,PEInfo,DetectedEntryPointSignature,Driver PEInfo Detected Entry Point Signature Name
+iocterm,DriverItem,PEInfo,DetectedEntryPointSignature,Driver PEInfo Detected Entry Point Signature Type
+iocterm,DriverItem,PEInfo,DigitalSignature,Driver Certificate Issuer
+iocterm,DriverItem,PEInfo,DigitalSignature,Driver Certificate Subject
+iocterm,DriverItem,PEInfo,DigitalSignature,Driver Signature Description
+iocterm,DriverItem,PEInfo,DigitalSignature,Driver Signature Exists
+iocterm,DriverItem,PEInfo,DigitalSignature,Driver Signature Verified
+iocterm,DriverItem,PEInfo,EpJumpCodes,Driver PEInfo EpJumpCodes Depth
+iocterm,DriverItem,PEInfo,EpJumpCodes,Driver PEInfo EpJumpCodes Opcodes
+iocterm,DriverItem,PEInfo,Exports,Driver Exported Function
+iocterm,DriverItem,PEInfo,Exports,Driver Exports Time Stamp
+iocterm,DriverItem,PEInfo,Exports,Driver Exports Dll Name
+iocterm,DriverItem,PEInfo,Exports,Driver Number Of Functions
+iocterm,DriverItem,PEInfo,Exports,Driver Number Of Names
+iocterm,DriverItem,PEInfo,ExtraneousBytes,Driver PEInfo Extraneous Bytes
+iocterm,DriverItem,PEInfo,ImportedModules,Driver Imported Function
+iocterm,DriverItem,PEInfo,ImportedModules,Driver Imported Module Name
+iocterm,DriverItem,PEInfo,PEChecksum,Driver PEInfo PEChecksum PEComputedAPI
+iocterm,DriverItem,PEInfo,PEChecksum,Driver PEInfo PEChecksum PEFileAPI
+iocterm,DriverItem,PEInfo,PEChecksum,Driver PEInfo PEChecksum PEFileRaw
+iocterm,DriverItem,PEInfo,PETimeStamp,Driver PEInfo PETimeStamp
+iocterm,DriverItem,PEInfo,Sections,Driver PEInfo Sections Section Detected Characteristics
+iocterm,DriverItem,PEInfo,Sections,Driver PEInfo Sections Section Detected Signature Keys
+iocterm,DriverItem,PEInfo,Sections,Driver PEInfo Sections Section Entropy CurveData float
+iocterm,DriverItem,PEInfo,Sections,Driver PEInfo Sections Section Name
+iocterm,DriverItem,PEInfo,Sections,Driver PEInfo Sections Section Size
+iocterm,DriverItem,PEInfo,Sections,Driver PEInfo Sections Section Type
+iocterm,DriverItem,PEInfo,Subsystem,Driver PEInfo Subsystem
+iocterm,DriverItem,PEInfo,Type,Driver PEInfo Type
+iocterm,DriverItem,-,Sha1sum,Driver Sha1sum
+iocterm,DriverItem,-,Sha256sum,Driver Sha256sum
+iocterm,DriverItem,-,SignatureDescription,Driver Signature Description
+iocterm,DriverItem,-,SignatureExists,Driver Signature Exists
+iocterm,DriverItem,-,SignatureVerified,Driver Signature Verified
+iocterm,DriverItem,StringList,string,Driver String
+iocterm,Email,Attachment,Content,Email attachment content
+iocterm,Email,Attachment,MIMEType,Email Attachment MIME Type
+iocterm,Email,Attachment,Name,Email Attachment Name
+iocterm,Email,Attachment,SizeInBytes,Email Attachment Size
+iocterm,Email,-,AttachmentCount,Email Attachment Count
+iocterm,Email,-,BCC,Email BCC Recipient(s)
+iocterm,Email,-,Body,Email Body Text
+iocterm,Email,-,CC,Email CC Recipients(s)
+iocterm,Email,-,Content-Type,Email Content-Type
+iocterm,Email,-,Date,Email Date (Sent)
+iocterm,Email,-,From,Email Sender
+iocterm,Email,-,In-Reply-To,Email In-Reply-To
+iocterm,Email,-,MIME-Version,Email MIME-Version
+iocterm,Email,-,Received,Email Received Date
+iocterm,Email,-,ReceivedFromHost,Email Received From Host
+iocterm,Email,-,ReceivedFromIP,Email Received From IP
+iocterm,Email,-,References,Email References
+iocterm,Email,-,Return-Path,Email Return Path
+iocterm,Email,-,Subject,Email Subject
+iocterm,Email,-,Thread-Index,Email Thread-Index
+iocterm,Email,-,Thread-Topic,Email Thread-Topic
+iocterm,Email,-,To,Email Recipients
+iocterm,Email,-,X-MS-Has-Attach,Email X-MS-Has-Attach
+iocterm,Email,-,X-filenames,Email X-filenames
+iocterm,Email,-,X-filesizes,Email X-filesizes
+iocterm,Email,-,X-filetypes,Email X-filetypes
+iocterm,EventLogItem,-,CorrelationActivityId,EventLog Correlation Activity Id
+iocterm,EventLogItem,-,CorrelationRelatedActivityId,EventLog Correlation Related Activity Id
+iocterm,EventLogItem,-,EID,EventLog ID
+iocterm,EventLogItem,-,ExecutionProcessId,EventLog Execution Process Id
+iocterm,EventLogItem,-,ExecutionThreadId,EventLog Execution Thread Id
+iocterm,EventLogItem,-,blob,EventLog blob
+iocterm,EventLogItem,-,category,EventLog category
+iocterm,EventLogItem,-,categoryNum,EventLog categoryNum
+iocterm,EventLogItem,-,genTime,EventLog GenTime
+iocterm,EventLogItem,-,index,EventLog index
+iocterm,EventLogItem,-,log,EventLog log
+iocterm,EventLogItem,-,machine,EventLog machine
+iocterm,EventLogItem,-,message,EventLog Message
+iocterm,EventLogItem,-,reserved,EventLog reserved
+iocterm,EventLogItem,-,source,EventLog source
+iocterm,EventLogItem,-,type,EventLog type
+iocterm,EventLogItem,unformattedMessage,string,EventLog unformatted Message
+iocterm,EventLogItem,-,user,EventLog user
+iocterm,EventLogItem,-,writeTime,EventLog writeTime
+iocterm,FileDownloadHistoryItem,-,AutoResume,FileDownloadHistory AutoResume
+iocterm,FileDownloadHistoryItem,-,BrowserName,FileDownloadHistory Browser Name
+iocterm,FileDownloadHistoryItem,-,BrowserVersion,FileDownloadHistory Browser Version
+iocterm,FileDownloadHistoryItem,-,BytesDownloaded,FileDownloadHistory Bytes Downloaded
+iocterm,FileDownloadHistoryItem,-,CacheFlags,FileDownloadHistory Cache Flags
+iocterm,FileDownloadHistoryItem,-,CacheHitCount,FileDownloadHistory Cache Hit Count
+iocterm,FileDownloadHistoryItem,-,DownloadType,FileDownloadHistory Download Type
+iocterm,FileDownloadHistoryItem,-,EndDate,FileDownloadHistory End Date
+iocterm,FileDownloadHistoryItem,-,FileName,FileDownloadHistory File Name
+iocterm,FileDownloadHistoryItem,-,FullHttpHeader,FileDownloadHistory Full Http Header
+iocterm,FileDownloadHistoryItem,-,LastAccessedDate,FileDownloadHistory Last Accessed Date
+iocterm,FileDownloadHistoryItem,-,LastCacheSynchDate,FileDownloadHistory Last Cache Synch Date
+iocterm,FileDownloadHistoryItem,-,LastCheckedDate,FileDownloadHistory Last Checked Date
+iocterm,FileDownloadHistoryItem,-,LastModifiedDate,FileDownloadHistory Last Modified Date
+iocterm,FileDownloadHistoryItem,-,MaxBytes,FileDownloadHistory Max Bytes
+iocterm,FileDownloadHistoryItem,-,MimeType,FileDownloadHistory MimeType
+iocterm,FileDownloadHistoryItem,-,Profile,FileDownloadHistory Profile
+iocterm,FileDownloadHistoryItem,-,Referrer,FileDownloadHistory Referrer
+iocterm,FileDownloadHistoryItem,-,SourceURL,FileDownloadHistory Source URL
+iocterm,FileDownloadHistoryItem,-,StartDate,FileDownloadHistory Start Date
+iocterm,FileDownloadHistoryItem,-,State,FileDownloadHistory State
+iocterm,FileDownloadHistoryItem,-,TargetDirectory,FileDownloadHistory Target Directory
+iocterm,FileDownloadHistoryItem,-,TemporaryPath,FileDownloadHistory Temporary Path
+iocterm,FileDownloadHistoryItem,-,Username,FileDownloadHistory Username
+iocterm,FileItem,-,Accessed,File Accessed Time
+iocterm,FileItem,-,Changed,File Changed Time
+iocterm,FileItem,-,Created,File Created Time
+iocterm,FileItem,-,DevicePath,File DevicePath
+iocterm,FileItem,-,Drive,File Drive
+iocterm,FileItem,-,FileAttributes,File Attribute
+iocterm,FileItem,-,FileExtension,File Extension
+iocterm,FileItem,-,FileName,File Name
+iocterm,FileItem,-,FilePath,File Path
+iocterm,FileItem,-,FilenameAccessed,File Filename Accessed
+iocterm,FileItem,-,FilenameChanged,File Filename Changed
+iocterm,FileItem,-,FilenameCreated,File Filename Created
+iocterm,FileItem,-,FilenameModified,File Filename Modified
+iocterm,FileItem,-,FullPath,File Full Path
+iocterm,FileItem,-,INode,File INode
+iocterm,FileItem,-,Md5sum,File MD5
+iocterm,FileItem,-,Modified,File Modified Time
+iocterm,FileItem,-,detectedAnomaly,File detectedAnomaly
+iocterm,FileItem,PEInfo,BaseAddress,File Base Address
+iocterm,FileItem,PEInfo,DetectedAnomalies,File PE Detected Anomalies
+iocterm,FileItem,PEInfo,DetectedEntryPointSignature,File EntryPoint Sig Name
+iocterm,FileItem,PEInfo,DetectedEntryPointSignature,File EntryPoint Sig Type
+iocterm,FileItem,PEInfo,DigitalSignature,File Certificate Issuer
+iocterm,FileItem,PEInfo,DigitalSignature,File Certificate Subject
+iocterm,FileItem,PEInfo,DigitalSignature,File Digital Signature Description
+iocterm,FileItem,PEInfo,DigitalSignature,File Digital Signature Exists
+iocterm,FileItem,PEInfo,DigitalSignature,File Digital Signature Verified
+iocterm,FileItem,PEInfo,EpJumpCodes,File Double Jump
+iocterm,FileItem,PEInfo,EpJumpCodes,File PEInfo EpJumpCodes Opcodes
+iocterm,FileItem,PEInfo,Exports,File Dll Export Name
+iocterm,FileItem,PEInfo,Exports,File Export Function
+iocterm,FileItem,PEInfo,Exports,File Exports Time Stamp
+iocterm,FileItem,PEInfo,Exports,File Export Count
+iocterm,FileItem,PEInfo,Exports,File Export Number Of Names
+iocterm,FileItem,PEInfo,ExtraneousBytes,File Extraneous Bytes
+iocterm,FileItem,PEInfo,ImportedModules,File Import Function
+iocterm,FileItem,PEInfo,ImportedModules,File Import Name
+iocterm,FileItem,PEInfo,ImportedModules,File Number of Imported Functions
+iocterm,FileItem,PEInfo,PEChecksum,File PEComputedAPI
+iocterm,FileItem,PEInfo,PEChecksum,File PE Checksum API
+iocterm,FileItem,PEInfo,PEChecksum,File PEFileRaw
+iocterm,FileItem,PEInfo,PETimeStamp,File Compile Time
+iocterm,FileItem,PEInfo,ResourceInfoList,File PEInfo Resource Info Data
+iocterm,FileItem,PEInfo,ResourceInfoList,File PEInfo Resource Info Language
+iocterm,FileItem,PEInfo,ResourceInfoList,File PEInfo Resource Info Name
+iocterm,FileItem,PEInfo,ResourceInfoList,File PEInfo Resource Info Size
+iocterm,FileItem,PEInfo,ResourceInfoList,File PEInfo Resource Info Type
+iocterm,FileItem,PEInfo,Sections,File PEInfo Number of Sections
+iocterm,FileItem,PEInfo,Sections,File PEInfo Actual Number of Sections
+iocterm,FileItem,PEInfo,Sections,File Detected Characteristics
+iocterm,FileItem,PEInfo,Sections,File Detected Signatures
+iocterm,FileItem,PEInfo,Sections,File PEInfo Sections Section Entropy CurveData float
+iocterm,FileItem,PEInfo,Sections,File Section Name
+iocterm,FileItem,PEInfo,Sections,File PE Section Size
+iocterm,FileItem,PEInfo,Sections,File PE Secction Type
+iocterm,FileItem,PEInfo,Subsystem,File PE Subsystem
+iocterm,FileItem,PEInfo,Type,File PE Type
+iocterm,FileItem,PEInfo,VersionInfoList,File PEInfo Version Info Comments
+iocterm,FileItem,PEInfo,VersionInfoList,File PEInfo Version Info CompanyName
+iocterm,FileItem,PEInfo,VersionInfoList,File PEInfo Version Info FileDescription
+iocterm,FileItem,PEInfo,VersionInfoList,File PEInfo Version Info FileVersion
+iocterm,FileItem,PEInfo,VersionInfoList,File PEInfo Version Info InternalName
+iocterm,FileItem,PEInfo,VersionInfoList,File PEInfo Version Info Language
+iocterm,FileItem,PEInfo,VersionInfoList,File PEInfo Version Info LegalCopyright
+iocterm,FileItem,PEInfo,VersionInfoList,File PEInfo Version Info LegalTrademarks
+iocterm,FileItem,PEInfo,VersionInfoList,File PEInfo Version Info OriginalFilename
+iocterm,FileItem,PEInfo,VersionInfoList,File PEInfo Version Info PrivateBuild
+iocterm,FileItem,PEInfo,VersionInfoList,File PEInfo Version Info ProductName
+iocterm,FileItem,PEInfo,VersionInfoList,File PEInfo Version Info ProductVersion
+iocterm,FileItem,PEInfo,VersionInfoList,File PEInfo Version Info SpecialBuild
+iocterm,FileItem,-,PeakCodeEntropy,File Peak Code Entropy
+iocterm,FileItem,-,PeakEntropy,File Peak Entropy
+iocterm,FileItem,-,SecurityID,File Security ID
+iocterm,FileItem,-,SecurityType,File Security Type
+iocterm,FileItem,-,Sha1sum,File Sha1sum
+iocterm,FileItem,-,Sha256sum,File Sha256sum
+iocterm,FileItem,-,SizeInBytes,File Size
+iocterm,FileItem,StreamList,Stream,File ADS MD5
+iocterm,FileItem,StreamList,Stream,File ADS Name
+iocterm,FileItem,StreamList,Stream,File Stream Sha1sum
+iocterm,FileItem,StreamList,Stream,File Stream Sha256sum
+iocterm,FileItem,StreamList,Stream,File ADS Size
+iocterm,FileItem,StringList,string,File Strings
+iocterm,FileItem,-,Username,File Owner
+iocterm,FormHistoryItem,-,BrowserName,FormHistory Browser Name
+iocterm,FormHistoryItem,-,BrowserVersion,FormHistory Browser Version
+iocterm,FormHistoryItem,-,CreationDate,FormHistory Creation Date
+iocterm,FormHistoryItem,-,EncryptedPassword,FormHistory Encrypted Password
+iocterm,FormHistoryItem,-,EncryptionType,FormHistory Encryption Type
+iocterm,FormHistoryItem,-,FirstUsedDate,FormHistory First Used Date
+iocterm,FormHistoryItem,-,FormFieldName,FormHistory Form Field Name
+iocterm,FormHistoryItem,-,FormFieldValue,FormHistory Form Field Value
+iocterm,FormHistoryItem,-,FormSubmitURL,FormHistory Form Submit URL
+iocterm,FormHistoryItem,-,FormType,FormHistory Form Type
+iocterm,FormHistoryItem,-,Guid,FormHistory Guid
+iocterm,FormHistoryItem,-,HostName,FormHistory Host Name
+iocterm,FormHistoryItem,-,HttpRealm,FormHistory Http Realm
+iocterm,FormHistoryItem,-,LastUsedDate,FormHistory Last Used Date
+iocterm,FormHistoryItem,-,PasswordFieldName,FormHistory Password Field Name
+iocterm,FormHistoryItem,-,Profile,FormHistory Profile
+iocterm,FormHistoryItem,-,TimesUsed,FormHistory Times Used
+iocterm,FormHistoryItem,-,Username,FormHistory Username
+iocterm,FormHistoryItem,-,UsernameFieldName,FormHistory Username Field Name
+iocterm,FormHistoryItem,-,UsernameFieldValue,FormHistory Username Field Value
+iocterm,HiveItem,-,Name,Hive Name
+iocterm,HiveItem,-,Path,Hive Path
+iocterm,HookItem,DigitalSignatureHooked,CertificateIssuer,Hook Digital Signature Hooked Certificate Issuer
+iocterm,HookItem,DigitalSignatureHooked,CertificateSubject,Hook Digital Signature Hooked Certificate Subject
+iocterm,HookItem,DigitalSignatureHooked,Description,Hook Digital Signature Hooked Description
+iocterm,HookItem,DigitalSignatureHooked,SignatureExists,Hook Digital Signature Hooked Signature Exists
+iocterm,HookItem,DigitalSignatureHooked,SignatureVerified,Hook Digital Signature Hooked Signature Verified
+iocterm,HookItem,DigitalSignatureHooking,CertificateIssuer,Hook Digital Signature Hooking Certificate Issuer
+iocterm,HookItem,DigitalSignatureHooking,CertificateSubject,Hook Digital Signature Hooking Certificate Subject
+iocterm,HookItem,DigitalSignatureHooking,Description,Hook Digital Signature Hooking Description
+iocterm,HookItem,DigitalSignatureHooking,SignatureExists,Hook Digital Signature Hooking Signature Exists
+iocterm,HookItem,DigitalSignatureHooking,SignatureVerified,Hook Digital Signature Hooking Signature Verified
+iocterm,HookItem,-,HookDescription,Hook Description
+iocterm,HookItem,-,HookedFunction,Hook Hooked Function
+iocterm,HookItem,-,HookedModule,Hook Hooked Module
+iocterm,HookItem,-,HookingAddress,Hook Hooking Address
+iocterm,HookItem,-,HookingModule,Hook Hooking Module
+iocterm,ModuleItem,-,ModuleAddress,Module Address
+iocterm,ModuleItem,-,ModuleBase,Module Base
+iocterm,ModuleItem,-,ModuleInit,Module Init
+iocterm,ModuleItem,-,ModuleName,Module Name
+iocterm,ModuleItem,-,ModulePath,Module Path
+iocterm,ModuleItem,-,ModuleSize,Module Size
+iocterm,Network,-,DNS,Network DNS
+iocterm,Network,-,HTTP_Referr,Network String HTTP Referr
+iocterm,Network,-,String,Network String General
+iocterm,Network,-,URI,Network String URI
+iocterm,Network,-,UserAgent,Network String User Agent
+iocterm,PortItem,-,CreationTime,Port Creation Time
+iocterm,PortItem,-,localIP,Port Local IP
+iocterm,PortItem,-,localPort,Port Local Port
+iocterm,PortItem,-,path,Port Path
+iocterm,PortItem,-,pid,Port PID
+iocterm,PortItem,-,process,Port Process
+iocterm,PortItem,-,protocol,Port Protocol
+iocterm,PortItem,-,remoteIP,Port Remote IP
+iocterm,PortItem,-,remotePort,Port Remote Port
+iocterm,PortItem,-,state,Port State
+iocterm,PrefetchItem,AccessedFileList,AccessedFile,Prefetch Accessed File
+iocterm,PrefetchItem,-,ApplicationFileName,Prefetch File Executed
+iocterm,PrefetchItem,-,ApplicationFullPath,Prefetch Application Full Path
+iocterm,PrefetchItem,-,Created,Prefetch File Created
+iocterm,PrefetchItem,-,FullPath,Prefetch Full Path
+iocterm,PrefetchItem,-,LastRun,Prefetch Last Run
+iocterm,PrefetchItem,-,PrefetchHash,Prefetch Hash
+iocterm,PrefetchItem,VolumeList,VolumeItem,Prefetch Volume Device Path
+iocterm,PrefetchItem,VolumeList,VolumeItem,Prefetch Volume Creation Time
+iocterm,PrefetchItem,VolumeList,VolumeItem,Prefetch Volume Serial Number
+iocterm,PrefetchItem,-,ReportedSizeInBytes,Prefetch Reported Size
+iocterm,PrefetchItem,-,SizeInBytes,Prefetch Size
+iocterm,PrefetchItem,-,TimesExecuted,Prefetch Times Executed
+iocterm,ProcessItem,HandleList,Handle,Process Handle Access Mask
+iocterm,ProcessItem,HandleList,Handle,Process Handle Count
+iocterm,ProcessItem,HandleList,Handle,Process Handle Index
+iocterm,ProcessItem,HandleList,Handle,Process Handle Name
+iocterm,ProcessItem,HandleList,Handle,Process Handle Object Address
+iocterm,ProcessItem,HandleList,Handle,Process Handle Pointer Count
+iocterm,ProcessItem,HandleList,Handle,Process Handle Type
+iocterm,ProcessItem,PortList,PortItem,Process Port Creation Time
+iocterm,ProcessItem,PortList,PortItem,Process Port Local IP
+iocterm,ProcessItem,PortList,PortItem,Process Local Port
+iocterm,ProcessItem,PortList,PortItem,Process Port Path
+iocterm,ProcessItem,PortList,PortItem,Process Port PID
+iocterm,ProcessItem,PortList,PortItem,Process Port Process
+iocterm,ProcessItem,PortList,PortItem,Process Port Protocol
+iocterm,ProcessItem,PortList,PortItem,Process Port Remote IP
+iocterm,ProcessItem,PortList,PortItem,Process Remote Port
+iocterm,ProcessItem,PortList,PortItem,Process State
+iocterm,ProcessItem,SectionList,MemorySection,Process Section Certificate Issuer
+iocterm,ProcessItem,SectionList,MemorySection,Process Section Certificate Subject
+iocterm,ProcessItem,SectionList,MemorySection,Process Secction Signature Description
+iocterm,ProcessItem,SectionList,MemorySection,Process Section Signature Exists
+iocterm,ProcessItem,SectionList,MemorySection,Process Section Signature Verified
+iocterm,ProcessItem,SectionList,MemorySection,Process Section Injected
+iocterm,ProcessItem,SectionList,MemorySection,Process Mapped
+iocterm,ProcessItem,SectionList,MemorySection,Process Section MD5
+iocterm,ProcessItem,SectionList,MemorySection,Process Section Name
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo Base Address
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo Detected Anomalies
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo Detected EntryPoint Signature Name
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo Detected EntryPoint Signature Type
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo Digital Signature Certificate Issuer
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo Digital Signature Certificate Subject
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo Digital Signature Description
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo Digital Signature Signature Exists
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo Digital Signature Signature Verified
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo EpJumpCodes Depth
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo EpJumpCodes Opcodes
+iocterm,ProcessItem,SectionList,MemorySection,Process Section Exported Function
+iocterm,ProcessItem,SectionList,MemorySection,Process Section Exports Time Stamp
+iocterm,ProcessItem,SectionList,MemorySection,Process Section Number Of Functions
+iocterm,ProcessItem,SectionList,MemorySection,Process Section Export Number Of Names
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo Extraneous Bytes
+iocterm,ProcessItem,SectionList,MemorySection,Process Section Imported Function
+iocterm,ProcessItem,SectionList,MemorySection,Process Section Imported Module
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo PEChecksum PEComputedAPI
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo PEChecksum PEFileAPI
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo PEChecksum PEFileRaw
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo PETimeStamp
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo Sections Section Detected Characteristics
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo Sections Section Detected Signature Keys
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo Sections Section Entropy Curve Data float
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo Sections Section Name
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo Sections Section Size
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo Sections Section Type
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo Subsystem
+iocterm,ProcessItem,SectionList,MemorySection,Process SectionList MemorySection PEInfo Type
+iocterm,ProcessItem,SectionList,MemorySection,Process Protection
+iocterm,ProcessItem,SectionList,MemorySection,Process Raw Flags
+iocterm,ProcessItem,SectionList,MemorySection,Process Region Size
+iocterm,ProcessItem,SectionList,MemorySection,Process Region Start
+iocterm,ProcessItem,SectionList,MemorySection,Process Section Sha1sum
+iocterm,ProcessItem,SectionList,MemorySection,Process Section Sha256sum
+iocterm,ProcessItem,-,SecurityID,Process Security ID
+iocterm,ProcessItem,-,SecurityType,Process Security Type
+iocterm,ProcessItem,StringList,string,Process String
+iocterm,ProcessItem,-,Username,Process Username
+iocterm,ProcessItem,-,arguments,Process Arguments
+iocterm,ProcessItem,-,detectedAnomaly,Detected Anomaly
+iocterm,ProcessItem,-,hidden,Process Hidden
+iocterm,ProcessItem,-,kernelTime,Process Kernel Time
+iocterm,ProcessItem,-,name,Process Name
+iocterm,ProcessItem,-,parentpid,Process Parent PID
+iocterm,ProcessItem,-,path,Process Path
+iocterm,ProcessItem,-,pid,Process PID
+iocterm,ProcessItem,-,startTime,Process Start Time
+iocterm,ProcessItem,-,userTime,Process User Time
+iocterm,RegistryItem,-,Hive,Registry Hive
+iocterm,RegistryItem,-,KeyPath,Registry Key Path
+iocterm,RegistryItem,-,s,Registry Key Modified Date
+iocterm,RegistryItem,-,NumSubKeys,Registry NumSubKeys
+iocterm,RegistryItem,-,NumValues,Registry NumValues
+iocterm,RegistryItem,-,Path,Registry Path
+iocterm,RegistryItem,-,ReportedLengthInBytes,Registry Reported Length In Bytes
+iocterm,RegistryItem,-,Text,Registry Text
+iocterm,RegistryItem,-,Type,Registry Type
+iocterm,RegistryItem,-,Username,Registry Username
+iocterm,RegistryItem,-,Value,Registry Value
+iocterm,RegistryItem,-,ValueName,Registry Value Name
+iocterm,RegistryItem,-,detectedAnomaly,Detected Anomaly
+iocterm,RouteEntryItem,-,Destination,Route Destination
+iocterm,RouteEntryItem,-,Gateway,Route Gateway
+iocterm,RouteEntryItem,-,Interface,Route Interface
+iocterm,RouteEntryItem,-,IsIPv6,Route Is IPv6
+iocterm,RouteEntryItem,-,Metric,Route Metric
+iocterm,RouteEntryItem,-,Netmask,Route Netmask
+iocterm,RouteEntryItem,-,Protocol,Route Protocol
+iocterm,RouteEntryItem,-,RouteAge,Route Age
+iocterm,RouteEntryItem,-,RouteType,Route Type
+iocterm,ServiceItem,-,arguments,Service arguments
+iocterm,ServiceItem,-,description,Service Description
+iocterm,ServiceItem,-,descriptiveName,Service Descriptive Name
+iocterm,ServiceItem,-,mode,Service mode
+iocterm,ServiceItem,-,name,Service Name
+iocterm,ServiceItem,-,path,Service Path
+iocterm,ServiceItem,-,pathCertificateIssuer,Service Path Certificate Issuer
+iocterm,ServiceItem,-,pathCertificateSubject,Service Path Certificate Subject
+iocterm,ServiceItem,-,pathSignatureDescription,Service Path Signature Description
+iocterm,ServiceItem,-,pathSignatureExists,Service Path Signature Exists
+iocterm,ServiceItem,-,pathSignatureVerified,Service Path Signature Verified
+iocterm,ServiceItem,-,pathmd5sum,Service Path MD5
+iocterm,ServiceItem,-,pathsha1sum,Service Path Sha1sum
+iocterm,ServiceItem,-,pathsha256sum,Service Path Sha256sum
+iocterm,ServiceItem,-,pid,Service PID
+iocterm,ServiceItem,-,serviceDLL,Service DLL
+iocterm,ServiceItem,-,serviceDLLCertificateIssuer,Service DLL Certificate Issuer
+iocterm,ServiceItem,-,serviceDLLCertificateSubject,Service DLL Certificate Subject
+iocterm,ServiceItem,-,serviceDLLSignatureDescription,Service DLL Signature Description
+iocterm,ServiceItem,-,serviceDLLSignatureExists,Service DLLSignature Exists
+iocterm,ServiceItem,-,serviceDLLSignatureVerified,Service DLL Signature Verified
+iocterm,ServiceItem,-,serviceDLLmd5sum,Service DLL MD5
+iocterm,ServiceItem,-,serviceDLLsha1sum,Service DLL Sha1sum
+iocterm,ServiceItem,-,serviceDLLsha256sum,Service DLL Sha256sum
+iocterm,ServiceItem,-,startedAs,Service Started As
+iocterm,ServiceItem,-,status,Service Status
+iocterm,ServiceItem,-,type,Service Type
+iocterm,Snort,-,Snort,Network Snort
+iocterm,SystemInfoItem,-,MAC,SystemInfo MAC
+iocterm,SystemInfoItem,-,OS,SystemInfo Operating System
+iocterm,SystemInfoItem,-,availphysical,SystemInfo Available Physical Memory
+iocterm,SystemInfoItem,biosInfo,biosDate,SystemInfo BIOS Date
+iocterm,SystemInfoItem,biosInfo,biosVersion,SystemInfo BIOS Version
+iocterm,SystemInfoItem,-,buildNumber,SystemInfo Build Number
+iocterm,SystemInfoItem,-,date,SystemInfo Date
+iocterm,SystemInfoItem,-,directory,SystemInfo Directory
+iocterm,SystemInfoItem,-,domain,SystemInfo Domain
+iocterm,SystemInfoItem,-,hostname,SystemInfo Hostname
+iocterm,SystemInfoItem,-,installDate,SystemInfo Install Date
+iocterm,SystemInfoItem,-,machine,SystemInfo Machine
+iocterm,SystemInfoItem,networkArray,networkInfo,SystemInfo networkArray networkInfo MAC
+iocterm,SystemInfoItem,networkArray,networkInfo,SystemInfo Network Adapter
+iocterm,SystemInfoItem,networkArray,networkInfo,SystemInfo Network Description
+iocterm,SystemInfoItem,networkArray,networkInfo,SystemInfo Network DHCP Leas eExpires
+iocterm,SystemInfoItem,networkArray,networkInfo,SystemInfo Network DHCP Lease Obtained
+iocterm,SystemInfoItem,networkArray,networkInfo,SystemInfo Network DHCP Server
+iocterm,SystemInfoItem,networkArray,networkInfo,SystemInfo Network IP Address
+iocterm,SystemInfoItem,networkArray,networkInfo,SystemInfo Network Subnet Mask
+iocterm,SystemInfoItem,networkArray,networkInfo,SystemInfo Network IP Gateway
+iocterm,SystemInfoItem,-,patchLevel,SystemInfo Patch Level
+iocterm,SystemInfoItem,-,procType,SystemInfo Proc Type
+iocterm,SystemInfoItem,-,processor,SystemInfo Processor
+iocterm,SystemInfoItem,-,productID,SystemInfo Product ID
+iocterm,SystemInfoItem,-,productName,SystemInfo Product Name
+iocterm,SystemInfoItem,-,regOrg,SystemInfo Registered Org
+iocterm,SystemInfoItem,-,regOwner,SystemInfo Registered Owner
+iocterm,SystemInfoItem,-,timezoneDST,SystemInfo Timezone DST
+iocterm,SystemInfoItem,-,timezoneStandard,SystemInfo Timezone Standard
+iocterm,SystemInfoItem,-,totalphysical,SystemInfo Total Physical
+iocterm,SystemInfoItem,-,uptime,SystemInfo Iptime
+iocterm,SystemInfoItem,-,user,SystemInfo User
+iocterm,SystemRestoreItem,-,RestorePointName,SystemRestore Restore Point Name
+iocterm,SystemRestoreItem,-,RestorePointFullPath,SystemRestore Full Path
+iocterm,SystemRestoreItem,-,RestorePointDescription,SystemRestore Description
+iocterm,SystemRestoreItem,-,RestorePointType,SystemRestore Type
+iocterm,SystemRestoreItem,-,Created,SystemRestore Created
+iocterm,SystemRestoreItem,RegistryHives,String,SystemRestore Registry Hives
+iocterm,SystemRestoreItem,-,ChangeLogFileName,SystemRestore ChangeLog Filename
+iocterm,SystemRestoreItem,-,ChangeLogEntrySequenceNumber,SystemRestore ChangeLog Seq. Number
+iocterm,SystemRestoreItem,-,ChangeLogEntryType,SystemRestore ChangeLog Entry Type
+iocterm,SystemRestoreItem,-,ChangeLogEntryFlags,SystemRestore ChangeLog Entry Flags
+iocterm,SystemRestoreItem,-,FileAttributes,SystemRestore File Attributes
+iocterm,SystemRestoreItem,-,OriginalFileName,SystemRestore Original Filename
+iocterm,SystemRestoreItem,-,BackupFileName,SystemRestore Backup Filename
+iocterm,SystemRestoreItem,-,AclChangeUsername,SystemRestore Acl Change Username
+iocterm,SystemRestoreItem,-,AclChangeSecurityID,SystemRestore Acl Change Security ID
+iocterm,SystemRestoreItem,-,OriginalShortFileName,SystemRestore Original Short FileName
+iocterm,TaskItem,-,AccountLogonType,Task Account Logon Type
+iocterm,TaskItem,-,AccountName,Task Account Name
+iocterm,TaskItem,-,AccountRunLevel,Task Account Run Level
+iocterm,TaskItem,ActionList,Action,Task Action Type
+iocterm,TaskItem,ActionList,Action,Task Action COM Class Id
+iocterm,TaskItem,ActionList,Action,Task Action COM Data
+iocterm,TaskItem,ActionList,Action,Task Action Digital Signature Certificate Issuer
+iocterm,TaskItem,ActionList,Action,Task Action Digital Signature Certificate Subject
+iocterm,TaskItem,ActionList,Action,Task Action Digital Signature Description
+iocterm,TaskItem,ActionList,Action,Task Action Digital Signature Signature Exists
+iocterm,TaskItem,ActionList,Action,Task Action Digital Signature Signature Verified
+iocterm,TaskItem,ActionList,Action,Task Action Email Attachments
+iocterm,TaskItem,ActionList,Action,Task Action Email BCC
+iocterm,TaskItem,ActionList,Action,Task Action Email Body
+iocterm,TaskItem,ActionList,Action,Task Action Email CC
+iocterm,TaskItem,ActionList,Action,Task Action Email From
+iocterm,TaskItem,ActionList,Action,Task Action Email ReplyTo
+iocterm,TaskItem,ActionList,Action,Task Action Email Server
+iocterm,TaskItem,ActionList,Action,Task Action Email Subject
+iocterm,TaskItem,ActionList,Action,Task Action Email To
+iocterm,TaskItem,ActionList,Action,Task Action Exec Arguments
+iocterm,TaskItem,ActionList,Action,Task Action Exec Program MD5
+iocterm,TaskItem,ActionList,Action,Task Action Exec Program Path
+iocterm,TaskItem,ActionList,Action,Task Action Exec Program Sha1sum
+iocterm,TaskItem,ActionList,Action,Task Action Exec Program Sha256sum
+iocterm,TaskItem,ActionList,Action,Task Action Exec Working Directory
+iocterm,TaskItem,ActionList,Action,Task Action Show Message Body
+iocterm,TaskItem,ActionList,Action,Task Action Show Message Title
+iocterm,TaskItem,-,ApplicationName,Task Application Name
+iocterm,TaskItem,-,CertificateIssuer,Task Certificate Issuer
+iocterm,TaskItem,-,CertificateSubject,Task Certificate Subject
+iocterm,TaskItem,-,Comment,Task Comment
+iocterm,TaskItem,-,CreationDate,Task Creation Date
+iocterm,TaskItem,-,Creator,Task Creator
+iocterm,TaskItem,-,ExitCode,Task Exit Code
+iocterm,TaskItem,-,Flag,Task Flag
+iocterm,TaskItem,-,MaxRunTime,Task Max Run Time
+iocterm,TaskItem,-,MostRecentRunTime,Task Most Recent Run Time
+iocterm,TaskItem,-,Name,Task Name
+iocterm,TaskItem,-,NextRunTime,Task Next Run Time
+iocterm,TaskItem,-,Parameters,Task Parameters
+iocterm,TaskItem,-,Priority,Task Priority
+iocterm,TaskItem,-,SignatureDescription,Task Signature Description
+iocterm,TaskItem,-,SignatureExists,Task Signature Exists
+iocterm,TaskItem,-,SignatureVerified,Task Signature Verified
+iocterm,TaskItem,-,Status,Task Status
+iocterm,TaskItem,TriggerList,Trigger,Task Trigger Begin
+iocterm,TaskItem,TriggerList,Trigger,Task Trigger Delay
+iocterm,TaskItem,TriggerList,Trigger,Task Trigger Enabled
+iocterm,TaskItem,TriggerList,Trigger,Task Trigger End
+iocterm,TaskItem,TriggerList,Trigger,Task Trigger Frequency
+iocterm,TaskItem,TriggerList,Trigger,Task Trigger Max Run Time
+iocterm,TaskItem,TriggerList,Trigger,Task Trigger Session Change Type
+iocterm,TaskItem,TriggerList,Trigger,Task Trigger Subscription
+iocterm,TaskItem,TriggerList,Trigger,Task Trigger Username
+iocterm,TaskItem,TriggerList,Trigger,Task Trigger Value Queries
+iocterm,TaskItem,-,VirtualPath,Task Virtual Path
+iocterm,TaskItem,-,WorkItemData,Task Work Data
+iocterm,TaskItem,-,WorkingDirectory,Task Working Directory
+iocterm,TaskItem,-,md5sum,Task MD5
+iocterm,TaskItem,-,sha1sum,Task Sha1sum
+iocterm,TaskItem,-,sha256sum,Task Sha256sum
+iocterm,UrlHistoryItem,-,BrowserName,UrlHistory Browser Name
+iocterm,UrlHistoryItem,-,BrowserVersion,UrlHistory Browser Version
+iocterm,UrlHistoryItem,-,FirstBookmarkDate,UrlHistory First Bookmark Date
+iocterm,UrlHistoryItem,-,FirstVisitDate,UrlHistory First Visit Date
+iocterm,UrlHistoryItem,-,Hidden,UrlHistory Hidden
+iocterm,UrlHistoryItem,-,HostName,UrlHistory Host Name
+iocterm,UrlHistoryItem,-,IndexedContent,UrlHistory Indexed Content
+iocterm,UrlHistoryItem,-,LastVisitDate,UrlHistory Last Visit Date
+iocterm,UrlHistoryItem,-,LastVisitDateLocal,UrlHistory Last Visit Date Local
+iocterm,UrlHistoryItem,-,PageTitle,UrlHistory Page Title
+iocterm,UrlHistoryItem,-,Profile,UrlHistory Profile
+iocterm,UrlHistoryItem,-,Thumbnail,UrlHistory Thumbnail
+iocterm,UrlHistoryItem,-,Typed,UrlHistory Typed
+iocterm,UrlHistoryItem,-,URL,UrlHistory URL
+iocterm,UrlHistoryItem,-,Username,UrlHistory Username
+iocterm,UrlHistoryItem,-,VisitCount,UrlHistory Visit Count
+iocterm,UrlHistoryItem,-,VisitFrom,UrlHistory Visit From
+iocterm,UrlHistoryItem,-,VisitType,UrlHistory Visit Type
+iocterm,UserItem,-,LastLogin,User Last Login
+iocterm,UserItem,-,SecurityID,User Security ID
+iocterm,UserItem,-,SecurityType,User Security Type
+iocterm,UserItem,-,Username,User Name
+iocterm,UserItem,-,description,User Description
+iocterm,UserItem,-,disabled,User Disabled
+iocterm,UserItem,-,fullname,User Fullname
+iocterm,UserItem,grouplist,groupname,User Group Name
+iocterm,UserItem,-,homedirectory,User Home Directory
+iocterm,UserItem,-,lockedout,User Lockedout
+iocterm,UserItem,-,passwordrequired,User Password Required
+iocterm,UserItem,-,scriptpath,User Script Path
+iocterm,UserItem,-,userpasswordage,User Password Age
+iocterm,VolumeItem,-,ActualAvailableAllocationUnits,Volume Actual Available Allocation Units
+iocterm,VolumeItem,-,BytesPerSector,Volume Byte sPer Sector
+iocterm,VolumeItem,-,CreationTime,Volume Creation Time
+iocterm,VolumeItem,-,DevicePath,Volume Device Path
+iocterm,VolumeItem,-,DriveLetter,Volume Drive Letter
+iocterm,VolumeItem,-,FileSystemFlags,Volume File System Flags
+iocterm,VolumeItem,-,FileSystemName,Volume File System Name
+iocterm,VolumeItem,-,IsMounted,Volume Is Mounted
+iocterm,VolumeItem,-,Name,Volume Name
+iocterm,VolumeItem,-,SectorsPerAllocationUnit,Volume Sectors Per Allocation Unit
+iocterm,VolumeItem,-,SerialNumber,Volume Serial Number
+iocterm,VolumeItem,-,TotalAllocationUnits,Volume Total Allocation Units
+iocterm,VolumeItem,-,Type,Volume Type
+iocterm,VolumeItem,-,VolumeName,Volume Name

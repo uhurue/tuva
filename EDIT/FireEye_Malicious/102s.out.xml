@@ -1,0 +1,3897 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Malware Analysis results dumped at: 2015/05/27 10:17:06</title>
+<link rel="stylesheet" type="text/css" href="xml_style.css">
+</head>
+<body>
+<strong>Malware Analysis results dumped at: </strong>2015/05/27 10:17:06&nbsp;|&nbsp;
+        <strong>Filter Column: </strong>id&nbsp;|&nbsp;
+        <strong>Filter Value: </strong>102&nbsp;|&nbsp;
+        <strong>Analysis: </strong>1<table align="left" border="1" cellspacing="0" cellpadding="2" width="100%">
+<thead class="th_color_1">
+<tr>
+<th>ID</th><th>Analysis Type</th><th>Profile</th><th>Status</th><th>URL</th><th>Events</th>
+</tr>
+</thead>
+<tr align="left" valign="middle">
+<td valign="top" rowspan="2">102</td><td>Live</td><td>win7-sp1</td><td>Success</td><td>file://tax_refund_7348573.doc</td><td>2</td>
+</tr>
+<tr align="left" valign="middle">
+<td colspan="5">
+<table align="left" border="1" cellspacing="0" cellpadding="2" width="100%">
+<thead class="th_color_2">
+<tr align="left" valign="middle">
+<th>ID</th><th>Event Type</th><th>Malware Name</th><th>Date/Time</th><th>Source IP</th><th>Destination IP</th><th>Detail</th>
+</tr>
+</thead>
+<tr align="left" valign="top">
+<td rowspan="2">135</td><td>Network Anomaly</td><td>Malware.Binary.Doc</td><td>2015-02-13 01:37:43 UTC</td><td>&nbsp;</td><td>&nbsp;</td><td>
+            CNC Servers: 1</td>
+</tr>
+<tr align="left" valign="middle">
+<td colspan="6">
+<table align="left" border="1" cellspacing="0" cellpadding="2" width="100%" white-space="wrap">
+<thead class="th_color_3">
+<tr align="left" valign="middle">
+<th>CNC Server</th><th>Protocol/Port</th><th>FQC</th>
+</tr>
+</thead>
+<tr align="left" valign="top">
+<td>sustem.be</td><td>UDP/0</td><td>&nbsp;
+                </td>
+</tr>
+</table>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td rowspan="2">136</td><td>OS Change</td><td>Malware.Binary.doc</td><td>2015-02-13 01:37:43 UTC</td><td>&nbsp;</td><td>&nbsp;</td><td>
+            OS Changes: 492</td>
+</tr>
+<tr align="left" valign="middle">
+<td colspan="6">
+<table align="left" border="1" cellspacing="0" cellpadding="2" width="100%">
+<thead class="th_color_3">
+<tr>
+<th>Type</th><th>Mode/Class</th><th>Details <span style="font-weight: normal;">(Path/Message/Protocol/Hostname/Qtype/ListenPort etc.)</span></th><th>Process ID</th><th>Parent ID</th><th>File Size</th>
+</tr>
+</thead>
+<tr align="left" valign="top">
+<td>Analysis</td><td>Malware</td><td></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Application</td><td></td><td></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Os</td><td></td><td></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Os&nbsp; 
+            Monitor</td><td></td><td></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Uac</td><td>Service</td><td>Background Intelligent Transfer Service</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Uac</td><td>Service</td><td>SSDP Discovery</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Uac</td><td>Service</td><td>Software Protection</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Uac</td><td>Service</td><td>Portable Device Enumerator Service</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Uac</td><td>Service</td><td>Security Center</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Uac</td><td>Service</td><td>TCP/IP NetBIOS Helper</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Uac</td><td>Service</td><td>TCP/IP NetBIOS Helper</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\MACHINE\SYSTEM\ControlSet001\services\BITS\"Start" = 0x00000003</td><td>428</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Uac</td><td>Service</td><td>Program Compatibility Assistant Service</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>File</td><td>Created</td><td>C:\Users\admin\AppData\Roaming\Microsoft\Windows\Recent\tax_refund_7348573.lnk</td><td>780</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>File</td><td>Created</td><td>C:\Users\admin\AppData\Roaming\Microsoft\Windows\Recent\Local Disk (C).lnk</td><td>780</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>File</td><td>Created</td><td>C:\Users\admin\AppData\Local\Temp\adobeacd-update.ps1</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>File</td><td>Close</td><td>C:\Users\admin\AppData\Local\Temp\adobeacd-update.ps1<br>&nbsp;&nbsp;MD5:&nbsp;&nbsp;1bcc6c14bc7ab45b6260c1c304bbad74<br>&nbsp;&nbsp;SHA1:&nbsp;0a0f7a9b265c830523ef1a2b7741927341a0311f</td><td>3232</td><td>&nbsp;</td><td>1115</td>
+</tr>
+<tr align="left" valign="top">
+<td>File</td><td>Created</td><td>C:\Users\admin\AppData\Local\Temp\adobeacd-update.vbs</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top" style="background-color: #E3FAFA">
+<td>Malicious&nbsp; 
+            Alert</td><td>Generic&nbsp; 
+            Non&nbsp; 
+            Exe&nbsp; 
+            Anomalous&nbsp; 
+            Activity</td><td><i>Message</i>:&nbsp;&nbsp;
+      File created by non-executable
+      &nbsp;&nbsp;
+    <i>Detail</i>:&nbsp;&nbsp;
+      File created by non-executable
+      &nbsp;&nbsp;
+    </td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top" style="background-color: #E3FAFA">
+<td>Malicious&nbsp; 
+            Alert</td><td>FEBETA</td><td><i>Message</i>:&nbsp;&nbsp;
+      Non Executable Dropping Files
+      &nbsp;&nbsp;
+    <i>Detail</i>:&nbsp;&nbsp;
+      Non Executable Dropping Files 
+      &nbsp;&nbsp;
+    </td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>File</td><td>Close</td><td>C:\Users\admin\AppData\Local\Temp\adobeacd-update.vbs<br>&nbsp;&nbsp;MD5:&nbsp;&nbsp;969e1c8517cc2b734a1094aef45af8cd<br>&nbsp;&nbsp;SHA1:&nbsp;a94d157dbb9b26a4551aa0139e684221de9cc311</td><td>3232</td><td>&nbsp;</td><td>357</td>
+</tr>
+<tr align="left" valign="top">
+<td>File</td><td>Created</td><td>C:\Users\admin\AppData\Local\Temp\adobeacd-update.bat</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>File</td><td>Close</td><td>C:\Users\admin\AppData\Local\Temp\adobeacd-update.bat<br>&nbsp;&nbsp;MD5:&nbsp;&nbsp;2b865123c5d736f3ea8a016ec51e5de3<br>&nbsp;&nbsp;SHA1:&nbsp;decf49604b9b51c9c8a6f8bc987cb4a21ca386d3</td><td>3232</td><td>&nbsp;</td><td>207</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Uac</td><td>Service</td><td>Windows Time</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;Sleep 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x67cb4e7f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Process</td><td>Started</td><td>C:\Windows\System32\cmd.exe<br> 
+    &nbsp;
+    <i>Parentname</i>:&nbsp;&nbsp;C:\Program Files\Microsoft Office\Office14\WINWORD.EXE<br> 
+    &nbsp;
+    <i>Command Line</i>:&nbsp;&nbsp;cmd /c c:\Users\admin\AppData\Local\Temp\adobeacd-update.bat<br>&nbsp;&nbsp;MD5:&nbsp;&nbsp;ad7b9c14083b52bc532fba5948342b98<br>&nbsp;&nbsp;SHA1:&nbsp;ee8cbf12d87c4d388f09b4f69bed2e91682920b5</td><td>3456</td><td>3232</td><td>302592</td>
+</tr>
+<tr align="left" valign="top" style="background-color: #E3FAFA">
+<td>Malicious&nbsp; 
+            Alert</td><td>Generic&nbsp; 
+            Process&nbsp; 
+            Launch&nbsp; 
+            Activity</td><td><i>Message</i>:&nbsp;&nbsp;
+      Startup behavior anomalies observed
+      &nbsp;&nbsp;
+    <i>Detail</i>:&nbsp;&nbsp;
+      A new process has been launched
+      &nbsp;&nbsp;
+    </td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top" style="background-color: #E3FAFA">
+<td>Malicious&nbsp; 
+            Alert</td><td>Mal&nbsp; 
+            Office&nbsp; 
+            Launch</td><td><i>Message</i>:&nbsp;&nbsp;
+      Process creating and starting process
+      &nbsp;&nbsp;
+    <i>Detail</i>:&nbsp;&nbsp;
+      Process creating and starting process
+      &nbsp;&nbsp;
+    </td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top" style="background-color: #E3FAFA">
+<td>Malicious&nbsp; 
+            Alert</td><td>Misc&nbsp; 
+            Anom</td><td><i>Message</i>:&nbsp;&nbsp;
+      Startup behavior anomalies observed
+      &nbsp;&nbsp;
+    <i>Detail</i>:&nbsp;&nbsp;
+      Process Started in Office Files
+      &nbsp;&nbsp;
+    </td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\cmd.exe</td><td>3456</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Queryvalue</td><td>\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\ComputerName\ActiveComputerName\"ComputerName"</td><td>3456</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Process</td><td>Started</td><td>C:\Windows\System32\PING.EXE<br> 
+    &nbsp;
+    <i>Parentname</i>:&nbsp;&nbsp;C:\Windows\System32\cmd.exe<br> 
+    &nbsp;
+    <i>Command Line</i>:&nbsp;&nbsp;ping  1.1.2.2 -n 2<br>&nbsp;&nbsp;MD5:&nbsp;&nbsp;6242e3d67787ccbf4e06ad2982853144<br>&nbsp;&nbsp;SHA1:&nbsp;6ac7947207d999a65890ab25fe344955da35028e</td><td>2896</td><td>3456</td><td>15360</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\PING.EXE</td><td>2896</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Queryvalue</td><td>\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\ComputerName\ActiveComputerName\"ComputerName"</td><td>2896</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>File</td><td>Open</td><td>C:\Users\admin\AppData\Roaming\Microsoft\UProof\CUSTOM.DIC</td><td>3232</td><td>&nbsp;</td><td>2</td>
+</tr>
+<tr align="left" valign="top">
+<td>File</td><td>Created</td><td>C:\Users\admin\AppData\Roaming\Microsoft\UProof\ExcludeDictionaryEN0409.lex</td><td>3232</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>File</td><td>Close</td><td>C:\Users\admin\AppData\Roaming\Microsoft\UProof\ExcludeDictionaryEN0409.lex<br>&nbsp;&nbsp;MD5:&nbsp;&nbsp;f3b25701fe362ec84616a93a45ce9998<br>&nbsp;&nbsp;SHA1:&nbsp;d62636d8caec13f04e28442a0a6fa1afeb024bbb</td><td>3232</td><td>&nbsp;</td><td>2</td>
+</tr>
+<tr align="left" valign="top">
+<td>File</td><td>Open</td><td>C:\Users\admin\AppData\Roaming\Microsoft\UProof\ExcludeDictionaryEN0409.lex<br>&nbsp;&nbsp;MD5:&nbsp;&nbsp;f3b25701fe362ec84616a93a45ce9998<br>&nbsp;&nbsp;SHA1:&nbsp;d62636d8caec13f04e28442a0a6fa1afeb024bbb</td><td>3232</td><td>&nbsp;</td><td>2</td>
+</tr>
+<tr align="left" valign="top">
+<td>Process</td><td>Terminated</td><td>C:\Windows\System32\PING.EXE<br> 
+    &nbsp;
+    <i>Parentname</i>:&nbsp;&nbsp;C:\Windows\System32\cmd.exe<br> 
+    &nbsp;
+    <i>Command Line</i>:&nbsp;&nbsp;N/A</td><td>2896</td><td>3456</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Process</td><td>Started</td><td>C:\Windows\System32\chcp.com<br> 
+    &nbsp;
+    <i>Parentname</i>:&nbsp;&nbsp;C:\Windows\System32\cmd.exe<br> 
+    &nbsp;
+    <i>Command Line</i>:&nbsp;&nbsp;chcp  1251<br>&nbsp;&nbsp;MD5:&nbsp;&nbsp;4436b1a16bdc58d2b3a5263f042c09b3<br>&nbsp;&nbsp;SHA1:&nbsp;cf2e11809832fc7d3d7f3169418690b8ea4fb969</td><td>1456</td><td>3456</td><td>11776</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\chcp.com</td><td>1456</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Queryvalue</td><td>\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\ComputerName\ActiveComputerName\"ComputerName"</td><td>1456</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Process</td><td>Terminated</td><td>C:\Windows\System32\chcp.com<br> 
+    &nbsp;
+    <i>Parentname</i>:&nbsp;&nbsp;C:\Windows\System32\cmd.exe<br> 
+    &nbsp;
+    <i>Command Line</i>:&nbsp;&nbsp;N/A</td><td>1456</td><td>3456</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Process</td><td>Started</td><td>C:\Windows\System32\cscript.exe<br> 
+    &nbsp;
+    <i>Parentname</i>:&nbsp;&nbsp;C:\Windows\System32\cmd.exe<br> 
+    &nbsp;
+    <i>Command Line</i>:&nbsp;&nbsp;cscript.exe  "c:\Users\admin\AppData\Local\Temp\adobeacd-update"".""v""bs"<br>&nbsp;&nbsp;MD5:&nbsp;&nbsp;f36b7461fecdcf763fdefa3a3352cd45<br>&nbsp;&nbsp;SHA1:&nbsp;d1b9ba6fd3aa56b96f5375136798fe9dfc927f72</td><td>264</td><td>3456</td><td>126976</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\cscript.exe</td><td>264</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Queryvalue</td><td>\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\ComputerName\ActiveComputerName\"ComputerName"</td><td>264</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\cscript.exe</td><td>264</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\cscript.exe</td><td>264</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\cscript.exe</td><td>264</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\cscript.exe</td><td>264</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td>\Sessions\1\BaseNamedObjects\ZonesCacheCounterMutex</td><td>264</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Deleteval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000\Software\Microsoft\Windows\CurrentVersio<br>&nbsp;&nbsp;&nbsp;n\Internet Settings\ZoneMap\"ProxyBypass"</td><td>264</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Deleteval</td><td>\REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\"ProxyBypass"</td><td>264</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Deleteval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000\Software\Microsoft\Windows\CurrentVersio<br>&nbsp;&nbsp;&nbsp;n\Internet Settings\ZoneMap\"IntranetName"</td><td>264</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Deleteval</td><td>\REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\"IntranetName"</td><td>264</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000\Software\Microsoft\Windows\CurrentVersio<br>&nbsp;&nbsp;&nbsp;n\Internet Settings\ZoneMap\"UNCAsIntranet" = 0x00000000</td><td>264</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000\Software\Microsoft\Windows\CurrentVersio<br>&nbsp;&nbsp;&nbsp;n\Internet Settings\ZoneMap\"AutoDetect" = 0x00000001</td><td>264</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td>\Sessions\1\BaseNamedObjects\ZonesLockedCacheCounterMutex</td><td>264</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Deleteval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000\Software\Microsoft\Windows\CurrentVersio<br>&nbsp;&nbsp;&nbsp;n\Internet Settings\ZoneMap\"ProxyBypass"</td><td>264</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Deleteval</td><td>\REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\"ProxyBypass"</td><td>264</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Deleteval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000\Software\Microsoft\Windows\CurrentVersio<br>&nbsp;&nbsp;&nbsp;n\Internet Settings\ZoneMap\"IntranetName"</td><td>264</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Deleteval</td><td>\REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\"IntranetName"</td><td>264</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000\Software\Microsoft\Windows\CurrentVersio<br>&nbsp;&nbsp;&nbsp;n\Internet Settings\ZoneMap\"UNCAsIntranet" = 0x00000000</td><td>264</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000\Software\Microsoft\Windows\CurrentVersio<br>&nbsp;&nbsp;&nbsp;n\Internet Settings\ZoneMap\"AutoDetect" = 0x00000001</td><td>264</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Folder</td><td>Open</td><td>C:\Users\admin\AppData\Roaming\Microsoft\Windows\Cookies</td><td>264</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Process</td><td>Started</td><td>C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe<br> 
+    &nbsp;
+    <i>Parentname</i>:&nbsp;&nbsp;C:\Windows\System32\cscript.exe<br> 
+    &nbsp;
+    <i>Command Line</i>:&nbsp;&nbsp;"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -noexit -ExecutionPolicy bypass -noprofile -file C:\Users\admin\AppData\Local\Temp\adobeacd-update.ps1<br>&nbsp;&nbsp;MD5:&nbsp;&nbsp;92f44e405db16ac55d97e3bfe3b132fa<br>&nbsp;&nbsp;SHA1:&nbsp;04c5d2b4da9a0f3fa8a45702d4256cee42d8c48d</td><td>2560</td><td>264</td><td>452608</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Queryvalue</td><td>\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\ComputerName\ActiveComputerName\"ComputerName"</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x7408439c<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1946620]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExA 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x75c0187a<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1947992]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Queryvalue</td><td>\REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\"InstallDate"</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetSystemDirectoryW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x76ce9cce<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x17ff508,&nbsp;260]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x76ce9d99<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1993933952]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x76cf22f9<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[25161712]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\USER\S-1-5-21-344981575-398944299-1130229096-1000_CLASSES\Local Settings\MuiCache\46\52C64<br>&nbsp;&nbsp;&nbsp;B7E\"LanguageList" = en-US\0en\0\0</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td>\Sessions\1\BaseNamedObjects\_SHuassist.mtx</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForSingleObject 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x75d50928<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x1c8,&nbsp;1000]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForSingleObject 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x75d50928<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x1cc,&nbsp;1000]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForSingleObject 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x75d50928<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x1c8,&nbsp;1000]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetComputerNameW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x75e21305<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x1ded70,&nbsp;0x1ded64]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetComputerNameW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x75e21305<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x1ded70,&nbsp;0x1ded64]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetComputerNameW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x75e21305<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x1ded70,&nbsp;0x1ded64]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetComputerNameW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x75e21305<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x1ded70,&nbsp;0x1ded64]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x773a45d8<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x773a45ec<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x21b960dd<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6d32a589<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1832456712]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Queryvalue</td><td>\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\ComputerName\ActiveComputerName\"ComputerName"</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>File</td><td>Created</td><td>C:\Users\admin\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\VIO315PSFA7H3USHQNDW.temp</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>File</td><td>Close</td><td>C:\Users\admin\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\VIO315PSFA7H3USHQNDW.temp<br>&nbsp;&nbsp;MD5:&nbsp;&nbsp;46075f41e2dbd1d25d12a63399f61b00<br>&nbsp;&nbsp;SHA1:&nbsp;2d40e26c1a840aae3468a78a6955024e35f16389</td><td>2560</td><td>&nbsp;</td><td>8016</td>
+</tr>
+<tr align="left" valign="top">
+<td>File</td><td>Rename</td><td><i>Old Name</i>:&nbsp;&nbsp;
+    C:\Users\admin\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\VIO315PSFA7H3USHQNDW.temp<br>
+<i>New Name</i>:&nbsp;&nbsp;
+    C:\Users\admin\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\d93f411851d7c929.customDe<br>&nbsp;&nbsp;&nbsp;stinations-ms<br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe<br>&nbsp;&nbsp;MD5:&nbsp;&nbsp;46075f41e2dbd1d25d12a63399f61b00<br>&nbsp;&nbsp;SHA1:&nbsp;2d40e26c1a840aae3468a78a6955024e35f16389</td><td>2560</td><td>&nbsp;</td><td>8016</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExA 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x664b2126<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[2746120]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetSystemDirectoryW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x664b1e6b<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x1de7ac,&nbsp;260]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExA 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x668c0066<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1960068]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6680b50d<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1963224]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6680b50d<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1963216]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6680b50d<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1962932]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6686041c<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[32769]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x66860437<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExA 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x668bd65d<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1725201448]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExA 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x668bd755<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[2746120]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6686041c<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[32769]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x66860437<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6686041c<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[32769]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x66860437<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6693f17e<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[32769]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6693f19f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6680b50d<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1961084]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForSingleObject 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x668a5c5e<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x27c,&nbsp;3000]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6693f17e<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[32769]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6693f19f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6686041c<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[32769]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x66860437<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForSingleObjectEx 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x667e54d7<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x2b0,&nbsp;2000,&nbsp;0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForSingleObjectEx 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x667e54d7<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x2b0,&nbsp;2000,&nbsp;0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6693f17e<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[32769]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6693f19f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6693f17e<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[32769]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6693f19f<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6693f17e<br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6680b50d<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1959684]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6680b50d<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1958216]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6680b50d<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1956904]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x011ea240<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[2760080]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x011ea240<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[2760080]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x011ea240<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[2760080]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6693f17e<br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetSystemDirectoryW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x668b172b<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x1de5d4,&nbsp;260]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6693f17e<br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x66938fff<br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6680b50d<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1959016]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Advapi32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;CryptAcquireContextA 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6691b8a9<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[NULL,&nbsp;NULL,&nbsp;1,&nbsp;4026531872]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6693f17e<br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6680b50d<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1956752]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6680b50d<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1955284]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6680b50d<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1952652]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6680b50d<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[1956752]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6680b50d<br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6693f17e<br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForSingleObjectEx 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x667e54d7<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x2b0,&nbsp;2000,&nbsp;0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForSingleObjectEx 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x667e54d7<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x2b0,&nbsp;2000,&nbsp;0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6693f17e<br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6693f17e<br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x61310520<br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForSingleObjectEx 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x667e54d7<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x2b0,&nbsp;2000,&nbsp;0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetComputerNameA 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x76f3aca8<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x25b810,&nbsp;0x1de38c]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetComputerNameW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x76f3acbb<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x301920,&nbsp;0x1de38c]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForSingleObjectEx 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x667e54d7<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x2b0,&nbsp;2000,&nbsp;0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6693f17e<br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetVersionExW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6680b50d<br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForSingleObject 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x77375c7c<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x3fc,&nbsp;180000]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>File</td><td>Created</td><td>C:\Users\admin\AppData\Local\Temp\444.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td>\Sessions\1\BaseNamedObjects\RasPbFile</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Added</td><td>\REGISTRY\MACHINE\Software\Microsoft\Tracing\powershell_RASAPI32</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\MACHINE\SOFTWARE\Microsoft\Tracing\powershell_RASAPI32\"EnableFileTracing" = 0x00000000</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\MACHINE\SOFTWARE\Microsoft\Tracing\powershell_RASAPI32\"EnableConsoleTracing" = 0x00000000</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\MACHINE\SOFTWARE\Microsoft\Tracing\powershell_RASAPI32\"FileTracingMask" = 0xffff0000</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\MACHINE\SOFTWARE\Microsoft\Tracing\powershell_RASAPI32\"ConsoleTracingMask" = 0xffff0000</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\MACHINE\SOFTWARE\Microsoft\Tracing\powershell_RASAPI32\"MaxFileSize" = 0x00100000</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\MACHINE\SOFTWARE\Microsoft\Tracing\powershell_RASAPI32\"FileDirectory" = %windir%\tracing</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Exploitcode</td><td>Ws2&nbsp; 
+            32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WSAStartup 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x011ea240<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[514,&nbsp;0x317588]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top" style="background-color: #E3FAFA">
+<td>Malicious&nbsp; 
+            Alert</td><td>Exploit&nbsp; 
+            Code&nbsp; 
+            Tracking</td><td><i>Message</i>:&nbsp;&nbsp;
+      Exploit code detected
+      &nbsp;&nbsp;
+    <i>Detail</i>:&nbsp;&nbsp;
+      exploitcode was suppressed due to whitelisting in stack
+      &nbsp;&nbsp;
+    </td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;GetComputerNameW 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x011ea890<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x31b2f0,&nbsp;0x20367b4]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Exploitcode</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;MapViewOfFile 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x01791ab4<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x440,&nbsp;2,&nbsp;0,&nbsp;0,&nbsp;0]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForSingleObject 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x01791e42<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x43c,&nbsp;500]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForSingleObject 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x01791e42<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x444,&nbsp;500]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForSingleObject 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x01791e42<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x43c,&nbsp;500]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForSingleObject 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x01791e42<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x43c,&nbsp;500]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForSingleObject 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x01791e42<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x43c,&nbsp;500]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForSingleObject 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x01791e42<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x43c,&nbsp;500]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForSingleObject 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x01791e42<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x43c,&nbsp;500]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForSingleObject 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x01791e42<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[0x43c,&nbsp;500]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForSingleObject 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x01791e42<br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td>\BaseNamedObjects\.net clr networking</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td>\BaseNamedObjects\.net clr networking</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td>\BaseNamedObjects\.net clr networking</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td>\BaseNamedObjects\.net clr networking</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td>\BaseNamedObjects\.net clr networking</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td>\BaseNamedObjects\.net clr networking</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td>\BaseNamedObjects\.net clr networking</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td>\BaseNamedObjects\.net clr networking</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td>\BaseNamedObjects\.net clr networking</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td>\BaseNamedObjects\.net clr networking</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Added</td><td>\REGISTRY\MACHINE\Software\Microsoft\Tracing\powershell_RASMANCS</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\MACHINE\SOFTWARE\Microsoft\Tracing\powershell_RASMANCS\"EnableFileTracing" = 0x00000000</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\MACHINE\SOFTWARE\Microsoft\Tracing\powershell_RASMANCS\"EnableConsoleTracing" = 0x00000000</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\MACHINE\SOFTWARE\Microsoft\Tracing\powershell_RASMANCS\"FileTracingMask" = 0xffff0000</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\MACHINE\SOFTWARE\Microsoft\Tracing\powershell_RASMANCS\"ConsoleTracingMask" = 0xffff0000</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\MACHINE\SOFTWARE\Microsoft\Tracing\powershell_RASMANCS\"MaxFileSize" = 0x00100000</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Setval</td><td>\REGISTRY\MACHINE\SOFTWARE\Microsoft\Tracing\powershell_RASMANCS\"FileDirectory" = %windir%\tracing</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForMultipleObjectsEx 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x66943e02<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[2,&nbsp;0x715f000,&nbsp;0,&nbsp;100015,&nbsp;1]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForSingleObject 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x77375c7c<br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;WaitForSingleObject 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x77375c7c<br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Network</td><td>Dns&nbsp; 
+            Query</td><td> 
+    &nbsp;
+    <i>Protocol&nbsp; 
+            Type</i>:&nbsp;&nbsp;udp 
+    &nbsp;
+    <i>Qtype</i>:&nbsp;&nbsp;Host Address
+    &nbsp;&nbsp;<i>Hostname</i>:&nbsp;
+    sustem.be<br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;c:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top" style="background-color: #E3FAFA">
+<td>Malicious&nbsp; 
+            Alert</td><td>Network&nbsp; 
+            Activity</td><td><i>Message</i>:&nbsp;&nbsp;
+      Network outbound communication attempted
+      &nbsp;&nbsp;
+    <i>Detail</i>:&nbsp;&nbsp;
+      Process attempting connections via dns_query
+      &nbsp;&nbsp;
+    </td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>File</td><td>Delete</td><td>C:\Users\admin\AppData\Local\Temp\444.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top" style="background-color: #E3FAFA">
+<td>Malicious&nbsp; 
+            Alert</td><td>Generic&nbsp; 
+            Non&nbsp; 
+            Exe&nbsp; 
+            Anomalous&nbsp; 
+            Activity</td><td><i>Message</i>:&nbsp;&nbsp;
+      File deleted by non-executable
+      &nbsp;&nbsp;
+    <i>Detail</i>:&nbsp;&nbsp;
+      File deleted by non-executable
+      &nbsp;&nbsp;
+    </td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Advapi32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;CryptAcquireContextA 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x6691b8a9<br>&nbsp;&nbsp;<i>Params</i>:&nbsp;&nbsp;[NULL,&nbsp;NULL,&nbsp;1,&nbsp;4026531872]
+  <br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x612facf8<br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Process</td><td>Started</td><td>C:\Windows\System32\cmd.exe<br> 
+    &nbsp;
+    <i>Parentname</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe<br> 
+    &nbsp;
+    <i>Command Line</i>:&nbsp;&nbsp;"C:\Windows\system32\cmd.exe"  /c c:\Users\admin\AppData\Local\Temp\444.exe<br>&nbsp;&nbsp;MD5:&nbsp;&nbsp;ad7b9c14083b52bc532fba5948342b98<br>&nbsp;&nbsp;SHA1:&nbsp;ee8cbf12d87c4d388f09b4f69bed2e91682920b5</td><td>3964</td><td>2560</td><td>302592</td>
+</tr>
+<tr align="left" valign="top">
+<td>Mutex</td><td></td><td> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\cmd.exe</td><td>3964</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Regkey</td><td>Queryvalue</td><td>\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\ComputerName\ActiveComputerName\"ComputerName"</td><td>3964</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>Process</td><td>Terminated</td><td>C:\Windows\System32\cmd.exe<br> 
+    &nbsp;
+    <i>Parentname</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe<br> 
+    &nbsp;
+    <i>Command Line</i>:&nbsp;&nbsp;N/A</td><td>3964</td><td>2560</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x61310520<br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>API Call</td><td>Kernel32.dll</td><td> 
+    &nbsp;
+    <i>API Name</i>:&nbsp;&nbsp;SetErrorMode 
+    &nbsp;
+    <i>Address</i>:&nbsp;&nbsp;0x61310520<br> 
+    &nbsp;
+    <i>Imagepath</i>:&nbsp;&nbsp;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</td><td>2560</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr align="left" valign="top">
+<td>File</td><td>Delete</td><td>C:\Users\admin\AppData\Local\Temp\adobeacd-update.vbs<br>&nbsp;&nbsp;MD5:&nbsp;&nbsp;969e1c8517cc2b734a1094aef45af8cd<br>&nbsp;&nbsp;SHA1:&nbsp;a94d157dbb9b26a4551aa0139e684221de9cc311</td><td>2560</td><td>&nbsp;</td><td>357</td>
+</tr>
+<tr align="left" valign="top">
+<td>File</td><td>Delete</td><td>C:\Users\admin\AppData\Local\Temp\adobeacd-update.bat<br>&nbsp;&nbsp;MD5:&nbsp;&nbsp;2b865123c5d736f3ea8a016ec51e5de3<br>&nbsp;&nbsp;SHA1:&nbsp;decf49604b9b51c9c8a6f8bc987cb4a21ca386d3</td><td>2560</td><td>&nbsp;</td><td>207</td>
+</tr>
+<tr align="left" valign="top">
+<td>File</td><td>Delete</td><td>C:\Users\admin\AppData\Local\Temp\adobeacd-update.ps1<br>&nbsp;&nbsp;MD5:&nbsp;&nbsp;1bcc6c14bc7ab45b6260c1c304bbad74<br>&nbsp;&nbsp;SHA1:&nbsp;0a0f7a9b265c830523ef1a2b7741927341a0311f</td><td>2560</td><td>&nbsp;</td><td>1115</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<?xml-stylesheet href="/stylesheets/malware_analysis.xsl" type="text/xsl"?>
+<analyses_with_cncs filter_col="id" filter_text="269" dumped_at="2015/05/27 10:37:26">
+  <analyses>
+    <analysis id="269" analysis_type="Live" url="http://ns1.softwidesec.com/atl/0453.pdf" analysis_timeout="500" priority="Normal" profile_name="win7-sp1" state="Done" status_code="Success">
+      <event id="377" event_type="OS Change" signature_name="Malware.Binary.pdf" malware_analysis_id="269" src_ip="0.0.0.0" dst_ip="0.0.0.0" analysis_type="3" occurred="2015-04-28 00:25:37 UTC">
+        <os_change>
+
+<analysis mode="malware" ftype="pdf" version=" 1.743" product="MAS" sequenceNumber="1"/>
+<application app-name="Multiple Adobe Reader X" sequenceNumber="2"/>
+<os name="windows" version="6.1.7601" sp="1" sequenceNumber="3"/>
+<os_monitor build="315507" date="Feb  3 2015" time="17:32:46" version="14R2.1" sequenceNumber="4"/>
+<uac mode="service" timestamp="24672" sequenceNumber="5"><value>Office Software Protection Platform</value><status>running</status></uac>
+<uac mode="service" timestamp="24689" sequenceNumber="6"><value>Windows Error Reporting Service</value><status>running</status></uac>
+<uac mode="service" timestamp="163085" sequenceNumber="7"><value>Background Intelligent Transfer Service</value><status>running</status></uac>
+<uac mode="service" timestamp="163090" sequenceNumber="8"><value>SSDP Discovery</value><status>running</status></uac>
+<uac mode="service" timestamp="163096" sequenceNumber="9"><value>Software Protection</value><status>running</status></uac>
+<uac mode="service" timestamp="163096" sequenceNumber="10"><value>Security Center</value><status>running</status></uac>
+<uac mode="service" timestamp="165008" sequenceNumber="11"><value>Portable Device Enumerator Service</value><status>stopped</status></uac>
+<uac mode="service" timestamp="211457" sequenceNumber="12"><value>TCP/IP NetBIOS Helper</value><status>stopped</status></uac>
+<uac mode="service" timestamp="212323" sequenceNumber="13"><value>TCP/IP NetBIOS Helper</value><status>running</status></uac>
+<uac mode="service" timestamp="1512" sequenceNumber="14"><value>Program Compatibility Assistant Service</value><status>running</status></uac>
+<malicious-alert classtype="FEBETA" weight="0"><msg>Parsing of line &lt;!--&lt;standalonejs timestamp="2012"&gt;&lt;processinfo&gt;&lt;pid&gt;3128&lt;/pid&gt;&lt;imagepath&gt;C:\Program Files\Adobe\Acrobat\Reader 10.0\Reader\AcroRd32.exe&lt;/imagepath&gt;&lt;md5sum&gt;c1648084c395152fbfa1b333d92056bc&lt;/md5sum&gt;&lt;/processinfo&gt;&lt;/standalonejs&gt;--&gt; failed with exception Premature end of file.</msg></malicious-alert>
+<uac mode="service" timestamp="3014" sequenceNumber="15"><value>Windows Time</value><status>running</status></uac>
+<heapspraying name="acrord32.exe" type="Allocation" timestamp="4839" sequenceNumber="16"><processinfo><pid>3128</pid><imagepath>C:\Program Files\Adobe\Acrobat\Reader 10.0\Reader\AcroRd32.exe</imagepath><md5sum>c1648084c395152fbfa1b333d92056bc</md5sum></processinfo><bytesreceived>278654976</bytesreceived><totalmemory>278654976</totalmemory><lastbytesreceived>215351296</lastbytesreceived><lasttotalmemory>278654976</lasttotalmemory><incrementCount>63303680</incrementCount></heapspraying>
+<malicious-alert classtype="Heapsray-Tracking" ruleid="5001 : Malicious heap spray allocation detected ; Process allocating memory for malicious heap spray" weight="0"><msg>Process allocating memory for malicious heap spray</msg><display-msg>Malicious heap spray allocation detected</display-msg></malicious-alert>
+<heapspraying name="acrord32.exe" type="PatternAnalysis" timestamp="4994" sequenceNumber="17"><processinfo><pid>3128</pid><imagepath>C:\Program Files\Adobe\Acrobat\Reader 10.0\Reader\AcroRd32.exe</imagepath><md5sum>c1648084c395152fbfa1b333d92056bc</md5sum></processinfo><pattern>0x90909090</pattern><blocksize>7548</blocksize><address>0x0000000003300260</address><shellcodesize>640</shellcodesize><region>0x0000000003300000</region><regionsize>524288</regionsize><javascript>yes</javascript></heapspraying>
+<malicious-alert classtype="Heapsray-Activity" ruleid="5000 : Process generating malicious heap spray attack pattern ; Process generating malicious heap spray attack pattern" weight="0"><msg>Process generating malicious heap spray attack pattern</msg><display-msg>Process generating malicious heap spray attack pattern</display-msg></malicious-alert>
+<malicious-alert classtype="misc-anom" ruleid="10012 : Heapspray Activity Detected ; Heapspray Activity Detected" weight="100"><msg>Heapspray Activity Detected</msg><display-msg>Heapspray Activity Detected</display-msg></malicious-alert>
+<heapspraying name="acrord32.exe" type="PatternAnalysis" timestamp="4994" sequenceNumber="18"><processinfo><pid>3128</pid><imagepath>C:\Program Files\Adobe\Acrobat\Reader 10.0\Reader\AcroRd32.exe</imagepath><md5sum>c1648084c395152fbfa1b333d92056bc</md5sum></processinfo><pattern>0x90909090</pattern><blocksize>7548</blocksize><address>0x0000000003302260</address><shellcodesize>640</shellcodesize><region>0x0000000003300000</region><regionsize>524288</regionsize><javascript>yes</javascript></heapspraying>
+<heapspraying name="acrord32.exe" type="PatternAnalysis" timestamp="4994" sequenceNumber="19"><processinfo><pid>3128</pid><imagepath>C:\Program Files\Adobe\Acrobat\Reader 10.0\Reader\AcroRd32.exe</imagepath><md5sum>c1648084c395152fbfa1b333d92056bc</md5sum></processinfo><pattern>0x90909090</pattern><blocksize>7548</blocksize><address>0x0000000003304260</address><shellcodesize>640</shellcodesize><region>0x0000000003300000</region><regionsize>524288</regionsize><javascript>yes</javascript></heapspraying>
+<heapspraying name="acrord32.exe" type="PatternAnalysis" timestamp="4994" sequenceNumber="20"><processinfo><pid>3128</pid><imagepath>C:\Program Files\Adobe\Acrobat\Reader 10.0\Reader\AcroRd32.exe</imagepath><md5sum>c1648084c395152fbfa1b333d92056bc</md5sum></processinfo><pattern>0x90909090</pattern><blocksize>7548</blocksize><address>0x0000000003306260</address><shellcodesize>640</shellcodesize><region>0x0000000003300000</region><regionsize>524288</regionsize><javascript>yes</javascript></heapspraying>
+<heapspraying name="acrord32.exe" type="PatternAnalysis" timestamp="4994" sequenceNumber="21"><processinfo><pid>3128</pid><imagepath>C:\Program Files\Adobe\Acrobat\Reader 10.0\Reader\AcroRd32.exe</imagepath><md5sum>c1648084c395152fbfa1b333d92056bc</md5sum></processinfo><pattern>0x90909090</pattern><blocksize>7548</blocksize><address>0x0000000003308260</address><shellcodesize>640</shellcodesize><region>0x0000000003300000</region><regionsize>524288</regionsize><javascript>yes</javascript></heapspraying>
+<end-of-report sequenceNumber="22"/>
+
+        </os_change>
+      </event>
+    </analysis>
+  </analyses>
+  <cnc_services>
+  </cnc_services>
+</analyses_with_cncs>
