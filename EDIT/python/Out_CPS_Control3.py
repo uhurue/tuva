@@ -2,28 +2,28 @@
 # -*- coding: utf-8 -*-
 
 import smtplib
-import threading
 
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-mailFrom = 'snowcug@gmail.com'
-mailTo = 'uhurue@openbase.co.kr'
-serverIP = '173.194.72.108'
-serverPort = 465
-serverAccount = 'snowcug@gmail.com'
-serverPassword = 'rlekflek'
-subject = "\'OUT CPS\' HOST TRIGGER OCCURED"
-body = "\'OUT CPS\' HOST TRIGGER OCCURED\n * Host IP: %s\n" % "10.10.10.100"
-
 def sendEmail():
+    mailFrom = 'snowcug@gmail.com'
+    mailTo = 'uhurue@openbase.co.kr'
+    serverIP = '173.194.72.108'
+    serverPort = 465
+    serverAccount = 'snowcug@gmail.com'
+    serverPassword = 'rlekflek'
+    subject = "\'OUT CPS\' HOST TRIGGER OCCURED"
+
     msg = MIMEMultipart()
     msg['Subject'] = subject
     msg['From'] = mailFrom
     msg['To'] = mailTo
+    
+    body = "\'OUT CPS\' HOST TRIGGER OCCURED\n * Host IP: %s" % "test test test 0000"
     msg.attach(MIMEText(body, 'plain'))
 
-    try:               
+    try:
         s = smtplib.SMTP_SSL(serverIP, serverPort)
         s.login(serverAccount, serverPassword)
         s.sendmail(mailFrom, [mailTo], msg.as_string())
@@ -35,8 +35,4 @@ def sendEmail():
     else:
         print ("\'OUT CPS\' HOST TRIGGER emailing done.")
 
-def trigger():
-    th = threading.Thread(target=sendEmail)
-    th.start()
-
-trigger()
+sendEmail()
