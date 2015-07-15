@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!-- Note: For many of the wonders, the experts do not agree on precise dates or construction dimensions.  In these cases, I chose a year or dimension in the middle of the range so all attributes could be numeric. -->
+<?xml-stylesheet type="text/xsl" href="11.xsl"?>
+
+<ancient_wonders>
+	<wonder>
+
+<!-- ** XML2e ** -->
+<!-- to follow the book's example, see the section below -->
+		<name language="English">Colossus of Rhodes</name>
+		<name language="Greek">Κολοσσός της Ρόδου</name>
+
+		<location>Rhodes, Greece</location>
+		<height units="feet">107</height>
+		<history>
+			<year_built era="BC">282</year_built>
+			<year_destroyed era="BC">226</year_destroyed>
+			<how_destroyed>earthquake</how_destroyed>
+			<story>
+        In 294 BC, the people of the island of Rhodes began building a colossal statue of the sun god Helios.  They believed that it was because of his blessings that they were able to withstand a long siege on the island and emerge victorious.<para/>The Colossus was built with bronze, reinforced with iron, and weighted with stones.  While it is often depicted straddling Mandrákion harbor, this is now considered technically impossible; and therefore, it likely stood beside the harbor.<para/>The statue was toppled by an earthquake in 226 BC.  It snapped at the knees and fell over on to the land.  The Oracle of Delphi suggested that it fell because the people of Rhodes had offended Helios, and they decided not to rebuild it.<para/>The statue remained on the ground until 654 AD., and even broken, it was so impressive that many traveled to see it.
+      </story>
+		</history>
+		<main_image file="colossus.jpg" w="528" h="349"/>
+		<source sectionid="101" newspaperid="21"/>
+	</wonder>
+	<wonder>
+		<name language="English">Great Pyramid of Giza</name>
+		<location>Giza, Egypt</location>
+		<height units="feet">455</height>
+		<history>
+			<year_built era="BC">2570</year_built>
+			<story>
+        It is believed to have taken 20 years and as many as 100,000 workers to complete the Great Pyramid, which was built as a tomb for the 4th dynasty Egyptian pharaoh named Khufu.  It was built as part of a complex that included temples and many other pyramids.<para/>The outermost stones of the pyramid were highly polished white limestone, which were eventually loosened by an earthquake more than 600 years ago, and were removed to help build cities and mosques.  When these casing stones were present, some believe that the pyramid was so large and bright that it could be seen from the moon.<para/>There is much speculation about the construction methodologies and intentions of the pyramid, including references to the moon, the Orion constellation, continental gravity, and more.  What is known, however, is that the four sides of the base are more than 700 feet long, and differ in length by no more than 8 inches.  Each side of the pyramid is almost perfectly aligned with the four cardinal points of the compass.  And, the pyramid's dimensions covert to a ratio that equates to 2π with nearly perfect accuracy.
+      </story>
+		</history>
+		<main_image file="pyramid.jpg" w="528" h="349"/>
+		<source sectionid="123" newspaperid="71"/>
+		<source sectionid="21" newspaperid="42"/>
+	</wonder>
+</ancient_wonders>
