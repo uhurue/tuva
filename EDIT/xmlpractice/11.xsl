@@ -50,7 +50,7 @@
 <a><xsl:attribute name="name"><xsl:value-of select="name[@language='English']" /></xsl:attribute></a>
 <xsl:value-of select="name[@language='English']" />
 <xsl:apply-templates select="name[@language!='English']" />
-<br/><br/>
+<xsl:apply-templates select="history" />
 </xsl:for-each>
 
 </body>
@@ -61,4 +61,23 @@
   (<em><xsl:value-of select="." /> </em>)
 </xsl:template>
 
+<xsl:template match="history">
+was built in 
+<xsl:value-of select="year-built" />
+<xsl:text> </xsl:text>
+<xsl:value-of select="year_built/@era" />
+<xsl:choose>
+<xsl:when test="year_destroyed != 0">
+and was destroyed by
+<xsl:value-of select="how_destroyed" /> in 
+<xsl:value-of select="year_destroyed" />
+<xsl:text> </xsl:text>
+<xsl:value-of select="year_destroyed/@era" />.
+</xsl:when>
+<xsl:otherwise>
+is still standing today.
+</xsl:otherwise>
+</xsl:choose>
+<br/><br/>
+</xsl:template>
 </xsl:stylesheet>
